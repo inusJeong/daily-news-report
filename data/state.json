@@ -1,5 +1,23 @@
 {
- "term_cursor": 0,
- "last_sent": null,
- "history": []
+ "term_cursor": 4,
+ "last_sent": "2026-09-19",
+ "history": [
+  {
+   "date": "2026-09-19",
+   "titles": [
+    "Ramps Logistics CEO Joins Global Tariffs Panel at Breakbulk Americas 2026 as Trinidad-Developed AI Platform Returns",
+    "SEMICON India Day 2 sees 25 partnerships across chip manufacturing, supply chains, packaging and skills",
+    "Food distributors warn cyberattacks can quickly become supply chain disruptions",
+    "두산건설, 하반기 신입사원 공개채용…8개 분야 모집",
+    "전북은행, 2026년 신입행원 공채…UB 분야 인재 뽑는다",
+    "김성수 대법관 임명안 재가···대법 전원합의체 시계 빨라질까",
+    "[아시안게임] '이현중 26점' 남자 농구, 12년 만에 결승행…일본과 격돌(종합2보)",
+    "일본은행, 3개월만 기준금리 1.25%로 인상…31년만 최고",
+    "‘면역항암제 약효’ 예측하는 AI 개발",
+    "韓 연구팀 개발한 그래핀 섬유 원천 기술, 칫솔부터 항공우주 소재까지",
+    "[신간] 야구·문학·일상 속 나를 읽어내다… 김미향 작가 산문집 『어차피(於此彼) 나의 취향』 출간",
+    "부산서부교육지원청, ‘책과 함께 가을 인문학 여행 떠난다’"
+   ]
+  }
+ ]
 }
