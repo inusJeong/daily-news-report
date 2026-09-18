@@ -1,0 +1,928 @@
+{
+ "categories": [
+  {
+   "id": "ie",
+   "name": "산업공학",
+   "terms": [
+    {
+     "term": "OEE (Overall Equipment Effectiveness)",
+     "ko": "설비종합효율",
+     "definition": "설비가 계획 시간 동안 얼마나 잘 쓰였는지를 가동률×성능효율×양품률로 나타낸 지표",
+     "example": "가동률 90%·성능 95%·양품률 98%면 OEE는 약 84% → 세 요소 중 어디서 손실이 큰지 찾는 출발점"
+    },
+    {
+     "term": "Takt Time",
+     "ko": "택트 타임",
+     "definition": "고객 수요에 맞추려면 제품 1개를 몇 초마다 만들어야 하는지 = 가용 작업시간 ÷ 고객 수요량",
+     "example": "하루 가용 28,800초, 수요 480개 → 택트 60초. 공정 사이클이 60초를 넘으면 납기를 못 맞춘다"
+    },
+    {
+     "term": "Cycle Time",
+     "ko": "사이클 타임",
+     "definition": "한 공정(또는 작업자)이 제품 1개를 처리하는 데 실제로 걸리는 시간",
+     "example": "택트 60초인데 용접 공정 사이클이 75초라면 그 공정이 병목"
+    },
+    {
+     "term": "Lead Time",
+     "ko": "리드 타임",
+     "definition": "주문(또는 작업 시작)부터 완료·도착까지 걸리는 총 시간. 가공시간보다 대기시간 비중이 큰 경우가 많다",
+     "example": "가공은 2시간뿐인데 대기 때문에 리드타임이 5일 → 흐름 개선의 대상"
+    },
+    {
+     "term": "JIT (Just-In-Time)",
+     "ko": "적시생산",
+     "definition": "필요한 것을 필요한 때 필요한 만큼만 만들고 공급해 재고를 최소화하는 생산 방식",
+     "example": "도요타는 부품을 시간 단위로 납품받아 라인 옆 재고를 몇 시간분으로 유지"
+    },
+    {
+     "term": "EOQ (Economic Order Quantity)",
+     "ko": "경제적 주문량",
+     "definition": "주문비용과 재고유지비용의 합을 최소화하는 1회 주문량. √(2DS/H)",
+     "example": "연 수요 1만 개, 주문비 5만 원, 개당 유지비 1천 원 → EOQ ≈ 1,000개"
+    },
+    {
+     "term": "Kanban",
+     "ko": "간판 방식",
+     "definition": "후공정이 소비한 만큼만 전공정에 생산을 지시하는 카드(신호) 기반의 풀(Pull) 생산 통제",
+     "example": "부품 상자가 비면 카드가 전공정으로 돌아가 그만큼만 다시 생산"
+    },
+    {
+     "term": "Kaizen",
+     "ko": "카이젠(지속적 개선)",
+     "definition": "현장 구성원이 작은 개선을 꾸준히 반복해 낭비를 줄여가는 활동",
+     "example": "작업자 제안으로 공구 위치를 바꿔 동작 거리를 30% 단축"
+    },
+    {
+     "term": "5S",
+     "ko": "5S (정리·정돈·청소·청결·습관화)",
+     "definition": "작업장을 정리·정돈·청소·청결·습관화해 낭비와 실수를 줄이는 기본 관리 활동",
+     "example": "공구 벽에 윤곽선을 그려 놓아 빠진 공구가 한눈에 보이게 함"
+    },
+    {
+     "term": "Poka-Yoke",
+     "ko": "포카요케(실수 방지)",
+     "definition": "작업자 실수가 불량으로 이어지지 않도록 구조적으로 막는 장치·설계",
+     "example": "USB-C처럼 방향이 맞아야만 끼워지는 커넥터, 부품이 남으면 알람이 울리는 키트"
+    },
+    {
+     "term": "SMED (Single-Minute Exchange of Die)",
+     "ko": "금형 신속 교체",
+     "definition": "설비 품목 전환(셋업) 시간을 10분 이내로 줄이는 기법. 내부 작업을 외부 작업으로 전환하는 게 핵심",
+     "example": "금형 예열을 가동 중에 미리 해 셋업 시간을 60분→8분으로 단축"
+    },
+    {
+     "term": "Bottleneck",
+     "ko": "병목 공정",
+     "definition": "전체 흐름에서 처리 능력이 가장 낮아 시스템 산출량을 결정하는 공정",
+     "example": "병목 아닌 공정을 개선해도 전체 생산량은 늘지 않는다"
+    },
+    {
+     "term": "TOC (Theory of Constraints)",
+     "ko": "제약이론",
+     "definition": "시스템 성과는 가장 약한 제약에 의해 결정되므로 제약을 찾아 집중 개선하라는 경영 이론 (골드랫)",
+     "example": "제약 식별 → 최대 활용 → 나머지를 제약에 종속 → 제약 향상 → 반복"
+    },
+    {
+     "term": "Line Balancing",
+     "ko": "라인 밸런싱",
+     "definition": "조립 라인의 작업을 각 공정에 고르게 나눠 유휴시간과 병목을 줄이는 것",
+     "example": "공정별 사이클이 40/60/45초면 작업 일부를 재배분해 모두 50초 안팎으로 맞춤"
+    },
+    {
+     "term": "Little's Law",
+     "ko": "리틀의 법칙",
+     "definition": "재공품(WIP) = 처리율(Throughput) × 리드타임. 대기행렬 시스템 전반에 성립",
+     "example": "WIP 100개, 하루 20개 처리 → 평균 리드타임 5일. WIP를 줄이면 리드타임도 준다"
+    },
+    {
+     "term": "Six Sigma",
+     "ko": "식스 시그마",
+     "definition": "공정 변동을 줄여 백만 개당 불량 3.4개 수준을 목표로 하는 데이터 기반 품질 개선 방법론",
+     "example": "콜센터 응답시간 편차를 줄이는 것도 식스 시그마 프로젝트가 될 수 있다"
+    },
+    {
+     "term": "DMAIC",
+     "ko": "DMAIC",
+     "definition": "식스 시그마의 개선 절차: 정의(Define)–측정(Measure)–분석(Analyze)–개선(Improve)–관리(Control)",
+     "example": "배송 지연 문제를 정의하고, 지연 데이터를 측정·분석해 원인을 찾은 뒤 개선하고 유지 관리"
+    },
+    {
+     "term": "Cpk (Process Capability Index)",
+     "ko": "공정능력지수",
+     "definition": "공정이 규격 한계 안에서 얼마나 안정적으로 생산하는지 나타내는 지수. 보통 1.33 이상이면 양호",
+     "example": "Cpk 0.8 → 규격을 벗어나는 불량이 상당히 발생할 수 있는 공정"
+    },
+    {
+     "term": "SPC (Statistical Process Control)",
+     "ko": "통계적 공정관리",
+     "definition": "관리도로 공정 데이터를 모니터링해 이상 원인을 조기에 발견하는 품질관리 기법",
+     "example": "관리 한계선을 벗어난 점이 나오면 설비 이상 여부를 즉시 점검"
+    },
+    {
+     "term": "Pareto Principle",
+     "ko": "파레토 원칙(80/20)",
+     "definition": "결과의 대부분(약 80%)이 소수 원인(약 20%)에서 나온다는 경험 법칙. 개선 우선순위 설정에 활용",
+     "example": "불량 유형을 파레토 차트로 그리니 상위 2개 유형이 전체 불량의 75%"
+    },
+    {
+     "term": "Fishbone Diagram",
+     "ko": "특성요인도(피시본)",
+     "definition": "문제(결과)의 원인을 사람·기계·방법·재료·측정·환경 등으로 분류해 가시화하는 도구 (이시카와 다이어그램)",
+     "example": "출하 오류 원인을 6M으로 나눠 브레인스토밍"
+    },
+    {
+     "term": "VSM (Value Stream Mapping)",
+     "ko": "가치흐름도",
+     "definition": "원자재에서 고객까지 자재·정보 흐름을 그려 부가가치/비부가가치 시간을 구분하는 린 도구",
+     "example": "VSM을 그려 보니 총 리드타임 12일 중 가공은 3시간뿐"
+    },
+    {
+     "term": "Muda (7 Wastes)",
+     "ko": "7대 낭비",
+     "definition": "린에서 말하는 부가가치 없는 활동: 과잉생산·대기·운반·과잉가공·재고·동작·불량",
+     "example": "필요 이상으로 미리 만들어 둔 재고는 과잉생산과 재고 낭비를 동시에 만든다"
+    },
+    {
+     "term": "Heijunka",
+     "ko": "평준화 생산",
+     "definition": "생산량과 품목 구성을 일정하게 고르게 배치해 변동을 흡수하는 방식",
+     "example": "A 100개→B 100개 대신 A-B-A-B 순으로 섞어 생산"
+    },
+    {
+     "term": "Jidoka",
+     "ko": "자동화(自働化, 이상 시 자동 정지)",
+     "definition": "이상이 발생하면 설비나 작업자가 스스로 멈춰 불량이 다음 공정으로 넘어가지 않게 하는 원칙",
+     "example": "실이 끊어지면 자동으로 멈추는 도요다 자동직기가 기원"
+    },
+    {
+     "term": "Andon",
+     "ko": "안돈",
+     "definition": "공정 이상을 즉시 알리는 시각·청각 신호 시스템",
+     "example": "작업자가 끈을 당기면 라인 상단 등이 켜지고 반장이 즉시 달려옴"
+    },
+    {
+     "term": "Pull vs Push",
+     "ko": "풀/푸시 생산",
+     "definition": "푸시는 예측(계획)에 따라 밀어내듯 생산, 풀은 실제 소비(수요)가 생긴 만큼 당겨서 생산",
+     "example": "MRP 계획 생산은 푸시, 칸반 보충 생산은 풀"
+    },
+    {
+     "term": "WIP (Work In Process)",
+     "ko": "재공품",
+     "definition": "생산 공정 안에서 가공 중이거나 대기 중인 미완성품",
+     "example": "WIP가 쌓이면 리드타임이 길어지고 품질 문제 발견이 늦어진다"
+    },
+    {
+     "term": "Throughput",
+     "ko": "처리량(스루풋)",
+     "definition": "단위 시간당 시스템이 완성해 내보내는 양. TOC에서는 판매로 창출되는 돈의 흐름",
+     "example": "병목 공정 개선 후 시간당 처리량이 50→62개로 증가"
+    },
+    {
+     "term": "Utilization",
+     "ko": "가동률(이용률)",
+     "definition": "가용 능력 대비 실제 사용한 비율. 100%에 가까울수록 대기열이 급격히 길어진다",
+     "example": "서버·창고 인력 가동률을 85% 수준으로 두는 이유는 변동 흡수 여유 때문"
+    },
+    {
+     "term": "MRP (Material Requirements Planning)",
+     "ko": "자재소요계획",
+     "definition": "완제품 생산계획과 BOM·재고를 바탕으로 부품별 필요 수량과 발주 시점을 계산하는 방법",
+     "example": "완제품 100대 계획 → BOM 전개로 나사 800개를 3일 전에 발주"
+    },
+    {
+     "term": "BOM (Bill of Materials)",
+     "ko": "자재명세서",
+     "definition": "제품을 구성하는 부품·자재와 수량, 계층 구조를 정리한 목록",
+     "example": "자전거 BOM: 프레임 1, 바퀴 2, 체인 1 … 각 하위 부품까지 전개"
+    },
+    {
+     "term": "ERP",
+     "ko": "전사적 자원관리",
+     "definition": "구매·생산·재고·회계·인사 등 기업 업무 데이터를 하나의 시스템으로 통합 관리하는 소프트웨어",
+     "example": "SAP, Oracle이 대표적. 출고 처리하면 재고와 매출 회계가 동시에 반영"
+    },
+    {
+     "term": "MES (Manufacturing Execution System)",
+     "ko": "제조실행시스템",
+     "definition": "공장 현장의 작업 지시·실적·품질·설비 데이터를 실시간 관리하는 시스템. ERP와 설비 사이를 잇는다",
+     "example": "MES로 로트별 작업자·설비·검사 결과를 추적해 불량 원인을 역추적"
+    },
+    {
+     "term": "Queueing Theory",
+     "ko": "대기행렬 이론",
+     "definition": "도착과 서비스의 확률적 특성으로 대기 시간·대기열 길이를 분석하는 이론 (M/M/1 등)",
+     "example": "창구 1개에서 2개로 늘릴 때 평균 대기시간이 얼마나 줄지 계산"
+    },
+    {
+     "term": "Discrete Event Simulation",
+     "ko": "이산사건 시뮬레이션",
+     "definition": "사건(도착·처리 완료 등) 단위로 시스템을 모형화해 대안을 가상 실험하는 방법",
+     "example": "물류센터 도크 수를 늘렸을 때 트럭 대기 시간을 시뮬레이션으로 비교"
+    },
+    {
+     "term": "Linear Programming",
+     "ko": "선형계획법",
+     "definition": "선형 제약조건 아래에서 목적함수(비용 최소·이익 최대)를 최적화하는 수리모형",
+     "example": "공장별 생산능력·운송비를 고려한 최소비용 배송 계획 수립"
+    },
+    {
+     "term": "Facility Layout",
+     "ko": "설비 배치",
+     "definition": "공정·설비·작업 공간을 배치해 이동 거리와 혼잡을 줄이는 설계 (제품별/공정별/셀 배치)",
+     "example": "자주 오가는 공정을 인접 배치해 운반 거리를 40% 단축"
+    },
+    {
+     "term": "TPM (Total Productive Maintenance)",
+     "ko": "전사적 생산보전",
+     "definition": "작업자까지 참여해 설비 고장·손실을 사전에 예방하는 보전 활동",
+     "example": "작업자가 매일 급유·청소·점검하는 자주보전으로 돌발 고장 감소"
+    },
+    {
+     "term": "Digital Twin",
+     "ko": "디지털 트윈",
+     "definition": "실제 설비·공장·공급망을 가상 공간에 동일하게 구현해 실시간 모니터링과 시뮬레이션을 하는 기술",
+     "example": "라인 증설 전 디지털 트윈으로 병목과 작업자 동선을 미리 검증"
+    }
+   ]
+  },
+  {
+   "id": "scm",
+   "name": "SCM",
+   "terms": [
+    {
+     "term": "Bullwhip Effect",
+     "ko": "채찍 효과",
+     "definition": "수요 정보가 공급망 상류(소매→도매→제조→원자재)로 갈수록 왜곡·증폭되는 현상",
+     "example": "소매 판매 변동이 ±5%여도 제조사 발주는 ±40%로 출렁임. 정보 공유(POS 데이터)로 완화"
+    },
+    {
+     "term": "Safety Stock",
+     "ko": "안전재고",
+     "definition": "수요·리드타임의 불확실성에 대비해 추가로 보유하는 재고. 서비스 수준(z) × 수요 표준편차 × √리드타임",
+     "example": "서비스 수준 95%(z=1.65), 일 수요 표준편차 20, 리드타임 9일 → 안전재고 ≈ 99개"
+    },
+    {
+     "term": "Reorder Point",
+     "ko": "재주문점",
+     "definition": "재고가 이 수준까지 떨어지면 발주하는 기준점 = 리드타임 동안의 평균 수요 + 안전재고",
+     "example": "일 수요 50, 리드타임 4일, 안전재고 60 → 재주문점 260개"
+    },
+    {
+     "term": "S&OP (Sales and Operations Planning)",
+     "ko": "판매·운영 계획",
+     "definition": "영업·마케팅·생산·구매·재무가 매월 모여 수요와 공급 계획을 하나로 맞추는 의사결정 프로세스",
+     "example": "영업은 20% 성장 예측, 공장은 10% 증산 가능 → S&OP 회의에서 외주·재고 전략을 결정"
+    },
+    {
+     "term": "DDMRP (Demand Driven MRP)",
+     "ko": "수요 주도형 MRP",
+     "definition": "전략적 지점에 재고 버퍼를 두고 실제 수요에 따라 보충하는 방식. 예측 오차의 증폭을 막는다",
+     "example": "핵심 반제품에 녹·황·적 버퍼를 설정하고 실제 소비 기준으로 보충"
+    },
+    {
+     "term": "Demand Forecasting",
+     "ko": "수요예측",
+     "definition": "과거 판매·시즌·프로모션·외부 변수를 이용해 미래 수요를 추정하는 것. 모든 공급 계획의 출발점",
+     "example": "이동평균·지수평활·머신러닝 모델을 비교해 품목별로 적합한 방식을 선택"
+    },
+    {
+     "term": "MAPE",
+     "ko": "평균 절대 백분율 오차",
+     "definition": "예측 정확도 지표. 실제값 대비 오차 비율의 절댓값 평균",
+     "example": "MAPE 15% → 평균적으로 예측이 실제와 15% 차이. 판매량이 작은 품목에선 과대평가되기 쉽다"
+    },
+    {
+     "term": "ABC Analysis",
+     "ko": "ABC 분석",
+     "definition": "품목을 매출(가치) 기여도에 따라 A(상위 약 80%)·B·C로 나눠 관리 강도를 달리하는 기법",
+     "example": "A 품목은 매주 정밀 관리, C 품목은 정기 발주로 단순화"
+    },
+    {
+     "term": "Cross-Docking",
+     "ko": "크로스 도킹",
+     "definition": "입고된 화물을 보관하지 않고 바로 분류해 출고 차량에 싣는 물류 방식",
+     "example": "월마트는 크로스도킹으로 물류센터 체류 시간을 24시간 이내로 줄였다"
+    },
+    {
+     "term": "3PL / 4PL",
+     "ko": "3자 물류 / 4자 물류",
+     "definition": "3PL은 보관·운송 등 물류 실행을 외부 전문기업에 위탁, 4PL은 여러 3PL을 포함한 공급망 전체 설계·관리를 위탁",
+     "example": "CJ대한통운의 계약물류는 3PL, 공급망 컨설팅+운영 통합은 4PL에 가깝다"
+    },
+    {
+     "term": "VMI (Vendor Managed Inventory)",
+     "ko": "공급자 재고관리",
+     "definition": "공급자가 고객의 재고·판매 데이터를 보고 보충 시점과 수량을 직접 결정하는 방식",
+     "example": "P&G가 월마트 매장 재고를 보고 자동 보충 → 채찍효과와 결품 감소"
+    },
+    {
+     "term": "CPFR",
+     "ko": "협업적 계획·예측·보충",
+     "definition": "공급망 파트너가 판매 계획·수요예측·보충 계획을 공동으로 수립·공유하는 협업 모델",
+     "example": "유통사와 제조사가 프로모션 계획을 공유해 예측 오차를 줄임"
+    },
+    {
+     "term": "Incoterms",
+     "ko": "인코텀즈",
+     "definition": "국제 거래에서 운송비·보험·위험 이전 시점을 누가 부담하는지 정한 국제 규칙 (FOB, CIF, DDP 등)",
+     "example": "FOB 부산 → 선적 후 위험은 구매자에게 이전. DDP는 판매자가 관세까지 부담"
+    },
+    {
+     "term": "Service Level / Fill Rate",
+     "ko": "서비스 수준 / 충족률",
+     "definition": "서비스 수준은 품절 없이 주문을 받을 확률, 충족률은 주문 수량 중 즉시 공급된 비율",
+     "example": "충족률 98% = 주문 1,000개 중 980개를 재고에서 바로 출고"
+    },
+    {
+     "term": "Inventory Turnover",
+     "ko": "재고회전율",
+     "definition": "매출원가 ÷ 평균재고. 재고가 1년에 몇 번 팔려 나가는지를 나타낸다",
+     "example": "회전율 12회 = 평균 한 달 치 재고를 보유. 너무 높으면 결품 위험"
+    },
+    {
+     "term": "Cash-to-Cash Cycle",
+     "ko": "현금전환주기",
+     "definition": "원자재 대금을 지급한 뒤 판매 대금을 회수하기까지 걸리는 기간 = 재고일수 + 매출채권일수 − 매입채무일수",
+     "example": "애플은 C2C가 마이너스 → 돈을 받고 나서 부품 대금을 지급"
+    },
+    {
+     "term": "Landed Cost",
+     "ko": "도착 원가",
+     "definition": "제품 가격에 운송·보험·관세·통관·보관 등 도착까지의 모든 비용을 더한 총원가",
+     "example": "단가 싼 해외 공급처도 관세·운임을 합친 도착 원가는 국내보다 비쌀 수 있다"
+    },
+    {
+     "term": "Last Mile",
+     "ko": "라스트 마일",
+     "definition": "물류의 마지막 구간, 즉 최종 소비자에게 배송되는 단계. 전체 배송비의 큰 비중을 차지한다",
+     "example": "새벽배송·드론·무인 보관함은 모두 라스트마일 비용과 속도 문제를 겨냥"
+    },
+    {
+     "term": "Nearshoring / Friend-shoring",
+     "ko": "니어쇼어링 / 프렌드쇼어링",
+     "definition": "생산 거점을 가까운 나라(니어) 또는 동맹국(프렌드)으로 옮겨 공급망 리스크를 줄이는 전략",
+     "example": "미국 기업들이 중국 대신 멕시코에 공장을 세우는 것은 니어쇼어링"
+    },
+    {
+     "term": "Dual Sourcing",
+     "ko": "이원화 조달",
+     "definition": "핵심 부품을 두 곳 이상의 공급자로부터 조달해 공급 중단 리스크를 분산하는 전략",
+     "example": "한 공급사 화재로 생산이 멈춘 뒤 핵심 칩을 두 회사로 나눠 조달"
+    },
+    {
+     "term": "Supply Chain Visibility",
+     "ko": "공급망 가시성",
+     "definition": "원자재부터 고객까지 재고·주문·운송 상태를 실시간으로 볼 수 있는 능력. Tier-N(2·3차 협력사)까지가 과제",
+     "example": "2차 협력사 공장 정전 사실을 1주일 먼저 알았다면 대체 조달이 가능했다"
+    },
+    {
+     "term": "Control Tower",
+     "ko": "컨트롤 타워",
+     "definition": "공급망 전반의 데이터를 한 화면에 모아 이상을 감지하고 대응을 조율하는 조직·시스템",
+     "example": "선박 지연 알림 → 영향받는 주문 자동 식별 → 항공 전환 여부 결정"
+    },
+    {
+     "term": "WMS / TMS",
+     "ko": "창고관리 / 운송관리 시스템",
+     "definition": "WMS는 입고·적치·피킹·출고 등 창고 운영을, TMS는 배차·경로·운임 등 운송을 관리하는 시스템",
+     "example": "WMS의 피킹 경로 최적화로 작업자 이동 거리를 25% 절감"
+    },
+    {
+     "term": "APS (Advanced Planning & Scheduling)",
+     "ko": "고급 계획 및 스케줄링",
+     "definition": "자재·설비 능력 제약을 동시에 고려해 실행 가능한 생산 계획을 최적화하는 시스템",
+     "example": "o9, Kinaxis 같은 계획 솔루션이 이 영역을 확장한 사례"
+    },
+    {
+     "term": "Postponement",
+     "ko": "지연 전략",
+     "definition": "제품 차별화(포장·조립·현지화)를 최대한 수요 확정 시점 가까이 미루는 전략",
+     "example": "베네통은 흰 스웨터를 먼저 짜 두고 유행 색이 확인되면 염색"
+    },
+    {
+     "term": "Risk Pooling",
+     "ko": "리스크 풀링",
+     "definition": "여러 지역·고객의 수요를 한 곳에 모으면 변동이 상쇄돼 필요한 안전재고가 줄어드는 효과",
+     "example": "지역 창고 5곳을 중앙 창고 1곳으로 통합하자 안전재고가 약 절반으로 감소"
+    },
+    {
+     "term": "Newsvendor Model",
+     "ko": "신문판매원 모형",
+     "definition": "한 번만 팔 수 있는 상품의 최적 주문량을 과잉재고 비용과 품절 비용의 균형(임계비율)으로 구하는 모형",
+     "example": "시즌 의류·케이크처럼 남으면 폐기되는 상품의 발주량 결정"
+    },
+    {
+     "term": "MEIO",
+     "ko": "다단계 재고 최적화",
+     "definition": "공장·중앙창고·지역창고 등 여러 단계의 재고를 따로가 아니라 함께 최적화하는 방법",
+     "example": "중앙에 재고를 더 두고 지역 재고를 줄여 총재고는 줄이면서 서비스 수준 유지"
+    },
+    {
+     "term": "TCO (Total Cost of Ownership)",
+     "ko": "총소유비용",
+     "definition": "구매 가격뿐 아니라 운송·품질·유지보수·폐기까지 전 생애주기 비용을 합한 개념",
+     "example": "단가 10% 싼 공급사가 불량률 때문에 TCO는 오히려 더 높았다"
+    },
+    {
+     "term": "Reverse Logistics",
+     "ko": "역물류",
+     "definition": "반품·회수·재활용·폐기처럼 고객에서 공급자 방향으로 흐르는 물류",
+     "example": "이커머스 반품률이 20%를 넘으면서 반품 처리 센터가 별도 사업이 됐다"
+    },
+    {
+     "term": "Milk Run",
+     "ko": "밀크런",
+     "definition": "한 차량이 여러 공급처를 순회하며 소량씩 집하하는 순회 조달 방식",
+     "example": "부품사 5곳을 순회 수거해 트럭 적재율을 높이고 납품 빈도를 늘림"
+    },
+    {
+     "term": "Freight Forwarder",
+     "ko": "포워더(국제물류주선업자)",
+     "definition": "화주를 대신해 선박·항공 운송, 통관, 서류 처리 등 국제 운송 전반을 주선하는 업체",
+     "example": "수출기업은 포워더를 통해 선복을 확보하고 B/L을 발급받는다"
+    },
+    {
+     "term": "Demurrage / Detention",
+     "ko": "체선료 / 지체료",
+     "definition": "디머리지는 컨테이너가 터미널에 정해진 기간을 넘겨 머무를 때, 디텐션은 반출 후 반납이 늦을 때 부과되는 비용",
+     "example": "항만 적체로 통관이 늦어져 컨테이너당 하루 수십만 원의 디머리지가 발생"
+    },
+    {
+     "term": "TEU",
+     "ko": "TEU (20피트 컨테이너 단위)",
+     "definition": "20피트 컨테이너 1개를 기준으로 한 물동량·선박 규모 단위. 40피트는 2 TEU",
+     "example": "2만 4천 TEU급 초대형 컨테이너선, 부산항 연간 물동량 2,400만 TEU"
+    },
+    {
+     "term": "OTIF (On-Time In-Full)",
+     "ko": "정시·완전 납품률",
+     "definition": "약속한 날짜에 주문 수량을 빠짐없이 납품한 비율. 대형 유통사가 공급사 평가에 쓰는 핵심 지표",
+     "example": "월마트는 OTIF 기준 미달 공급사에 페널티를 부과"
+    },
+    {
+     "term": "Perfect Order Rate",
+     "ko": "완전 주문율",
+     "definition": "정시·완전 수량·무손상·정확한 서류 등 모든 조건을 만족한 주문 비율",
+     "example": "각 조건이 95%라도 네 가지를 모두 만족하는 완전 주문율은 약 81%"
+    },
+    {
+     "term": "Consignment Inventory",
+     "ko": "위탁 재고",
+     "definition": "공급자 소유의 재고를 고객 창고에 두고, 고객이 실제 사용할 때 소유권과 대금이 넘어가는 방식",
+     "example": "병원 수술 재료를 위탁 재고로 두면 병원은 사용분만 결제"
+    },
+    {
+     "term": "Procure-to-Pay (P2P)",
+     "ko": "구매-지급 프로세스",
+     "definition": "구매요청→발주→입고→송장 대사→대금 지급까지의 조달 전 과정. B2B 핀테크의 주요 자동화 영역",
+     "example": "발주서·입고 기록·송장이 일치하는지 확인하는 3-way matching을 자동화"
+    },
+    {
+     "term": "Supply Chain Finance",
+     "ko": "공급망 금융",
+     "definition": "구매 기업의 신용을 활용해 공급사가 매출채권을 조기에 낮은 금리로 현금화하도록 돕는 금융 (역팩토링 등)",
+     "example": "대기업 발주 기반으로 협력사가 60일 뒤 받을 대금을 오늘 할인받아 수령"
+    },
+    {
+     "term": "Resilience vs Efficiency",
+     "ko": "회복탄력성 vs 효율성",
+     "definition": "비용 최소화(린·단일 조달)와 충격 대응력(재고·이원화) 사이의 공급망 설계 트레이드오프",
+     "example": "코로나 이후 기업들이 JIT에서 '저스트 인 케이스(Just-in-Case)'로 일부 전환"
+    }
+   ]
+  },
+  {
+   "id": "risk",
+   "name": "리스크·컴플라이언스",
+   "terms": [
+    {
+     "term": "SLA (Service Level Agreement)",
+     "ko": "서비스 수준 협약",
+     "definition": "서비스 제공자와 고객이 가용성·응답 시간 등 서비스 품질 기준과 미달 시 보상을 약속한 계약",
+     "example": "가용성 99.9% SLA → 월 약 43분 이상 장애 시 크레딧 보상"
+    },
+    {
+     "term": "RCA (Root Cause Analysis)",
+     "ko": "근본원인분석",
+     "definition": "문제의 표면 증상이 아니라 재발을 막을 수 있는 근본 원인을 체계적으로 찾는 분석",
+     "example": "결제 장애의 직접 원인은 서버 과부하, 근본 원인은 트래픽 급증 시 자동 증설 설정 누락"
+    },
+    {
+     "term": "KRI (Key Risk Indicator)",
+     "ko": "핵심 리스크 지표",
+     "definition": "리스크가 커지고 있음을 미리 알려주는 선행 지표. 임계치를 넘으면 조치를 발동한다",
+     "example": "핵심 공급사 납기 지연율이 10%를 넘으면 대체 공급사 검토를 시작"
+    },
+    {
+     "term": "KPI vs KRI",
+     "ko": "KPI와 KRI의 차이",
+     "definition": "KPI는 목표 달성 정도(성과)를, KRI는 목표 달성을 위협하는 리스크의 변화를 측정",
+     "example": "매출 성장률은 KPI, 상위 고객 매출 집중도는 KRI"
+    },
+    {
+     "term": "Escalation Matrix",
+     "ko": "에스컬레이션 매트릭스",
+     "definition": "문제의 심각도·지속 시간에 따라 누구에게, 언제, 어떤 경로로 보고를 올릴지 정한 표",
+     "example": "심각도 1(서비스 중단) → 15분 내 팀장, 1시간 내 본부장, 고객사 통보"
+    },
+    {
+     "term": "Risk Appetite",
+     "ko": "리스크 선호도",
+     "definition": "조직이 목표 달성을 위해 감수할 의향이 있는 리스크의 종류와 수준",
+     "example": "신규 시장 진출에는 높은 리스크를 감수하되, 규제 위반 리스크는 '제로 톨러런스'"
+    },
+    {
+     "term": "Risk Register",
+     "ko": "리스크 등록부",
+     "definition": "식별된 리스크의 내용·발생 가능성·영향도·담당자·대응 계획을 기록·추적하는 관리 대장",
+     "example": "프로젝트 킥오프 때 리스크 20개를 등록하고 매주 상태를 업데이트"
+    },
+    {
+     "term": "Risk Heat Map",
+     "ko": "리스크 히트맵",
+     "definition": "리스크를 발생 가능성 × 영향도 격자 위에 표시해 우선순위를 시각화한 도표",
+     "example": "오른쪽 위 빨간 칸(가능성↑·영향↑) 리스크부터 대응 자원을 배정"
+    },
+    {
+     "term": "Three Lines Model",
+     "ko": "3선 방어 모델",
+     "definition": "1선(현업의 리스크 소유)·2선(리스크관리·컴플라이언스의 감독)·3선(내부감사의 독립적 검증)으로 역할을 나누는 체계",
+     "example": "영업팀이 KYC를 수행(1선), 컴플라이언스팀이 기준 수립·점검(2선), 감사팀이 독립 평가(3선)"
+    },
+    {
+     "term": "BCP (Business Continuity Plan)",
+     "ko": "업무연속성계획",
+     "definition": "재해·장애·팬데믹 등 위기 상황에서도 핵심 업무를 지속·복구하기 위한 사전 계획",
+     "example": "데이터센터 화재 시 2시간 내 백업 센터로 결제 업무를 전환하는 절차"
+    },
+    {
+     "term": "RTO / RPO",
+     "ko": "목표 복구 시간 / 목표 복구 시점",
+     "definition": "RTO는 장애 후 서비스를 복구해야 하는 최대 시간, RPO는 허용 가능한 최대 데이터 손실 시점",
+     "example": "RTO 1시간·RPO 5분 → 1시간 안에 복구, 데이터는 최대 5분 치까지만 유실 허용"
+    },
+    {
+     "term": "FMEA",
+     "ko": "고장모드 영향분석",
+     "definition": "발생 가능한 고장 모드마다 심각도·발생도·검출도를 평가해 위험 우선순위(RPN)를 매기고 사전 대책을 세우는 기법",
+     "example": "RPN = 심각도 8 × 발생도 5 × 검출도 6 = 240 → 우선 개선 대상"
+    },
+    {
+     "term": "Inherent vs Residual Risk",
+     "ko": "고유 리스크 vs 잔여 리스크",
+     "definition": "고유 리스크는 통제가 없을 때의 리스크, 잔여 리스크는 통제를 적용한 뒤 남는 리스크",
+     "example": "송금 사기의 고유 리스크는 '높음', 이상거래탐지 적용 후 잔여 리스크는 '중간'"
+    },
+    {
+     "term": "Internal Control",
+     "ko": "내부통제",
+     "definition": "업무의 효과성, 재무보고의 신뢰성, 법규 준수를 합리적으로 보장하기 위한 절차와 체계 (COSO 프레임워크)",
+     "example": "일정 금액 이상 지출은 2인 승인, 월말 계정 대사 같은 통제 활동"
+    },
+    {
+     "term": "SoD (Segregation of Duties)",
+     "ko": "직무 분리",
+     "definition": "한 사람이 거래의 시작부터 승인·기록·보관까지 모두 처리하지 못하도록 권한을 나누는 통제",
+     "example": "거래처 등록 담당자와 대금 지급 승인자를 분리해 가공 거래처 사기를 방지"
+    },
+    {
+     "term": "KYC / KYB",
+     "ko": "고객확인 / 기업고객확인",
+     "definition": "금융사가 고객(개인)·기업의 실체와 실소유자, 거래 목적을 확인하는 절차. B2B 핀테크는 KYB가 핵심",
+     "example": "법인 계좌 개설 시 사업자등록·주주명부로 실소유자(UBO)를 확인"
+    },
+    {
+     "term": "AML (Anti-Money Laundering)",
+     "ko": "자금세탁방지",
+     "definition": "불법 자금이 합법 자금으로 위장되는 것을 막기 위한 고객확인·거래 모니터링·의심거래보고 체계",
+     "example": "짧은 기간 소액 분할 입금이 반복되면 의심거래(STR)로 금융정보분석원에 보고"
+    },
+    {
+     "term": "Sanctions Screening",
+     "ko": "제재 대상 검색",
+     "definition": "거래 상대방이 국제 제재 명단(OFAC 등)에 있는지 확인하는 절차. 수출·해운·결제에서 필수",
+     "example": "수출 계약 전 수입 업체와 선박이 제재 명단에 있는지 스크리닝"
+    },
+    {
+     "term": "Due Diligence",
+     "ko": "실사",
+     "definition": "거래·투자·계약 전에 상대방의 재무·법률·운영·ESG 리스크를 조사하는 과정",
+     "example": "신규 공급사 선정 전 재무 건전성과 강제노동 이슈를 실사"
+    },
+    {
+     "term": "TPRM (Third-Party Risk Management)",
+     "ko": "제3자 리스크 관리",
+     "definition": "공급사·외주업체·파트너가 유발할 수 있는 운영·보안·규제 리스크를 평가하고 관리하는 활동",
+     "example": "클라우드 업체 장애가 곧 우리 서비스 장애 → 주요 외주사의 BCP를 정기 점검"
+    },
+    {
+     "term": "Concentration Risk",
+     "ko": "집중 리스크",
+     "definition": "특정 고객·공급사·지역·상품에 과도하게 의존해 한 곳의 문제가 전체에 큰 타격을 주는 리스크",
+     "example": "매출의 60%가 고객사 1곳 → 그 고객 이탈 시 치명적"
+    },
+    {
+     "term": "Operational Risk",
+     "ko": "운영 리스크",
+     "definition": "부적절한 내부 프로세스·사람·시스템 또는 외부 사건으로 발생하는 손실 리스크",
+     "example": "직원 입력 실수로 수십억 원이 잘못 송금되는 '팻 핑거' 사고"
+    },
+    {
+     "term": "Credit / Counterparty Risk",
+     "ko": "신용 / 거래상대방 리스크",
+     "definition": "거래 상대방이 대금이나 계약 의무를 이행하지 못할 리스크",
+     "example": "외상 거래처의 부도로 매출채권을 회수하지 못함 → 거래처별 신용 한도 설정"
+    },
+    {
+     "term": "Fraud Detection",
+     "ko": "이상거래 탐지",
+     "definition": "규칙과 머신러닝으로 평소 패턴과 다른 결제·송금을 실시간 식별해 사기를 막는 것 (FDS)",
+     "example": "새벽 3시 해외에서 평소의 10배 금액 결제 → 추가 인증 요구"
+    },
+    {
+     "term": "Chargeback",
+     "ko": "차지백",
+     "definition": "카드 소지자의 이의 제기로 이미 승인된 결제 대금을 가맹점에서 되돌려 받는 절차",
+     "example": "미배송 분쟁이 늘어 차지백 비율이 1%를 넘으면 카드사 모니터링 대상"
+    },
+    {
+     "term": "Audit Trail",
+     "ko": "감사 추적 기록",
+     "definition": "누가, 언제, 무엇을 변경·승인했는지 시간 순서대로 남긴 변경 불가능한 기록",
+     "example": "거래처 계좌번호 변경 이력이 남아 있어 내부 부정 여부를 추적"
+    },
+    {
+     "term": "Incident Management",
+     "ko": "사고(인시던트) 관리",
+     "definition": "장애·보안사고를 탐지→분류→대응→복구→사후 분석까지 체계적으로 처리하는 프로세스",
+     "example": "심각도 분류 후 대응 채널 개설, 상황 공지, 복구 후 포스트모템 작성"
+    },
+    {
+     "term": "Post-mortem (Blameless)",
+     "ko": "사후 검토(비난 없는)",
+     "definition": "사고 후 개인 책임 추궁이 아니라 시스템·프로세스 개선에 초점을 맞춰 원인과 교훈을 정리하는 문서·회의",
+     "example": "배포 실수를 한 사람을 탓하지 않고 자동 롤백 부재를 개선 과제로 도출"
+    },
+    {
+     "term": "5 Whys",
+     "ko": "5 Whys(5번 왜)",
+     "definition": "문제에 대해 '왜?'를 반복해 물어 근본 원인에 도달하는 단순한 RCA 기법",
+     "example": "배송 지연 → 왜? 피킹 지연 → 왜? 재고 위치 오류 → 왜? 입고 시 스캔 누락 → 왜? …"
+    },
+    {
+     "term": "CAPA",
+     "ko": "시정 및 예방 조치",
+     "definition": "발생한 문제를 바로잡는 시정 조치(CA)와 재발·유사 문제를 막는 예방 조치(PA)",
+     "example": "불량 로트 회수(시정) + 검사 기준 강화와 공급사 교육(예방)"
+    },
+    {
+     "term": "Compliance Monitoring",
+     "ko": "컴플라이언스 모니터링",
+     "definition": "법규·내부 규정 준수 여부를 정기적·지속적으로 점검하고 위반을 조기에 발견하는 활동",
+     "example": "월별로 고위험 거래 샘플을 추출해 내부 승인 절차 준수 여부 점검"
+    },
+    {
+     "term": "Materiality",
+     "ko": "중요성",
+     "definition": "재무·ESG 보고에서 이해관계자의 의사결정에 영향을 줄 만큼 중요한 정보인지 판단하는 기준",
+     "example": "이중 중대성: 기업이 환경에 미치는 영향 + 환경이 기업 재무에 미치는 영향"
+    },
+    {
+     "term": "Supply Chain Due Diligence Law",
+     "ko": "공급망 실사법",
+     "definition": "기업이 협력사를 포함한 공급망의 인권·환경 리스크를 식별·예방하도록 의무화한 법 (독일 LkSG, EU CSDDD)",
+     "example": "EU 수출 기업은 1·2차 협력사의 강제노동 리스크 평가 자료를 요구받는다"
+    },
+    {
+     "term": "ISO 31000",
+     "ko": "ISO 31000",
+     "definition": "조직의 리스크 관리 원칙·프레임워크·프로세스에 관한 국제 표준 가이드라인",
+     "example": "리스크 식별→분석→평가→대응→모니터링의 순환 구조를 제시"
+    },
+    {
+     "term": "ISO 27001",
+     "ko": "ISO 27001",
+     "definition": "정보보호 관리체계(ISMS)에 대한 국제 인증 표준",
+     "example": "B2B SaaS 영업 시 고객사 보안 심사에서 ISO 27001 인증 여부를 확인"
+    },
+    {
+     "term": "Change Management",
+     "ko": "변경 관리",
+     "definition": "시스템·프로세스 변경이 사고로 이어지지 않도록 영향 분석·승인·테스트·롤백 계획을 거치게 하는 통제",
+     "example": "결제 시스템 배포는 변경 승인위원회(CAB) 승인과 롤백 계획이 있어야 진행"
+    },
+    {
+     "term": "Risk Mitigation Strategies",
+     "ko": "리스크 대응 전략(4T)",
+     "definition": "리스크 대응의 네 가지 선택지: 회피(Terminate)·전가(Transfer)·감소(Treat)·수용(Tolerate)",
+     "example": "운송 중 파손 리스크를 보험으로 전가, 고위험 국가 거래는 회피"
+    },
+    {
+     "term": "Stress Test / Scenario Analysis",
+     "ko": "스트레스 테스트 / 시나리오 분석",
+     "definition": "극단적이지만 발생 가능한 상황을 가정해 재무·운영에 미치는 영향을 미리 측정하는 분석",
+     "example": "'주요 항로 3개월 봉쇄' 시나리오에서 재고 소진 시점과 매출 손실을 계산"
+    },
+    {
+     "term": "Regulatory Sandbox",
+     "ko": "규제 샌드박스",
+     "definition": "혁신 서비스를 일정 기간·범위 안에서 기존 규제를 면제·유예받아 시험할 수 있게 한 제도",
+     "example": "핀테크 기업이 혁신금융서비스로 지정돼 새로운 결제 서비스를 한시 운영"
+    },
+    {
+     "term": "Escrow",
+     "ko": "에스크로",
+     "definition": "거래 대금을 제3자가 보관했다가 계약 조건이 이행되면 판매자에게 지급하는 결제 방식",
+     "example": "B2B 거래에서 물품 검수 완료 후 대금이 풀리도록 에스크로를 사용"
+    }
+   ]
+  },
+  {
+   "id": "en",
+   "name": "비즈니스 영어",
+   "terms": [
+    {
+     "term": "align on",
+     "ko": "~에 대해 의견을 맞추다",
+     "definition": "여러 사람이 목표·방향·결정에 합의하는 것. 회의 목적을 말할 때 자주 쓴다",
+     "example": "Let's align on the timeline before we share it with the client. (고객에게 공유하기 전에 일정부터 맞춥시다.)"
+    },
+    {
+     "term": "circle back",
+     "ko": "나중에 다시 논의하다",
+     "definition": "지금은 넘어가고 나중에 다시 그 주제로 돌아오겠다는 표현",
+     "example": "I'll circle back on the pricing question once I hear from finance. (재무팀 답을 받으면 가격 문제는 다시 얘기할게요.)"
+    },
+    {
+     "term": "touch base",
+     "ko": "잠깐 연락해 상황을 확인하다",
+     "definition": "짧게 연락하거나 만나서 진행 상황을 공유하는 것",
+     "example": "Can we touch base tomorrow morning about the shipment delay? (내일 아침에 선적 지연 건으로 잠깐 얘기할까요?)"
+    },
+    {
+     "term": "loop in",
+     "ko": "(대화·메일에) 포함시키다",
+     "definition": "관련된 사람을 논의에 참여시키거나 참조로 넣는 것",
+     "example": "I'm looping in Sarah from logistics since she owns the carrier contract. (운송 계약 담당인 물류팀 Sarah를 참조로 넣을게요.)"
+    },
+    {
+     "term": "take it offline",
+     "ko": "회의 밖에서 따로 논의하다",
+     "definition": "전체 회의에서 길어질 주제를 관계자끼리 따로 얘기하자는 표현",
+     "example": "That's a detailed issue — let's take it offline after the call. (세부적인 문제니 통화 끝나고 따로 얘기하죠.)"
+    },
+    {
+     "term": "bandwidth",
+     "ko": "(업무) 여력",
+     "definition": "사람이 추가 일을 맡을 수 있는 시간·에너지 여유",
+     "example": "I don't have the bandwidth to take on another project this week. (이번 주엔 프로젝트를 더 맡을 여력이 없어요.)"
+    },
+    {
+     "term": "action item",
+     "ko": "후속 조치 항목",
+     "definition": "회의 결과로 누가 언제까지 해야 할 구체적 할 일",
+     "example": "Action item: Jin to send the updated forecast by Friday. (후속 조치: 진이 금요일까지 수정 예측치를 공유.)"
+    },
+    {
+     "term": "heads-up",
+     "ko": "미리 알려줌, 사전 공지",
+     "definition": "문제가 될 수 있는 일을 미리 알려주는 것",
+     "example": "Just a heads-up — the supplier may miss the Friday delivery. (미리 말씀드리면, 공급사가 금요일 납품을 못 맞출 수도 있어요.)"
+    },
+    {
+     "term": "for visibility / FYI",
+     "ko": "참고로 공유드립니다",
+     "definition": "직접 조치는 필요 없지만 알아두면 좋은 정보를 공유할 때",
+     "example": "Adding the team for visibility; no action needed. (참고용으로 팀을 추가합니다. 별도 조치는 필요 없어요.)"
+    },
+    {
+     "term": "on the same page",
+     "ko": "같은 이해를 하고 있는",
+     "definition": "서로 상황이나 목표를 똑같이 이해하고 있는 상태",
+     "example": "Before we start, let's make sure we're all on the same page about the scope. (시작 전에 범위에 대해 모두 같은 이해인지 확인하죠.)"
+    },
+    {
+     "term": "push back",
+     "ko": "반대 의견을 내다, 이의를 제기하다",
+     "definition": "요청·일정·결정에 대해 정중하게 이의를 제기하는 것",
+     "example": "We should push back on that deadline; it doesn't account for customs clearance. (그 마감은 통관을 고려하지 않았으니 조정을 요청해야 해요.)"
+    },
+    {
+     "term": "low-hanging fruit",
+     "ko": "쉽게 얻을 수 있는 성과",
+     "definition": "적은 노력으로 빨리 효과를 볼 수 있는 개선 과제",
+     "example": "Consolidating shipments is the low-hanging fruit for cutting freight costs. (운임 절감에서 합적은 쉽게 딸 수 있는 성과예요.)"
+    },
+    {
+     "term": "deep dive",
+     "ko": "심층 분석",
+     "definition": "특정 주제를 자세히 파고들어 분석하는 것",
+     "example": "Let's do a deep dive into why returns spiked last month. (지난달 반품이 급증한 이유를 깊이 분석해 봅시다.)"
+    },
+    {
+     "term": "run it by",
+     "ko": "~에게 확인받다",
+     "definition": "결정 전에 누군가에게 보여주고 의견이나 승인을 구하는 것",
+     "example": "Let me run it by my manager before we commit. (확정하기 전에 매니저에게 확인받을게요.)"
+    },
+    {
+     "term": "escalate",
+     "ko": "상부에 보고하다, 격상하다",
+     "definition": "자신의 권한으로 해결되지 않는 문제를 더 높은 책임자에게 올리는 것",
+     "example": "If the carrier doesn't respond by noon, we'll escalate to their account director. (정오까지 답이 없으면 운송사 담당 임원에게 격상하겠습니다.)"
+    },
+    {
+     "term": "ballpark figure",
+     "ko": "대략적인 수치",
+     "definition": "정확하지 않지만 감을 잡을 수 있는 추정치",
+     "example": "Can you give me a ballpark figure for the implementation cost? (도입 비용을 대략이라도 알려줄 수 있나요?)"
+    },
+    {
+     "term": "wrap up",
+     "ko": "마무리하다",
+     "definition": "회의나 업무를 정리하며 끝내는 것",
+     "example": "Let's wrap up with the next steps. (다음 단계를 정리하며 마무리하죠.)"
+    },
+    {
+     "term": "deliverable",
+     "ko": "산출물",
+     "definition": "프로젝트에서 약속한 결과물(보고서·시스템·자료 등)",
+     "example": "The main deliverable is a dashboard showing supplier OTIF. (주요 산출물은 공급사 OTIF를 보여주는 대시보드입니다.)"
+    },
+    {
+     "term": "stakeholder",
+     "ko": "이해관계자",
+     "definition": "프로젝트나 결정에 영향을 주거나 받는 사람·조직",
+     "example": "We need buy-in from key stakeholders in finance and operations. (재무·운영 부서 핵심 이해관계자의 동의가 필요해요.)"
+    },
+    {
+     "term": "walk someone through",
+     "ko": "차근차근 설명하다",
+     "definition": "과정이나 자료를 단계별로 설명해 주는 것",
+     "example": "Could you walk me through how the reorder point is calculated? (재주문점을 어떻게 계산하는지 차근차근 설명해 주실래요?)"
+    },
+    {
+     "term": "flag",
+     "ko": "(문제를) 짚다, 알리다",
+     "definition": "주의가 필요한 사항을 눈에 띄게 알리는 것",
+     "example": "I want to flag a potential compliance issue with this vendor. (이 공급사와 관련된 컴플라이언스 문제 가능성을 짚고 싶어요.)"
+    },
+    {
+     "term": "get back to you",
+     "ko": "다시 답변드리다",
+     "definition": "지금 답하기 어려워 확인 후 회신하겠다는 표현",
+     "example": "I'll check with the warehouse and get back to you by EOD. (창고에 확인하고 오늘 업무 종료 전까지 답변드릴게요.)"
+    },
+    {
+     "term": "EOD / ETA",
+     "ko": "업무 종료 시점 / 도착 예정 시간",
+     "definition": "EOD는 End of Day, ETA는 Estimated Time of Arrival. 마감과 도착 시점을 짧게 말할 때",
+     "example": "What's the ETA on the container? I need it confirmed by EOD. (컨테이너 도착 예정이 언제죠? 오늘 중으로 확인이 필요해요.)"
+    },
+    {
+     "term": "move the needle",
+     "ko": "의미 있는 변화를 만들다",
+     "definition": "결과 지표를 눈에 띄게 바꿀 만큼 효과가 있다는 표현",
+     "example": "A 1% discount won't move the needle on retention. (1% 할인으로는 고객 유지율이 크게 달라지지 않아요.)"
+    },
+    {
+     "term": "blocker",
+     "ko": "진행을 막는 문제",
+     "definition": "업무가 더 나아가지 못하게 막고 있는 장애 요인",
+     "example": "The only blocker is legal approval of the new contract. (유일한 걸림돌은 새 계약서의 법무 승인이에요.)"
+    },
+    {
+     "term": "sign off",
+     "ko": "최종 승인하다",
+     "definition": "결과물이나 결정을 공식적으로 승인하는 것",
+     "example": "We need the CFO to sign off on the budget before ordering. (주문 전에 CFO의 예산 승인이 필요합니다.)"
+    },
+    {
+     "term": "own",
+     "ko": "책임지고 맡다",
+     "definition": "특정 업무나 결과에 대한 책임자가 되는 것",
+     "example": "Min-su will own the vendor onboarding process. (민수 씨가 공급사 온보딩 과정을 책임지고 맡습니다.)"
+    },
+    {
+     "term": "end-to-end",
+     "ko": "처음부터 끝까지 전 과정의",
+     "definition": "일부가 아니라 전체 흐름을 포괄하는",
+     "example": "We provide end-to-end visibility from the factory to the customer. (공장에서 고객까지 전 과정의 가시성을 제공합니다.)"
+    },
+    {
+     "term": "as per",
+     "ko": "~에 따라",
+     "definition": "문서·합의 내용을 근거로 말할 때 쓰는 격식 표현",
+     "example": "As per our agreement, payment is due within 30 days. (합의에 따라 대금은 30일 이내에 지급되어야 합니다.)"
+    },
+    {
+     "term": "going forward",
+     "ko": "앞으로는",
+     "definition": "지금부터 방식이나 규칙이 바뀐다는 것을 알릴 때",
+     "example": "Going forward, all POs over $10K require two approvals. (앞으로 1만 달러 이상 발주서는 2인 승인이 필요합니다.)"
+    }
+   ]
+  }
+ ]
+}

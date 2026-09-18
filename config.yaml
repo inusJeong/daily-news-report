@@ -1,0 +1,160 @@
+# ─────────────────────────────────────────────────────────────
+#  데일리 뉴스 리포트 설정 — 튜닝은 이 파일 하나만 고치면 됩니다.
+# ─────────────────────────────────────────────────────────────
+
+# 1) 나는 누구인가 → "왜 중요한가"와 관련도 점수의 기준이 됩니다.
+profile:
+  about: >
+    산업공학 전공 대학생. 공급망관리(SCM)·리스크관리에 관심이 많고,
+    B2B 핀테크/SCM 분야 취업을 준비 중.
+  # 기사 제목·요약에 등장하면 점수가 오르는 관심 키워드 (가중치 1~3)
+  interests:
+    공급망: 3
+    SCM: 3
+    supply chain: 3
+    물류: 2
+    logistics: 2
+    재고: 2
+    inventory: 2
+    수요예측: 2
+    조달: 2
+    procurement: 2
+    리스크: 2
+    risk: 2
+    컴플라이언스: 2
+    관세: 2
+    tariff: 2
+    핀테크: 2
+    fintech: 2
+    B2B: 2
+    결제: 1
+    채용: 2
+    신입: 2
+    산업공학: 3
+    생산: 1
+    제조: 1
+    manufacturing: 1
+    스마트팩토리: 2
+    자동화: 1
+    반도체: 1
+    AI: 1
+
+# 2) 리포트 형식
+report:
+  timezone: Asia/Seoul
+  title: 데일리 뉴스 리포트
+  lookback_hours: 30          # 이 시간 안의 기사만 수집
+  shortlist_per_category: 7   # AI에게 넘길 후보 이슈 수
+  terms_per_day: 4            # 오늘의 용어 개수 (분야별 1개씩 순환)
+  history_days: 7             # 최근 N일 안에 보낸 이슈는 다시 올리지 않음
+  # 제목에 이 단어가 있으면 수집 단계에서 버림 (모든 카테고리 공통)
+  exclude: ["[인사]", "[부고]", "[포토]", "[사진]", "[게시판]", "[사이언스게시판]", "[알림]", "[오늘의 운세]", 부음, 채용공고]
+
+# 3) AI 요약 (Google Gemini API 무료 등급)
+llm:
+  model: gemini-3.5-flash     # 한도에 자주 걸리면 gemini-3.5-flash-lite
+
+# 4) 발송
+kakao:
+  enabled: true
+  button_title: 전체 리포트 보기
+
+# 5) 카테고리 — 위에서부터 우선순위. 같은 이슈가 여러 카테고리에 걸리면 위쪽에 배정됩니다.
+#   pick        : 리포트에 올릴 이슈 수
+#   why         : "왜 중요한가"를 쓰는 관점 (없으면: 전공에 억지로 잇지 않는 교양 관점)
+#   weights     : relevance(나와의 관련도) vs importance(여러 언론이 다룬 정도)
+#                 시사는 "모두가 다루는 뉴스"가 중요 → importance ↑
+#                 전공/취업은 "나와 맞는 뉴스"가 중요 → relevance ↑
+#   keywords    : 이 카테고리다운 주제어 → 관련도 가산 + (filter: true인 종합 RSS에서) 걸러내기
+#   naver       : 네이버 뉴스 검색어
+#   google      : Google News 검색어 (ko 기본, "en:" 접두사면 영문 뉴스)
+#   feeds       : 언론사/전문지 RSS (filter: true면 keywords에 맞는 기사만)
+#   exclude     : 제목에 있으면 버릴 단어 (보도자료·행사 소식 걸러내기)
+#   lookback_hours : 이 카테고리만 수집 기간을 다르게
+categories:
+  - id: major
+    name: 전공 · SCM
+    emoji: "🏭"
+    pick: 3
+    why: "이 뉴스가 SCM·산업공학의 어떤 개념(예: 채찍효과, 안전재고, 리스크 풀링)의 실제 사례인지, 또는 현업 SCM 직무에서 어떤 의사결정으로 이어지는지."
+    weights: {relevance: 1.0, importance: 0.5}
+    keywords: [공급망, SCM, 물류, 재고, 조달, 산업공학, 스마트팩토리, 생산성, 수요예측, 해운, 운임, 관세,
+               supply chain, logistics, inventory, procurement, freight, warehouse, manufacturing, tariff]
+    naver: [공급망, SCM, 물류 자동화, 스마트팩토리, 산업공학, 재고관리, 수요예측]
+    google: [공급망 리스크, 물류 산업, "en:supply chain risk", "en:logistics technology", "en:site:industryweek.com"]
+    feeds:
+      - {name: Supply Chain Dive, url: "https://www.supplychaindive.com/feeds/news/"}
+      - {name: SupplyChainBrain, url: "https://www.supplychainbrain.com/rss/articles"}
+      - {name: DC Velocity, url: "https://www.dcvelocity.com/rss"}
+      - {name: FreightWaves, url: "https://www.freightwaves.com/news/feed", filter: true}
+      - {name: 물류신문, url: "https://www.klnews.co.kr/rss/allArticle.xml"}
+      - {name: 카고뉴스, url: "https://www.cargonews.co.kr/rss/allArticle.xml"}
+
+  - id: jobs
+    name: 취업
+    emoji: "💼"
+    pick: 2
+    why: "독자의 취업 준비에 어떤 의미인지(지원할 만한 직무·일정, 채용 시장 흐름이 SCM·핀테크 지원자에게 주는 시사점)."
+    weights: {relevance: 1.0, importance: 0.6}
+    keywords: [채용, 공채, 신입, 취업, 구직, 고용, 일자리, 인턴, 연봉, 이직, hiring, jobs, layoffs]
+    naver: [신입 채용, 채용 트렌드, 핀테크 채용, 물류 채용, 공채 일정, 고용 동향]
+    # 잡코리아·사람인·잡플래닛은 자체 RSS가 없고 site: 검색은 채용공고만 나와서, 이들이 낸 "조사/설문" 기사를 찾는다
+    google: [채용 시장, 신입 공채, 사람인 조사, 잡코리아 조사, 잡플래닛 조사, "en:hiring trends"]
+    feeds:
+      - {name: 연합뉴스 경제, url: "https://www.yna.co.kr/rss/economy.xml", filter: true}
+      - {name: 연합뉴스 산업, url: "https://www.yna.co.kr/rss/industry.xml", filter: true}
+
+  - id: current
+    name: 시사
+    emoji: "🌏"
+    pick: 3
+    weights: {relevance: 0.4, importance: 1.2}
+    keywords: []
+    naver: []
+    google: ["top:ko", "en:site:reuters.com", "en:site:apnews.com", "site:joongang.co.kr", "site:kbs.co.kr", "site:ytn.co.kr"]
+    feeds:
+      - {name: 연합뉴스, url: "https://www.yna.co.kr/rss/news.xml"}
+      - {name: 연합뉴스 국제, url: "https://www.yna.co.kr/rss/international.xml"}
+      - {name: 조선일보, url: "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml"}
+      - {name: 한겨레, url: "https://www.hani.co.kr/rss/"}
+      - {name: 경향신문, url: "https://www.khan.co.kr/rss/rssdata/total_news.xml"}
+      - {name: SBS, url: "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01&plink=RSSREADER"}
+      - {name: BBC, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
+      - {name: Guardian, url: "https://www.theguardian.com/world/rss"}
+
+  - id: science
+    name: 과학
+    emoji: "🔬"
+    pick: 2
+    lookback_hours: 48          # 과학·인문은 뉴스 흐름이 느려서 더 길게 본다
+    weights: {relevance: 0.4, importance: 1.0}
+    keywords: [연구진, 연구팀, 발견, 규명, 개발, 논문, 네이처, 사이언스, 우주, 양자, 기후, 유전자, 뇌,
+               study, researchers, discovery, quantum, climate, species, genome]
+    naver: [과학 연구 성과, 연구진 개발]
+    google: ["site:dongascience.com", "site:sciencetimes.co.kr", "en:site:nature.com news"]
+    feeds:
+      - {name: 한겨레 과학, url: "https://www.hani.co.kr/rss/science/"}
+      - {name: 경향 과학, url: "https://www.khan.co.kr/rss/rssdata/science_news.xml"}
+      - {name: 대덕넷, url: "https://www.hellodd.com/rss/allArticle.xml"}
+      - {name: BBC Science, url: "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"}
+      - {name: Guardian Science, url: "https://www.theguardian.com/science/rss"}
+      - {name: ScienceDaily, url: "https://www.sciencedaily.com/rss/top/science.xml"}
+      - {name: Nature, url: "https://www.nature.com/nature.rss"}
+
+  - id: humanities
+    name: 인문
+    emoji: "📚"
+    pick: 2
+    lookback_hours: 72
+    weights: {relevance: 0.6, importance: 1.0}
+    keywords: [인문, 철학, 역사, 사상, 고전, 문명, 신간, 책, 저자, 작가, 문학, 윤리, 언어, 종교, 인류,
+               philosophy, history, ethics, literature, book, civilization]
+    exclude: [교수초빙, 협약, 업무협약, MOU, 개최, 성료, 선정, 수상, 맞손, 총장, 입시, 수료,
+              드라마, 예능, 아이돌, 컴백, 데뷔, 콘서트, 결혼, 열애]
+    naver: [인문학, 철학자, 역사학]
+    google: ["site:ch.yes24.com", 인문학 신간, 인문 교양서, "en:site:theconversation.com philosophy OR history"]
+    feeds:
+      - {name: 교수신문, url: "https://www.kyosu.net/rss/allArticle.xml"}
+      - {name: 한겨레 문화, url: "https://www.hani.co.kr/rss/culture/"}
+      - {name: 경향 문화, url: "https://www.khan.co.kr/rss/rssdata/culture_news.xml"}
+      - {name: Aeon, url: "https://aeon.co/feed.rss"}
