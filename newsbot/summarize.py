@@ -11,6 +11,7 @@ from __future__ import annotations
 from concurrent.futures import ThreadPoolExecutor
 
 from google import genai
+from google.genai import errors as genai_errors
 from google.genai import types
 from pydantic import BaseModel, Field
 
@@ -74,9 +75,20 @@ def _candidate_text(i: int, cl: Cluster, tz) -> str:
 
 
 def summarize_category(client: genai.Client, cfg: dict, cat: dict, clusters: list[Cluster]) -> list[Story]:
+    """기본 모델의 무료 한도(하루 호출 수)가 차면 한도가 따로인 예비 모델로 한 번 더 시도한다."""
+    models = [cfg["llm"]["model"]] + ([cfg["llm"]["fallback_model"]] if cfg["llm"].get("fallback_model") else [])
+    for i, model in enumerate(models):
+        try:
+            return _summarize_with(client, model, cfg, cat, clusters)
+        except genai_errors.ClientError as exc:
+            if exc.code != 429 or i == len(models) - 1:
+                raise
+
+
+def _summarize_with(client: genai.Client, model: str, cfg: dict, cat: dict, clusters: list[Cluster]) -> list[Story]:
     candidates = "\n\n".join(_candidate_text(i, cl, cfg["tz"]) for i, cl in enumerate(clusters, 1))
     response = client.models.generate_content(
-        model=cfg["llm"]["model"],
+        model=model,
         contents=f"카테고리: {cat['name']}\n\n후보 이슈:\n\n{candidates}",
         config=types.GenerateContentConfig(
             system_instruction=SYSTEM.format(about=cfg["profile"]["about"].strip(), pick=cat["pick"],
@@ -118,7 +130,7 @@ def summarize(cfg: dict, shortlists: dict[str, list[Cluster]]) -> tuple[dict[str
 
     # 무료 등급은 분당 호출 수 제한이 있어 429(한도 초과)·5xx는 기다렸다가 재시도
     client = genai.Client(api_key=env("GEMINI_API_KEY"), http_options=types.HttpOptions(
-        retry_options=types.HttpRetryOptions(attempts=5, initial_delay=5, max_delay=60,
+        retry_options=types.HttpRetryOptions(attempts=3, initial_delay=10, max_delay=60,
                                              http_status_codes=[429, 500, 502, 503, 504])))
 
     def run(cat):

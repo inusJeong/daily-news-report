@@ -135,7 +135,7 @@ cd ~/Downloads/daily-news-report && .venv/bin/python -m newsbot check
 
 ## 5. 비용 (대략)
 
-- Gemini API **무료 등급**: 하루 5번 호출(카테고리별)이라 무료 한도 안에서 충분합니다. 한도 초과(429)가 나면 자동으로 기다렸다 재시도합니다.
+- Gemini API **무료 등급**: 하루 5번 호출(카테고리별). `gemini-3.5-flash` 무료 한도는 하루 약 20회라, **로컬 `preview`를 여러 번 돌리면 그날 자동 실행분이 부족할 수 있습니다.** 한도가 차면 `gemini-3.5-flash-lite`로 자동 전환합니다.
   - ⚠️ 무료 등급은 보낸 내용(뉴스 후보 목록)이 Google 서비스 개선에 쓰일 수 있습니다. 공개 뉴스라 문제는 없지만 개인정보는 넣지 마세요.
 - GitHub Actions / Pages, 네이버 API, 카카오 메시지: 무료 범위.
 

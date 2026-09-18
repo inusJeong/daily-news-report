@@ -52,7 +52,8 @@ report:
 
 # 3) AI 요약 (Google Gemini API 무료 등급)
 llm:
-  model: gemini-3.5-flash     # 한도에 자주 걸리면 gemini-3.5-flash-lite
+  model: gemini-3.5-flash              # 무료 한도: 하루 약 20회 (평소 사용량 5회)
+  fallback_model: gemini-3.5-flash-lite # 위 모델 한도가 차면 자동으로 이 모델 사용 (한도 별도)
 
 # 4) 발송
 kakao:
