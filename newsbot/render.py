@@ -157,12 +157,16 @@ def report_html(cfg: dict, now: datetime, stories: dict[str, list[Story]], terms
         f'{"<ul>" + errors + "</ul>" if errors else ""}'
         f'{"<p>결과가 없거나 실패한 소스</p><table>" + rows + "</table>" if rows else ""}'
         f'<p>생성 {now:%Y-%m-%d %H:%M} KST</p></details>')
-    out.append('<div class="links"><a href="./">지난 리포트 보기</a></div></div></body></html>')
+    out.append('<div class="links"><a href="archive.html">지난 리포트 보기</a></div></div></body></html>')
     return "".join(out)
 
 
 def write_report(date_str: str, html: str, headline: str) -> None:
-    """리포트 저장 + 아카이브 목록(index.html) 갱신."""
+    """리포트 저장 + 첫 화면(index.html = 최신 리포트) + 지난 리포트 목록(archive.html) 갱신.
+
+    카카오는 링크가 적용되지 않으면 등록한 도메인 첫 화면으로 보내기 때문에,
+    첫 화면 자체가 항상 오늘 리포트여야 버튼이 어떤 경우에도 리포트를 연다.
+    """
     DOCS.mkdir(exist_ok=True)
     (DOCS / f"{date_str}.html").write_text(html, encoding="utf-8")
 
@@ -174,7 +178,9 @@ def write_report(date_str: str, html: str, headline: str) -> None:
 
     items = "".join(f'<a href="{m["date"]}.html">{m["date"]}<small>{escape(m["headline"])}</small></a>'
                     for m in manifest)
-    index = (HEAD.format(title="데일리 뉴스 리포트 · 지난 리포트", css=CSS)
-             + f'<header><h1>지난 리포트</h1><div class="meta">{len(manifest)}개</div></header>'
-             + f'<div class="archive">{items}</div></div></body></html>')
-    (DOCS / "index.html").write_text(index, encoding="utf-8")
+    archive = (HEAD.format(title="데일리 뉴스 리포트 · 지난 리포트", css=CSS)
+               + f'<header><h1>지난 리포트</h1><div class="meta">{len(manifest)}개</div></header>'
+               + f'<div class="archive">{items}</div></div></body></html>')
+    (DOCS / "archive.html").write_text(archive, encoding="utf-8")
+    # 첫 화면 = 최신 리포트 그대로 (리다이렉트 없이 바로 보이게)
+    (DOCS / "index.html").write_text(html, encoding="utf-8")
