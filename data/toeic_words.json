@@ -1,9 +1,9 @@
 {
- "about": "토익 900 목표 30일 과정 · 하루 15단어 · 주제별 · 연어(짝꿍 표현) 중심",
+ "about": "토익 900 목표 30일 과정 · 하루 LC 10(Part 1 사진 3 + Part 2~4 대화 7) + RC 15(주제별 연어) · 간격 반복 복습",
  "days": [
   {
    "theme": "계약·법무",
-   "words": [
+   "rc": [
     {
      "w": "stipulate",
      "pos": "v",
@@ -94,11 +94,73 @@
      "ko": "(대등한) 상대방",
      "col": "meet with their Japanese counterparts (일본 측 상대방과 만나다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "be stacked",
+     "part": "Part 1",
+     "ko": "쌓여 있다",
+     "ex": "Boxes are stacked against the wall. (상자들이 벽 쪽에 쌓여 있다)"
+    },
+    {
+     "w": "be piled up",
+     "part": "Part 1",
+     "ko": "수북이 쌓여 있다",
+     "ex": "Papers are piled up on the desk. (서류가 책상 위에 수북이 쌓여 있다)"
+    },
+    {
+     "w": "lean against",
+     "part": "Part 1",
+     "ko": "~에 기대다",
+     "ex": "A bicycle is leaning against the fence. (자전거가 울타리에 기대어 있다)"
+    },
+    {
+     "w": "look over",
+     "part": "Part 2·3·4",
+     "ko": "검토하다, 훑어보다",
+     "ex": "Could you look over the contract before I sign it? (서명 전에 계약서 좀 봐 줄래요?)"
+    },
+    {
+     "w": "sign off on",
+     "part": "Part 2·3·4",
+     "ko": "승인(결재)하다",
+     "ex": "The director still needs to sign off on the deal. (이사님이 아직 거래를 승인해야 해요)"
+    },
+    {
+     "w": "legal department",
+     "part": "Part 2·3·4",
+     "ko": "법무팀",
+     "ex": "Let's send this to the legal department first. (먼저 법무팀에 보냅시다)"
+    },
+    {
+     "w": "fine print",
+     "part": "Part 2·3·4",
+     "ko": "(계약서의) 작은 글씨 조항",
+     "ex": "Make sure you read the fine print. (작은 글씨 조항까지 꼭 읽으세요)"
+    },
+    {
+     "w": "draw up",
+     "part": "Part 2·3·4",
+     "ko": "(문서를) 작성하다",
+     "ex": "I'll draw up a new agreement by Friday. (금요일까지 새 계약서를 작성할게요)"
+    },
+    {
+     "w": "go through",
+     "part": "Part 2·3·4",
+     "ko": "(절차를) 거치다; 검토하다",
+     "ex": "It has to go through several approvals. (여러 단계의 승인을 거쳐야 해요)"
+    },
+    {
+     "w": "make a copy",
+     "part": "Part 2·3·4",
+     "ko": "복사본을 만들다",
+     "ex": "Can you make a copy for our records? (보관용으로 한 부 복사해 줄래요?)"
+    }
    ]
   },
   {
    "theme": "인사·채용",
-   "words": [
+   "rc": [
     {
      "w": "candidate",
      "pos": "n",
@@ -189,11 +251,73 @@
      "ko": "승진시키다; 홍보하다",
      "col": "be promoted to senior manager (부장으로 승진하다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "be propped against",
+     "part": "Part 1",
+     "ko": "~에 받쳐 세워져 있다",
+     "ex": "A ladder is propped against the building. (사다리가 건물에 받쳐 세워져 있다)"
+    },
+    {
+     "w": "be lined up",
+     "part": "Part 1",
+     "ko": "줄지어 있다",
+     "ex": "Cars are lined up at the gate. (차들이 입구에 줄지어 있다)"
+    },
+    {
+     "w": "be arranged in a row",
+     "part": "Part 1",
+     "ko": "일렬로 배열되어 있다",
+     "ex": "Chairs are arranged in a row. (의자들이 일렬로 놓여 있다)"
+    },
+    {
+     "w": "job opening",
+     "part": "Part 2·3·4",
+     "ko": "채용 공고, 빈 자리",
+     "ex": "Is there a job opening in accounting? (회계팀에 채용 자리가 있나요?)"
+    },
+    {
+     "w": "apply for",
+     "part": "Part 2·3·4",
+     "ko": "~에 지원하다",
+     "ex": "I'm going to apply for the manager position. (매니저 자리에 지원하려고요)"
+    },
+    {
+     "w": "fill in for",
+     "part": "Part 2·3·4",
+     "ko": "~을 대신하다",
+     "ex": "Can you fill in for me at the meeting? (회의에 저 대신 가 줄 수 있어요?)"
+    },
+    {
+     "w": "be transferred to",
+     "part": "Part 2·3·4",
+     "ko": "~로 전근 가다",
+     "ex": "She's being transferred to the Tokyo office. (그녀는 도쿄 지사로 전근 가요)"
+    },
+    {
+     "w": "retirement party",
+     "part": "Part 2·3·4",
+     "ko": "퇴임 파티",
+     "ex": "We're planning a retirement party for Mr. Kim. (김 부장님 퇴임 파티를 준비하고 있어요)"
+    },
+    {
+     "w": "new hire",
+     "part": "Part 2·3·4",
+     "ko": "신입 사원",
+     "ex": "The new hires start on Monday. (신입 사원들은 월요일부터 출근해요)"
+    },
+    {
+     "w": "put in a good word",
+     "part": "Part 2·3·4",
+     "ko": "좋게 말해 주다, 추천하다",
+     "ex": "I'll put in a good word for you. (당신을 잘 말해 둘게요)"
+    }
    ]
   },
   {
    "theme": "회의·일정",
-   "words": [
+   "rc": [
     {
      "w": "agenda",
      "pos": "n",
@@ -284,11 +408,73 @@
      "ko": "(진행을) 돕다, 촉진하다",
      "col": "facilitate the discussion (토론 진행을 돕다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "be suspended from",
+     "part": "Part 1",
+     "ko": "~에 매달려 있다",
+     "ex": "Lamps are suspended from the ceiling. (전등이 천장에 매달려 있다)"
+    },
+    {
+     "w": "be mounted on",
+     "part": "Part 1",
+     "ko": "~에 설치(부착)되어 있다",
+     "ex": "A clock is mounted on the wall. (시계가 벽에 걸려 있다)"
+    },
+    {
+     "w": "be on display",
+     "part": "Part 1",
+     "ko": "진열되어 있다",
+     "ex": "Some jewelry is on display. (보석이 진열되어 있다)"
+    },
+    {
+     "w": "push back",
+     "part": "Part 2·3·4",
+     "ko": "(일정을) 미루다",
+     "ex": "Can we push back the meeting to 3? (회의를 3시로 미룰 수 있을까요?)"
+    },
+    {
+     "w": "move up",
+     "part": "Part 2·3·4",
+     "ko": "(일정을) 앞당기다",
+     "ex": "The deadline has been moved up. (마감이 앞당겨졌어요)"
+    },
+    {
+     "w": "I'm tied up",
+     "part": "Part 2·3·4",
+     "ko": "너무 바빠 시간이 없다",
+     "ex": "I'm tied up all morning. (오전 내내 꼼짝 못 해요)"
+    },
+    {
+     "w": "Does Tuesday work for you?",
+     "part": "Part 2·3·4",
+     "ko": "화요일 괜찮으세요?",
+     "ex": "Does Tuesday work for you? — Wednesday is better. (화요일 괜찮아요? — 수요일이 더 좋아요)"
+    },
+    {
+     "w": "conference room",
+     "part": "Part 2·3·4",
+     "ko": "회의실",
+     "ex": "The conference room is booked until noon. (회의실은 정오까지 예약돼 있어요)"
+    },
+    {
+     "w": "go over",
+     "part": "Part 2·3·4",
+     "ko": "검토하다",
+     "ex": "Let's go over the agenda. (안건을 검토합시다)"
+    },
+    {
+     "w": "call off",
+     "part": "Part 2·3·4",
+     "ko": "취소하다",
+     "ex": "The meeting was called off. (회의가 취소됐어요)"
+    }
    ]
   },
   {
    "theme": "마케팅·광고",
-   "words": [
+   "rc": [
     {
      "w": "launch",
      "pos": "v",
@@ -379,11 +565,73 @@
      "ko": "(고객) 추천의 글, 사용 후기",
      "col": "customer testimonials (고객 후기)"
     }
+   ],
+   "lc": [
+    {
+     "w": "be being repaired",
+     "part": "Part 1",
+     "ko": "수리되고 있는 중이다",
+     "ex": "A road is being repaired. (도로가 수리 중이다 — 사람이 작업 중일 때만 정답)"
+    },
+    {
+     "w": "be unoccupied",
+     "part": "Part 1",
+     "ko": "비어 있다(사람이 없다)",
+     "ex": "Some of the seats are unoccupied. (좌석 몇 개가 비어 있다)"
+    },
+    {
+     "w": "be deserted",
+     "part": "Part 1",
+     "ko": "인적이 없다",
+     "ex": "The platform is deserted. (승강장에 아무도 없다)"
+    },
+    {
+     "w": "come up with",
+     "part": "Part 2·3·4",
+     "ko": "(아이디어를) 생각해 내다",
+     "ex": "We need to come up with a new slogan. (새 슬로건을 생각해 내야 해요)"
+    },
+    {
+     "w": "focus group",
+     "part": "Part 2·3·4",
+     "ko": "포커스 그룹(소비자 표본 집단)",
+     "ex": "The focus group liked the new design. (포커스 그룹이 새 디자인을 좋아했어요)"
+    },
+    {
+     "w": "commercial",
+     "part": "Part 2·3·4",
+     "ko": "(TV·라디오) 광고",
+     "ex": "Did you see our commercial on TV? (TV에서 우리 광고 봤어요?)"
+    },
+    {
+     "w": "word of mouth",
+     "part": "Part 2·3·4",
+     "ko": "입소문",
+     "ex": "Most customers heard about us by word of mouth. (고객 대부분이 입소문으로 알게 됐어요)"
+    },
+    {
+     "w": "brochure",
+     "part": "Part 2·3·4",
+     "ko": "안내 책자",
+     "ex": "I'll send you a brochure. (안내 책자를 보내 드릴게요)"
+    },
+    {
+     "w": "sales figures",
+     "part": "Part 2·3·4",
+     "ko": "판매 실적(수치)",
+     "ex": "The latest sales figures look promising. (최근 판매 실적이 유망해 보여요)"
+    },
+    {
+     "w": "catch on",
+     "part": "Part 2·3·4",
+     "ko": "유행하다, 인기를 끌다",
+     "ex": "The product really caught on with teenagers. (그 제품이 10대 사이에서 인기를 끌었어요)"
+    }
    ]
   },
   {
    "theme": "재무·회계",
-   "words": [
+   "rc": [
     {
      "w": "revenue",
      "pos": "n",
@@ -474,11 +722,73 @@
      "ko": "장부, 원장",
      "col": "a general ledger (총계정원장)"
     }
+   ],
+   "lc": [
+    {
+     "w": "be crowded with",
+     "part": "Part 1",
+     "ko": "~로 붐비다",
+     "ex": "The market is crowded with shoppers. (시장이 쇼핑객으로 붐빈다)"
+    },
+    {
+     "w": "overlook",
+     "part": "Part 1",
+     "ko": "(건물이) ~을 내려다보다",
+     "ex": "The balcony overlooks the harbor. (발코니가 항구를 내려다본다)"
+    },
+    {
+     "w": "be surrounded by",
+     "part": "Part 1",
+     "ko": "~로 둘러싸여 있다",
+     "ex": "The pond is surrounded by trees. (연못이 나무로 둘러싸여 있다)"
+    },
+    {
+     "w": "be over budget",
+     "part": "Part 2·3·4",
+     "ko": "예산을 초과하다",
+     "ex": "The project is over budget. (프로젝트가 예산을 초과했어요)"
+    },
+    {
+     "w": "expense report",
+     "part": "Part 2·3·4",
+     "ko": "경비 보고서",
+     "ex": "Did you submit your expense report? (경비 보고서 제출했어요?)"
+    },
+    {
+     "w": "pay stub",
+     "part": "Part 2·3·4",
+     "ko": "급여 명세서",
+     "ex": "You can check your pay stub online. (급여 명세서는 온라인으로 확인할 수 있어요)"
+    },
+    {
+     "w": "receipt",
+     "part": "Part 2·3·4",
+     "ko": "영수증",
+     "ex": "Keep your receipts for reimbursement. (환급받으려면 영수증을 보관하세요)"
+    },
+    {
+     "w": "accounting department",
+     "part": "Part 2·3·4",
+     "ko": "회계팀",
+     "ex": "Ask the accounting department about it. (회계팀에 물어보세요)"
+    },
+    {
+     "w": "break even",
+     "part": "Part 2·3·4",
+     "ko": "손익분기점에 이르다",
+     "ex": "We expect to break even this year. (올해 손익분기점에 도달할 것 같아요)"
+    },
+    {
+     "w": "figures",
+     "part": "Part 2·3·4",
+     "ko": "수치, 숫자",
+     "ex": "These figures don't add up. (이 수치들이 맞지 않아요)"
+    }
    ]
   },
   {
    "theme": "물류·배송",
-   "words": [
+   "rc": [
     {
      "w": "shipment",
      "pos": "n",
@@ -569,11 +879,73 @@
      "ko": "세관",
      "col": "clear customs (통관하다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "face each other",
+     "part": "Part 1",
+     "ko": "서로 마주 보다",
+     "ex": "Two women are facing each other. (두 여자가 서로 마주 보고 있다)"
+    },
+    {
+     "w": "reach for",
+     "part": "Part 1",
+     "ko": "~을 향해 손을 뻗다",
+     "ex": "A man is reaching for a book on the shelf. (남자가 선반의 책에 손을 뻗고 있다)"
+    },
+    {
+     "w": "lean over",
+     "part": "Part 1",
+     "ko": "몸을 숙이다",
+     "ex": "She is leaning over the counter. (그녀가 카운터 쪽으로 몸을 숙이고 있다)"
+    },
+    {
+     "w": "tracking number",
+     "part": "Part 2·3·4",
+     "ko": "운송장 번호",
+     "ex": "Here's your tracking number. (운송장 번호 여기 있습니다)"
+    },
+    {
+     "w": "be held up",
+     "part": "Part 2·3·4",
+     "ko": "지연되다",
+     "ex": "The shipment was held up at customs. (화물이 세관에서 지연됐어요)"
+    },
+    {
+     "w": "out of stock",
+     "part": "Part 2·3·4",
+     "ko": "품절된",
+     "ex": "That item is out of stock right now. (그 제품은 지금 품절이에요)"
+    },
+    {
+     "w": "overnight delivery",
+     "part": "Part 2·3·4",
+     "ko": "익일 배송",
+     "ex": "Can you send it by overnight delivery? (익일 배송으로 보내 줄 수 있어요?)"
+    },
+    {
+     "w": "pick up",
+     "part": "Part 2·3·4",
+     "ko": "가져가다, 찾아오다",
+     "ex": "You can pick up your order at the front desk. (주문품은 안내 데스크에서 찾아가세요)"
+    },
+    {
+     "w": "drop off",
+     "part": "Part 2·3·4",
+     "ko": "갖다 놓다, 맡기다",
+     "ex": "I'll drop off the package on my way home. (퇴근길에 소포를 맡기고 갈게요)"
+    },
+    {
+     "w": "loading dock",
+     "part": "Part 2·3·4",
+     "ko": "하역장",
+     "ex": "The truck is at the loading dock. (트럭이 하역장에 있어요)"
+    }
    ]
   },
   {
    "theme": "구매·조달",
-   "words": [
+   "rc": [
     {
      "w": "procure",
      "pos": "v",
@@ -664,11 +1036,73 @@
      "ko": "할당하다, 배분하다",
      "col": "allocate resources efficiently (자원을 효율적으로 배분하다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "kneel down",
+     "part": "Part 1",
+     "ko": "무릎을 꿇다",
+     "ex": "A worker is kneeling down to fix a tire. (작업자가 타이어를 고치려고 무릎을 꿇고 있다)"
+    },
+    {
+     "w": "hold onto the railing",
+     "part": "Part 1",
+     "ko": "난간을 잡다",
+     "ex": "A woman is holding onto the railing. (여자가 난간을 잡고 있다)"
+    },
+    {
+     "w": "push a cart",
+     "part": "Part 1",
+     "ko": "카트를 밀다",
+     "ex": "A man is pushing a cart down the aisle. (남자가 통로로 카트를 밀고 있다)"
+    },
+    {
+     "w": "place an order",
+     "part": "Part 2·3·4",
+     "ko": "주문하다",
+     "ex": "I'd like to place an order for 50 chairs. (의자 50개를 주문하고 싶어요)"
+    },
+    {
+     "w": "run out of",
+     "part": "Part 2·3·4",
+     "ko": "~이 다 떨어지다",
+     "ex": "We've run out of printer paper. (프린터 용지가 다 떨어졌어요)"
+    },
+    {
+     "w": "order form",
+     "part": "Part 2·3·4",
+     "ko": "주문서",
+     "ex": "Please fill out this order form. (이 주문서를 작성해 주세요)"
+    },
+    {
+     "w": "supply closet",
+     "part": "Part 2·3·4",
+     "ko": "비품 창고",
+     "ex": "There are extra pens in the supply closet. (비품 창고에 여분의 펜이 있어요)"
+    },
+    {
+     "w": "get a quote",
+     "part": "Part 2·3·4",
+     "ko": "견적을 받다",
+     "ex": "Let's get a quote from another supplier. (다른 업체에서도 견적을 받아 봅시다)"
+    },
+    {
+     "w": "in stock",
+     "part": "Part 2·3·4",
+     "ko": "재고가 있는",
+     "ex": "Do you have this in stock? (이거 재고 있나요?)"
+    },
+    {
+     "w": "bulk discount",
+     "part": "Part 2·3·4",
+     "ko": "대량 구매 할인",
+     "ex": "Do you offer a bulk discount? (대량 구매 할인이 되나요?)"
+    }
    ]
   },
   {
    "theme": "제조·품질",
-   "words": [
+   "rc": [
     {
      "w": "assemble",
      "pos": "v",
@@ -759,11 +1193,73 @@
      "ko": "(제품) 회수, 리콜",
      "col": "a product recall (제품 리콜)"
     }
+   ],
+   "lc": [
+    {
+     "w": "sweep the floor",
+     "part": "Part 1",
+     "ko": "바닥을 쓸다",
+     "ex": "Someone is sweeping the floor. (누군가 바닥을 쓸고 있다)"
+    },
+    {
+     "w": "wipe off",
+     "part": "Part 1",
+     "ko": "닦아내다",
+     "ex": "He's wiping off the counter. (그가 카운터를 닦고 있다)"
+    },
+    {
+     "w": "water the plants",
+     "part": "Part 1",
+     "ko": "화분에 물을 주다",
+     "ex": "A woman is watering the plants. (여자가 식물에 물을 주고 있다)"
+    },
+    {
+     "w": "assembly line",
+     "part": "Part 2·3·4",
+     "ko": "조립 라인",
+     "ex": "The assembly line shut down for an hour. (조립 라인이 한 시간 동안 멈췄어요)"
+    },
+    {
+     "w": "break down",
+     "part": "Part 2·3·4",
+     "ko": "고장 나다",
+     "ex": "The machine broke down again. (기계가 또 고장 났어요)"
+    },
+    {
+     "w": "safety inspector",
+     "part": "Part 2·3·4",
+     "ko": "안전 점검관",
+     "ex": "A safety inspector is coming tomorrow. (내일 안전 점검관이 와요)"
+    },
+    {
+     "w": "up and running",
+     "part": "Part 2·3·4",
+     "ko": "정상 가동 중인",
+     "ex": "The new equipment is up and running. (새 장비가 정상 가동 중이에요)"
+    },
+    {
+     "w": "quality control",
+     "part": "Part 2·3·4",
+     "ko": "품질 관리",
+     "ex": "Talk to someone in quality control. (품질 관리팀 사람과 얘기해 보세요)"
+    },
+    {
+     "w": "production schedule",
+     "part": "Part 2·3·4",
+     "ko": "생산 일정",
+     "ex": "We're behind the production schedule. (생산 일정보다 늦어지고 있어요)"
+    },
+    {
+     "w": "shut down",
+     "part": "Part 2·3·4",
+     "ko": "(가동을) 멈추다",
+     "ex": "The plant will shut down for maintenance. (공장이 정비로 가동을 멈춰요)"
+    }
    ]
   },
   {
    "theme": "고객 서비스",
-   "words": [
+   "rc": [
     {
      "w": "inquiry",
      "pos": "n",
@@ -854,11 +1350,73 @@
      "ko": "신속한",
      "col": "a prompt response (신속한 답변)"
     }
+   ],
+   "lc": [
+    {
+     "w": "mow the lawn",
+     "part": "Part 1",
+     "ko": "잔디를 깎다",
+     "ex": "A man is mowing the lawn. (남자가 잔디를 깎고 있다)"
+    },
+    {
+     "w": "rake leaves",
+     "part": "Part 1",
+     "ko": "낙엽을 긁어모으다",
+     "ex": "Some people are raking leaves in the park. (사람들이 공원에서 낙엽을 긁어모으고 있다)"
+    },
+    {
+     "w": "trim the bushes",
+     "part": "Part 1",
+     "ko": "관목을 다듬다",
+     "ex": "A gardener is trimming the bushes. (정원사가 관목을 다듬고 있다)"
+    },
+    {
+     "w": "Would you mind ...?",
+     "part": "Part 2·3·4",
+     "ko": "~해도 될까요? (부탁)",
+     "ex": "Would you mind holding for a moment? (잠시만 기다려 주시겠어요?)"
+    },
+    {
+     "w": "exchange",
+     "part": "Part 2·3·4",
+     "ko": "교환하다",
+     "ex": "I'd like to exchange this for a larger size. (이걸 더 큰 사이즈로 교환하고 싶어요)"
+    },
+    {
+     "w": "store credit",
+     "part": "Part 2·3·4",
+     "ko": "상점 적립금",
+     "ex": "We can only offer store credit. (적립금으로만 드릴 수 있어요)"
+    },
+    {
+     "w": "customer service representative",
+     "part": "Part 2·3·4",
+     "ko": "고객 상담원",
+     "ex": "Let me connect you to a customer service representative. (상담원에게 연결해 드릴게요)"
+    },
+    {
+     "w": "be on hold",
+     "part": "Part 2·3·4",
+     "ko": "(전화) 대기 중이다",
+     "ex": "I've been on hold for 20 minutes. (20분째 대기 중이에요)"
+    },
+    {
+     "w": "look into",
+     "part": "Part 2·3·4",
+     "ko": "조사하다, 알아보다",
+     "ex": "I'll look into the problem right away. (바로 문제를 알아볼게요)"
+    },
+    {
+     "w": "I'm afraid ...",
+     "part": "Part 2·3·4",
+     "ko": "유감이지만 ~",
+     "ex": "I'm afraid we're closed today. (죄송하지만 오늘은 영업하지 않아요)"
+    }
    ]
   },
   {
    "theme": "사무·행정",
-   "words": [
+   "rc": [
     {
      "w": "submit",
      "pos": "v",
@@ -949,11 +1507,73 @@
      "ko": "직원들, 인사부",
      "col": "personnel department (인사부)"
     }
+   ],
+   "lc": [
+    {
+     "w": "pour",
+     "part": "Part 1",
+     "ko": "(음료를) 따르다",
+     "ex": "A server is pouring water into a glass. (종업원이 잔에 물을 따르고 있다)"
+    },
+    {
+     "w": "set the table",
+     "part": "Part 1",
+     "ko": "상을 차리다",
+     "ex": "They're setting the table for dinner. (그들이 저녁 상을 차리고 있다)"
+    },
+    {
+     "w": "examine",
+     "part": "Part 1",
+     "ko": "자세히 살펴보다",
+     "ex": "A man is examining a document. (남자가 서류를 살펴보고 있다)"
+    },
+    {
+     "w": "fill out",
+     "part": "Part 2·3·4",
+     "ko": "(양식을) 작성하다",
+     "ex": "Please fill out this form. (이 양식을 작성해 주세요)"
+    },
+    {
+     "w": "hand in",
+     "part": "Part 2·3·4",
+     "ko": "제출하다",
+     "ex": "When should I hand in the report? (보고서는 언제 제출하면 되나요?)"
+    },
+    {
+     "w": "out of the office",
+     "part": "Part 2·3·4",
+     "ko": "사무실에 없는, 부재중인",
+     "ex": "She's out of the office until Thursday. (그녀는 목요일까지 부재중이에요)"
+    },
+    {
+     "w": "out of order",
+     "part": "Part 2·3·4",
+     "ko": "고장 난",
+     "ex": "The copier is out of order. (복사기가 고장 났어요)"
+    },
+    {
+     "w": "extension",
+     "part": "Part 2·3·4",
+     "ko": "내선 번호",
+     "ex": "Call me at extension 204. (내선 204로 전화 주세요)"
+    },
+    {
+     "w": "leave a message",
+     "part": "Part 2·3·4",
+     "ko": "메시지를 남기다",
+     "ex": "Would you like to leave a message? (메시지 남기시겠어요?)"
+    },
+    {
+     "w": "get back to",
+     "part": "Part 2·3·4",
+     "ko": "~에게 다시 연락하다",
+     "ex": "I'll get back to you this afternoon. (오늘 오후에 다시 연락드릴게요)"
+    }
    ]
   },
   {
    "theme": "출장·여행",
-   "words": [
+   "rc": [
     {
      "w": "itinerary",
      "pos": "n",
@@ -1044,11 +1664,73 @@
      "ko": "편의 시설",
      "col": "hotel amenities (호텔 편의 시설)"
     }
+   ],
+   "lc": [
+    {
+     "w": "hand out",
+     "part": "Part 1",
+     "ko": "나눠 주다",
+     "ex": "She's handing out brochures. (그녀가 안내 책자를 나눠 주고 있다)"
+    },
+    {
+     "w": "point at",
+     "part": "Part 1",
+     "ko": "~을 가리키다",
+     "ex": "A presenter is pointing at a screen. (발표자가 화면을 가리키고 있다)"
+    },
+    {
+     "w": "take notes",
+     "part": "Part 1",
+     "ko": "필기하다",
+     "ex": "Some people are taking notes. (몇몇 사람이 필기를 하고 있다)"
+    },
+    {
+     "w": "book a flight",
+     "part": "Part 2·3·4",
+     "ko": "항공편을 예약하다",
+     "ex": "I need to book a flight to Singapore. (싱가포르행 항공편을 예약해야 해요)"
+    },
+    {
+     "w": "aisle seat",
+     "part": "Part 2·3·4",
+     "ko": "통로 쪽 좌석",
+     "ex": "I'd prefer an aisle seat. (통로 쪽 좌석이 좋아요)"
+    },
+    {
+     "w": "be delayed",
+     "part": "Part 2·3·4",
+     "ko": "지연되다",
+     "ex": "Our flight has been delayed by two hours. (항공편이 두 시간 지연됐어요)"
+    },
+    {
+     "w": "check in",
+     "part": "Part 2·3·4",
+     "ko": "체크인하다, 탑승 수속하다",
+     "ex": "Where do I check in? (어디서 체크인하나요?)"
+    },
+    {
+     "w": "round-trip ticket",
+     "part": "Part 2·3·4",
+     "ko": "왕복 표",
+     "ex": "How much is a round-trip ticket? (왕복 표는 얼마예요?)"
+    },
+    {
+     "w": "baggage claim",
+     "part": "Part 2·3·4",
+     "ko": "수하물 찾는 곳",
+     "ex": "I'll meet you at baggage claim. (수하물 찾는 곳에서 만나요)"
+    },
+    {
+     "w": "rental car",
+     "part": "Part 2·3·4",
+     "ko": "렌터카",
+     "ex": "I've reserved a rental car at the airport. (공항에 렌터카를 예약해 뒀어요)"
+    }
    ]
   },
   {
    "theme": "부동산·시설",
-   "words": [
+   "rc": [
     {
      "w": "lease",
      "pos": "n",
@@ -1139,11 +1821,73 @@
      "ko": "설계도, 청사진",
      "col": "review the blueprints (설계도를 검토하다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "shake hands",
+     "part": "Part 1",
+     "ko": "악수하다",
+     "ex": "Two men are shaking hands. (두 남자가 악수하고 있다)"
+    },
+    {
+     "w": "board",
+     "part": "Part 1",
+     "ko": "(탈것에) 탑승하다",
+     "ex": "Passengers are boarding a bus. (승객들이 버스에 타고 있다)"
+    },
+    {
+     "w": "get off",
+     "part": "Part 1",
+     "ko": "(탈것에서) 내리다",
+     "ex": "People are getting off the train. (사람들이 기차에서 내리고 있다)"
+    },
+    {
+     "w": "move in",
+     "part": "Part 2·3·4",
+     "ko": "입주하다",
+     "ex": "When can we move in? (언제 입주할 수 있나요?)"
+    },
+    {
+     "w": "real estate agent",
+     "part": "Part 2·3·4",
+     "ko": "부동산 중개인",
+     "ex": "The real estate agent will show us the apartment. (부동산 중개인이 아파트를 보여 줄 거예요)"
+    },
+    {
+     "w": "security deposit",
+     "part": "Part 2·3·4",
+     "ko": "보증금",
+     "ex": "The security deposit is one month's rent. (보증금은 월세 한 달 치예요)"
+    },
+    {
+     "w": "floor plan",
+     "part": "Part 2·3·4",
+     "ko": "평면도",
+     "ex": "Can I see the floor plan? (평면도를 볼 수 있을까요?)"
+    },
+    {
+     "w": "maintenance crew",
+     "part": "Part 2·3·4",
+     "ko": "정비 직원들",
+     "ex": "The maintenance crew will fix the heater. (정비팀이 난방기를 고칠 거예요)"
+    },
+    {
+     "w": "be within walking distance",
+     "part": "Part 2·3·4",
+     "ko": "걸어갈 수 있는 거리이다",
+     "ex": "It's within walking distance of the subway. (지하철역까지 걸어갈 만한 거리예요)"
+    },
+    {
+     "w": "put in",
+     "part": "Part 2·3·4",
+     "ko": "설치하다",
+     "ex": "They're putting in new carpet. (새 카펫을 깔고 있어요)"
+    }
    ]
   },
   {
    "theme": "은행·투자",
-   "words": [
+   "rc": [
     {
      "w": "deposit",
      "pos": "v",
@@ -1234,11 +1978,73 @@
      "ko": "지불 능력이 있는",
      "col": "remain financially solvent (재정적으로 지불 능력을 유지하다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "load",
+     "part": "Part 1",
+     "ko": "(짐을) 싣다",
+     "ex": "Workers are loading boxes onto a truck. (작업자들이 트럭에 상자를 싣고 있다)"
+    },
+    {
+     "w": "unload",
+     "part": "Part 1",
+     "ko": "(짐을) 내리다",
+     "ex": "A man is unloading a van. (남자가 승합차에서 짐을 내리고 있다)"
+    },
+    {
+     "w": "climb a ladder",
+     "part": "Part 1",
+     "ko": "사다리를 오르다",
+     "ex": "A worker is climbing a ladder. (작업자가 사다리를 오르고 있다)"
+    },
+    {
+     "w": "open an account",
+     "part": "Part 2·3·4",
+     "ko": "계좌를 개설하다",
+     "ex": "I'd like to open a savings account. (저축 계좌를 개설하고 싶어요)"
+    },
+    {
+     "w": "transfer money",
+     "part": "Part 2·3·4",
+     "ko": "송금하다",
+     "ex": "How do I transfer money online? (온라인으로 어떻게 송금하나요?)"
+    },
+    {
+     "w": "exchange rate",
+     "part": "Part 2·3·4",
+     "ko": "환율",
+     "ex": "What's today's exchange rate? (오늘 환율이 얼마예요?)"
+    },
+    {
+     "w": "ATM",
+     "part": "Part 2·3·4",
+     "ko": "현금 인출기",
+     "ex": "Is there an ATM nearby? (근처에 현금 인출기가 있나요?)"
+    },
+    {
+     "w": "balance",
+     "part": "Part 2·3·4",
+     "ko": "잔액",
+     "ex": "I'd like to check my balance. (잔액을 확인하고 싶어요)"
+    },
+    {
+     "w": "pay off",
+     "part": "Part 2·3·4",
+     "ko": "(빚을) 다 갚다",
+     "ex": "I finally paid off my loan. (마침내 대출을 다 갚았어요)"
+    },
+    {
+     "w": "financial advisor",
+     "part": "Part 2·3·4",
+     "ko": "재무 상담사",
+     "ex": "You should talk to a financial advisor. (재무 상담사와 상담해 보세요)"
+    }
    ]
   },
   {
    "theme": "IT·기술",
-   "words": [
+   "rc": [
     {
      "w": "upgrade",
      "pos": "v",
@@ -1329,11 +2135,73 @@
      "ko": "혁신적인",
      "col": "innovative solutions (혁신적인 해결책)"
     }
+   ],
+   "lc": [
+    {
+     "w": "install",
+     "part": "Part 1",
+     "ko": "설치하다",
+     "ex": "A technician is installing a light fixture. (기술자가 조명 기구를 설치하고 있다)"
+    },
+    {
+     "w": "be under construction",
+     "part": "Part 1",
+     "ko": "공사 중이다",
+     "ex": "A building is under construction. (건물이 공사 중이다)"
+    },
+    {
+     "w": "be parked",
+     "part": "Part 1",
+     "ko": "주차되어 있다",
+     "ex": "Several cars are parked along the street. (여러 대의 차가 길가에 주차되어 있다)"
+    },
+    {
+     "w": "log in",
+     "part": "Part 2·3·4",
+     "ko": "로그인하다",
+     "ex": "I can't log in to my account. (계정에 로그인이 안 돼요)"
+    },
+    {
+     "w": "tech support",
+     "part": "Part 2·3·4",
+     "ko": "기술 지원팀",
+     "ex": "Did you call tech support? (기술 지원팀에 전화했어요?)"
+    },
+    {
+     "w": "be down",
+     "part": "Part 2·3·4",
+     "ko": "(시스템이) 다운되다",
+     "ex": "The server is down again. (서버가 또 다운됐어요)"
+    },
+    {
+     "w": "reset a password",
+     "part": "Part 2·3·4",
+     "ko": "비밀번호를 재설정하다",
+     "ex": "You'll need to reset your password. (비밀번호를 재설정하셔야 해요)"
+    },
+    {
+     "w": "download",
+     "part": "Part 2·3·4",
+     "ko": "내려받다",
+     "ex": "Download the file from the shared drive. (공유 드라이브에서 파일을 받으세요)"
+    },
+    {
+     "w": "set up",
+     "part": "Part 2·3·4",
+     "ko": "설치하다, 설정하다",
+     "ex": "IT will set up your computer tomorrow. (IT팀이 내일 컴퓨터를 설치해 줄 거예요)"
+    },
+    {
+     "w": "freeze",
+     "part": "Part 2·3·4",
+     "ko": "(화면이) 멈추다",
+     "ex": "My screen keeps freezing. (화면이 계속 멈춰요)"
+    }
    ]
   },
   {
    "theme": "경영 전략",
-   "words": [
+   "rc": [
     {
      "w": "objective",
      "pos": "n",
@@ -1424,11 +2292,73 @@
      "ko": "예견하다",
      "col": "foresee potential problems (잠재적 문제를 예견하다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "be docked",
+     "part": "Part 1",
+     "ko": "(배가) 정박해 있다",
+     "ex": "Boats are docked at the pier. (배들이 부두에 정박해 있다)"
+    },
+    {
+     "w": "row a boat",
+     "part": "Part 1",
+     "ko": "노를 젓다",
+     "ex": "Two people are rowing a boat. (두 사람이 노를 젓고 있다)"
+    },
+    {
+     "w": "stroll",
+     "part": "Part 1",
+     "ko": "거닐다, 산책하다",
+     "ex": "A couple is strolling along the beach. (한 커플이 해변을 거닐고 있다)"
+    },
+    {
+     "w": "board meeting",
+     "part": "Part 2·3·4",
+     "ko": "이사회",
+     "ex": "The board meeting is next Monday. (이사회는 다음 주 월요일이에요)"
+    },
+    {
+     "w": "open a branch",
+     "part": "Part 2·3·4",
+     "ko": "지점을 열다",
+     "ex": "We're opening a branch in Busan. (부산에 지점을 열어요)"
+    },
+    {
+     "w": "take over",
+     "part": "Part 2·3·4",
+     "ko": "인수하다; 인계받다",
+     "ex": "Who will take over the project? (누가 프로젝트를 이어받나요?)"
+    },
+    {
+     "w": "long-term plan",
+     "part": "Part 2·3·4",
+     "ko": "장기 계획",
+     "ex": "What's our long-term plan? (우리 장기 계획이 뭔가요?)"
+    },
+    {
+     "w": "cut costs",
+     "part": "Part 2·3·4",
+     "ko": "비용을 줄이다",
+     "ex": "We need to cut costs this quarter. (이번 분기에 비용을 줄여야 해요)"
+    },
+    {
+     "w": "market share",
+     "part": "Part 2·3·4",
+     "ko": "시장 점유율",
+     "ex": "Our market share grew by 5%. (시장 점유율이 5% 늘었어요)"
+    },
+    {
+     "w": "make a decision",
+     "part": "Part 2·3·4",
+     "ko": "결정을 내리다",
+     "ex": "We have to make a decision by Friday. (금요일까지 결정해야 해요)"
+    }
    ]
   },
   {
    "theme": "판매·유통",
-   "words": [
+   "rc": [
     {
      "w": "retail",
      "pos": "adj",
@@ -1519,11 +2449,73 @@
      "ko": "변동하다",
      "col": "Prices fluctuate seasonally. (가격이 계절에 따라 변동한다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "cross the street",
+     "part": "Part 1",
+     "ko": "길을 건너다",
+     "ex": "Pedestrians are crossing the street. (보행자들이 길을 건너고 있다)"
+    },
+    {
+     "w": "wait in line",
+     "part": "Part 1",
+     "ko": "줄 서서 기다리다",
+     "ex": "Customers are waiting in line. (손님들이 줄 서서 기다리고 있다)"
+    },
+    {
+     "w": "browse",
+     "part": "Part 1",
+     "ko": "(상품을) 둘러보다",
+     "ex": "A woman is browsing in a bookstore. (여자가 서점에서 책을 둘러보고 있다)"
+    },
+    {
+     "w": "on sale",
+     "part": "Part 2·3·4",
+     "ko": "할인 중인",
+     "ex": "These shoes are on sale. (이 신발은 할인 중이에요)"
+    },
+    {
+     "w": "checkout counter",
+     "part": "Part 2·3·4",
+     "ko": "계산대",
+     "ex": "Please pay at the checkout counter. (계산대에서 결제해 주세요)"
+    },
+    {
+     "w": "sold out",
+     "part": "Part 2·3·4",
+     "ko": "매진된",
+     "ex": "The concert tickets are sold out. (콘서트 표가 매진됐어요)"
+    },
+    {
+     "w": "price tag",
+     "part": "Part 2·3·4",
+     "ko": "가격표",
+     "ex": "There's no price tag on this. (여기에 가격표가 없어요)"
+    },
+    {
+     "w": "store hours",
+     "part": "Part 2·3·4",
+     "ko": "영업시간",
+     "ex": "What are your store hours? (영업시간이 어떻게 되나요?)"
+    },
+    {
+     "w": "salesclerk",
+     "part": "Part 2·3·4",
+     "ko": "판매원",
+     "ex": "Ask a salesclerk for help. (판매원에게 도움을 요청하세요)"
+    },
+    {
+     "w": "buy one, get one free",
+     "part": "Part 2·3·4",
+     "ko": "하나 사면 하나 무료",
+     "ex": "It's buy one, get one free this week. (이번 주는 1+1이에요)"
+    }
    ]
   },
   {
    "theme": "교육·연수",
-   "words": [
+   "rc": [
     {
      "w": "orientation",
      "pos": "n",
@@ -1614,11 +2606,73 @@
      "ko": "감독하다, 지도하다",
      "col": "supervise trainees (연수생을 지도하다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "try on",
+     "part": "Part 1",
+     "ko": "(옷을) 입어 보다",
+     "ex": "He's trying on a jacket. (그가 재킷을 입어 보고 있다)"
+    },
+    {
+     "w": "restock",
+     "part": "Part 1",
+     "ko": "(선반을) 다시 채우다",
+     "ex": "An employee is restocking the shelves. (직원이 선반을 다시 채우고 있다)"
+    },
+    {
+     "w": "rearrange",
+     "part": "Part 1",
+     "ko": "재배치하다",
+     "ex": "They're rearranging the furniture. (그들이 가구를 재배치하고 있다)"
+    },
+    {
+     "w": "sign up for",
+     "part": "Part 2·3·4",
+     "ko": "~에 등록하다",
+     "ex": "Did you sign up for the training session? (연수 신청했어요?)"
+    },
+    {
+     "w": "training session",
+     "part": "Part 2·3·4",
+     "ko": "연수, 교육 시간",
+     "ex": "The training session lasts two hours. (연수는 두 시간 동안 해요)"
+    },
+    {
+     "w": "handout",
+     "part": "Part 2·3·4",
+     "ko": "유인물",
+     "ex": "Please take a handout. (유인물을 가져가세요)"
+    },
+    {
+     "w": "brush up on",
+     "part": "Part 2·3·4",
+     "ko": "(실력을) 다시 다듬다",
+     "ex": "I need to brush up on my Excel skills. (엑셀 실력을 다시 다듬어야 해요)"
+    },
+    {
+     "w": "show around",
+     "part": "Part 2·3·4",
+     "ko": "안내해 주다, 구경시켜 주다",
+     "ex": "Let me show you around the office. (사무실을 안내해 드릴게요)"
+    },
+    {
+     "w": "get the hang of",
+     "part": "Part 2·3·4",
+     "ko": "~의 요령을 터득하다",
+     "ex": "You'll get the hang of it soon. (곧 요령이 생길 거예요)"
+    },
+    {
+     "w": "be required to",
+     "part": "Part 2·3·4",
+     "ko": "~해야 한다",
+     "ex": "All staff are required to attend. (전 직원이 참석해야 해요)"
+    }
    ]
   },
   {
    "theme": "건강·안전",
-   "words": [
+   "rc": [
     {
      "w": "hazard",
      "pos": "n",
@@ -1709,11 +2763,73 @@
      "ko": "면역의; 영향받지 않는",
      "col": "immune to economic downturns (경기 침체에 영향받지 않는)"
     }
+   ],
+   "lc": [
+    {
+     "w": "fold",
+     "part": "Part 1",
+     "ko": "접다",
+     "ex": "A woman is folding towels. (여자가 수건을 개고 있다)"
+    },
+    {
+     "w": "hang up",
+     "part": "Part 1",
+     "ko": "걸다",
+     "ex": "He's hanging up his coat. (그가 코트를 걸고 있다)"
+    },
+    {
+     "w": "put on",
+     "part": "Part 1",
+     "ko": "(동작) 착용하는 중이다",
+     "ex": "She's putting on her gloves. (그녀가 장갑을 끼는 중이다 — wearing은 '착용한 상태')"
+    },
+    {
+     "w": "make an appointment",
+     "part": "Part 2·3·4",
+     "ko": "(진료) 예약을 하다",
+     "ex": "I'd like to make an appointment with Dr. Lee. (이 선생님께 진료 예약하고 싶어요)"
+    },
+    {
+     "w": "prescription",
+     "part": "Part 2·3·4",
+     "ko": "처방전",
+     "ex": "I need to pick up my prescription. (처방약을 받아야 해요)"
+    },
+    {
+     "w": "call in sick",
+     "part": "Part 2·3·4",
+     "ko": "병가를 내다",
+     "ex": "Tom called in sick today. (톰이 오늘 병가를 냈어요)"
+    },
+    {
+     "w": "fire alarm",
+     "part": "Part 2·3·4",
+     "ko": "화재 경보기",
+     "ex": "The fire alarm went off. (화재 경보가 울렸어요)"
+    },
+    {
+     "w": "wear protective gear",
+     "part": "Part 2·3·4",
+     "ko": "보호 장비를 착용하다",
+     "ex": "You must wear protective gear here. (여기서는 보호 장비를 착용해야 해요)"
+    },
+    {
+     "w": "under the weather",
+     "part": "Part 2·3·4",
+     "ko": "몸이 안 좋은",
+     "ex": "I'm feeling a bit under the weather. (몸이 좀 안 좋아요)"
+    },
+    {
+     "w": "checkup",
+     "part": "Part 2·3·4",
+     "ko": "건강 검진",
+     "ex": "I have a checkup this afternoon. (오늘 오후에 건강 검진이 있어요)"
+    }
    ]
   },
   {
    "theme": "행사·이벤트",
-   "words": [
+   "rc": [
     {
      "w": "venue",
      "pos": "n",
@@ -1804,11 +2920,73 @@
      "ko": "참석 여부를 회신하다",
      "col": "RSVP by June 5 (6월 5일까지 참석 여부 회신)"
     }
+   ],
+   "lc": [
+    {
+     "w": "be wearing",
+     "part": "Part 1",
+     "ko": "(상태) 착용하고 있다",
+     "ex": "The man is wearing a helmet. (남자가 헬멧을 쓰고 있다)"
+    },
+    {
+     "w": "be covered with",
+     "part": "Part 1",
+     "ko": "~로 덮여 있다",
+     "ex": "The table is covered with a cloth. (탁자가 천으로 덮여 있다)"
+    },
+    {
+     "w": "be filled with",
+     "part": "Part 1",
+     "ko": "~로 가득 차 있다",
+     "ex": "The shelves are filled with books. (선반이 책으로 가득 차 있다)"
+    },
+    {
+     "w": "be held",
+     "part": "Part 2·3·4",
+     "ko": "개최되다",
+     "ex": "The festival will be held in the park. (축제는 공원에서 열려요)"
+    },
+    {
+     "w": "guest speaker",
+     "part": "Part 2·3·4",
+     "ko": "초청 연사",
+     "ex": "Who's the guest speaker this year? (올해 초청 연사가 누구예요?)"
+    },
+    {
+     "w": "sign-up sheet",
+     "part": "Part 2·3·4",
+     "ko": "참가 신청서",
+     "ex": "The sign-up sheet is by the door. (신청서는 문 옆에 있어요)"
+    },
+    {
+     "w": "save a seat",
+     "part": "Part 2·3·4",
+     "ko": "자리를 맡아 두다",
+     "ex": "Could you save a seat for me? (제 자리 좀 맡아 줄래요?)"
+    },
+    {
+     "w": "award ceremony",
+     "part": "Part 2·3·4",
+     "ko": "시상식",
+     "ex": "The award ceremony starts at 7. (시상식은 7시에 시작해요)"
+    },
+    {
+     "w": "refreshments",
+     "part": "Part 2·3·4",
+     "ko": "다과",
+     "ex": "Refreshments will be served after the talk. (강연 후 다과가 제공됩니다)"
+    },
+    {
+     "w": "sell out",
+     "part": "Part 2·3·4",
+     "ko": "매진되다",
+     "ex": "Tickets sold out in an hour. (표가 한 시간 만에 매진됐어요)"
+    }
    ]
   },
   {
    "theme": "언론·홍보",
-   "words": [
+   "rc": [
     {
      "w": "press release",
      "pos": "n",
@@ -1899,11 +3077,73 @@
      "ko": "익명의",
      "col": "an anonymous source (익명의 소식통)"
     }
+   ],
+   "lc": [
+    {
+     "w": "face away from",
+     "part": "Part 1",
+     "ko": "~을 등지고 있다",
+     "ex": "A man is facing away from the camera. (남자가 카메라를 등지고 있다)"
+    },
+    {
+     "w": "walkway",
+     "part": "Part 1",
+     "ko": "보도, 통로",
+     "ex": "A walkway runs along the river. (강을 따라 보도가 나 있다)"
+    },
+    {
+     "w": "railing",
+     "part": "Part 1",
+     "ko": "난간",
+     "ex": "The railing is being painted. (난간이 페인트칠 되는 중이다)"
+    },
+    {
+     "w": "press conference",
+     "part": "Part 2·3·4",
+     "ko": "기자 회견",
+     "ex": "The CEO will hold a press conference. (CEO가 기자 회견을 열 거예요)"
+    },
+    {
+     "w": "make an announcement",
+     "part": "Part 2·3·4",
+     "ko": "발표하다",
+     "ex": "The mayor made an announcement this morning. (시장이 오늘 아침 발표를 했어요)"
+    },
+    {
+     "w": "in the news",
+     "part": "Part 2·3·4",
+     "ko": "뉴스에 나온",
+     "ex": "Our company was in the news yesterday. (어제 우리 회사가 뉴스에 나왔어요)"
+    },
+    {
+     "w": "article",
+     "part": "Part 2·3·4",
+     "ko": "기사",
+     "ex": "Did you read the article about us? (우리에 관한 기사 읽었어요?)"
+    },
+    {
+     "w": "broadcast",
+     "part": "Part 2·3·4",
+     "ko": "방송하다",
+     "ex": "The interview will be broadcast live. (인터뷰는 생중계될 거예요)"
+    },
+    {
+     "w": "stay tuned",
+     "part": "Part 2·3·4",
+     "ko": "채널 고정하세요",
+     "ex": "Stay tuned for the weather report. (날씨 예보를 위해 채널 고정하세요)"
+    },
+    {
+     "w": "up next",
+     "part": "Part 2·3·4",
+     "ko": "다음 순서로",
+     "ex": "Up next, the business news. (다음은 경제 뉴스입니다)"
+    }
    ]
   },
   {
    "theme": "환경·에너지",
-   "words": [
+   "rc": [
     {
      "w": "sustainable",
      "pos": "adj",
@@ -1994,11 +3234,73 @@
      "ko": "친환경적인",
      "col": "eco-friendly products (친환경 제품)"
     }
+   ],
+   "lc": [
+    {
+     "w": "awning",
+     "part": "Part 1",
+     "ko": "(가게 앞) 차양",
+     "ex": "An awning shades the entrance. (차양이 입구에 그늘을 드리운다)"
+    },
+    {
+     "w": "pedestrian",
+     "part": "Part 1",
+     "ko": "보행자",
+     "ex": "Pedestrians are walking on the sidewalk. (보행자들이 인도를 걷고 있다)"
+    },
+    {
+     "w": "intersection",
+     "part": "Part 1",
+     "ko": "교차로",
+     "ex": "Traffic is stopped at the intersection. (교차로에서 차량이 멈춰 있다)"
+    },
+    {
+     "w": "turn off",
+     "part": "Part 2·3·4",
+     "ko": "끄다",
+     "ex": "Please turn off the lights when you leave. (나갈 때 불을 꺼 주세요)"
+    },
+    {
+     "w": "recycling bin",
+     "part": "Part 2·3·4",
+     "ko": "재활용 수거함",
+     "ex": "Put the cans in the recycling bin. (캔은 재활용 수거함에 넣으세요)"
+    },
+    {
+     "w": "carpool",
+     "part": "Part 2·3·4",
+     "ko": "카풀하다",
+     "ex": "Do you want to carpool to work? (출근할 때 카풀할래요?)"
+    },
+    {
+     "w": "save energy",
+     "part": "Part 2·3·4",
+     "ko": "에너지를 절약하다",
+     "ex": "The new windows help save energy. (새 창문이 에너지 절약에 도움이 돼요)"
+    },
+    {
+     "w": "solar panel",
+     "part": "Part 2·3·4",
+     "ko": "태양 전지판",
+     "ex": "They installed solar panels on the roof. (지붕에 태양 전지판을 설치했어요)"
+    },
+    {
+     "w": "heating bill",
+     "part": "Part 2·3·4",
+     "ko": "난방비",
+     "ex": "Our heating bill was high last month. (지난달 난방비가 많이 나왔어요)"
+    },
+    {
+     "w": "throw away",
+     "part": "Part 2·3·4",
+     "ko": "버리다",
+     "ex": "Don't throw away those boxes. (그 상자들 버리지 마세요)"
+    }
    ]
   },
   {
    "theme": "협상·합의",
-   "words": [
+   "rc": [
     {
      "w": "compromise",
      "pos": "n",
@@ -2089,11 +3391,73 @@
      "ko": "중재하다",
      "col": "mediate between the two parties (양측을 중재하다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "staircase",
+     "part": "Part 1",
+     "ko": "계단",
+     "ex": "A staircase leads to the second floor. (계단이 2층으로 이어진다)"
+    },
+    {
+     "w": "scaffolding",
+     "part": "Part 1",
+     "ko": "(공사장) 비계",
+     "ex": "Scaffolding has been set up next to the building. (건물 옆에 비계가 설치되어 있다)"
+    },
+    {
+     "w": "wheelbarrow",
+     "part": "Part 1",
+     "ko": "외바퀴 손수레",
+     "ex": "A man is pushing a wheelbarrow. (남자가 손수레를 밀고 있다)"
+    },
+    {
+     "w": "meet halfway",
+     "part": "Part 2·3·4",
+     "ko": "타협하다, 절충하다",
+     "ex": "Let's meet halfway on the price. (가격을 절충합시다)"
+    },
+    {
+     "w": "make an offer",
+     "part": "Part 2·3·4",
+     "ko": "제안하다",
+     "ex": "They made us a better offer. (그들이 더 좋은 조건을 제시했어요)"
+    },
+    {
+     "w": "think it over",
+     "part": "Part 2·3·4",
+     "ko": "곰곰이 생각해 보다",
+     "ex": "Let me think it over and call you. (생각해 보고 전화드릴게요)"
+    },
+    {
+     "w": "take it or leave it",
+     "part": "Part 2·3·4",
+     "ko": "싫으면 그만두라, 최종 조건이다",
+     "ex": "That's our final offer — take it or leave it. (그게 최종 제안입니다)"
+    },
+    {
+     "w": "It's a deal.",
+     "part": "Part 2·3·4",
+     "ko": "그렇게 합시다(합의)",
+     "ex": "All right, it's a deal. (좋아요, 그렇게 하죠)"
+    },
+    {
+     "w": "on the same page",
+     "part": "Part 2·3·4",
+     "ko": "같은 생각인",
+     "ex": "Are we all on the same page? (다들 같은 생각인가요?)"
+    },
+    {
+     "w": "come to an agreement",
+     "part": "Part 2·3·4",
+     "ko": "합의에 이르다",
+     "ex": "We finally came to an agreement. (마침내 합의에 이르렀어요)"
+    }
    ]
   },
   {
    "theme": "성과·평가",
-   "words": [
+   "rc": [
     {
      "w": "performance review",
      "pos": "n",
@@ -2184,11 +3548,73 @@
      "ko": "상여금",
      "col": "a year-end bonus (연말 상여금)"
     }
+   ],
+   "lc": [
+    {
+     "w": "podium",
+     "part": "Part 1",
+     "ko": "연단",
+     "ex": "A speaker is standing at a podium. (연사가 연단에 서 있다)"
+    },
+    {
+     "w": "easel",
+     "part": "Part 1",
+     "ko": "이젤",
+     "ex": "A painting is resting on an easel. (그림이 이젤 위에 놓여 있다)"
+    },
+    {
+     "w": "potted plant",
+     "part": "Part 1",
+     "ko": "화분 식물",
+     "ex": "Potted plants are placed by the window. (창가에 화분이 놓여 있다)"
+    },
+    {
+     "w": "do a great job",
+     "part": "Part 2·3·4",
+     "ko": "잘 해내다",
+     "ex": "You did a great job on the presentation. (발표 정말 잘했어요)"
+    },
+    {
+     "w": "get a raise",
+     "part": "Part 2·3·4",
+     "ko": "월급이 오르다",
+     "ex": "I heard she got a raise. (그녀가 월급이 올랐다고 들었어요)"
+    },
+    {
+     "w": "be up for promotion",
+     "part": "Part 2·3·4",
+     "ko": "승진 후보이다",
+     "ex": "He's up for promotion this year. (그는 올해 승진 후보예요)"
+    },
+    {
+     "w": "keep up the good work",
+     "part": "Part 2·3·4",
+     "ko": "계속 수고해 주세요",
+     "ex": "Keep up the good work! (계속 잘 부탁해요!)"
+    },
+    {
+     "w": "meet a goal",
+     "part": "Part 2·3·4",
+     "ko": "목표를 달성하다",
+     "ex": "We met our sales goal. (판매 목표를 달성했어요)"
+    },
+    {
+     "w": "fall behind",
+     "part": "Part 2·3·4",
+     "ko": "뒤처지다",
+     "ex": "We're falling behind schedule. (일정에 뒤처지고 있어요)"
+    },
+    {
+     "w": "employee of the month",
+     "part": "Part 2·3·4",
+     "ko": "이달의 직원",
+     "ex": "She was named employee of the month. (그녀가 이달의 직원으로 뽑혔어요)"
+    }
    ]
   },
   {
    "theme": "예산·비용",
-   "words": [
+   "rc": [
     {
      "w": "budget",
      "pos": "n",
@@ -2279,11 +3705,73 @@
      "ko": "(예산을) 책정하다",
      "col": "appropriate funds for research (연구비를 책정하다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "drawer",
+     "part": "Part 1",
+     "ko": "서랍",
+     "ex": "She's opening a drawer. (그녀가 서랍을 열고 있다)"
+    },
+    {
+     "w": "cabinet door",
+     "part": "Part 1",
+     "ko": "수납장 문",
+     "ex": "Some cabinet doors have been left open. (수납장 문 몇 개가 열려 있다)"
+    },
+    {
+     "w": "be plugged in",
+     "part": "Part 1",
+     "ko": "전원이 꽂혀 있다",
+     "ex": "A laptop is plugged into the wall. (노트북이 벽 콘센트에 꽂혀 있다)"
+    },
+    {
+     "w": "How much does it cost?",
+     "part": "Part 2·3·4",
+     "ko": "얼마예요?",
+     "ex": "How much does it cost to ship? (배송비가 얼마예요?)"
+    },
+    {
+     "w": "It's worth it.",
+     "part": "Part 2·3·4",
+     "ko": "그만한 가치가 있다",
+     "ex": "It's expensive, but it's worth it. (비싸지만 그만한 가치가 있어요)"
+    },
+    {
+     "w": "split the cost",
+     "part": "Part 2·3·4",
+     "ko": "비용을 나누다",
+     "ex": "Let's split the cost of the taxi. (택시비를 나눕시다)"
+    },
+    {
+     "w": "free of charge",
+     "part": "Part 2·3·4",
+     "ko": "무료로",
+     "ex": "Delivery is free of charge. (배송은 무료예요)"
+    },
+    {
+     "w": "a good deal",
+     "part": "Part 2·3·4",
+     "ko": "좋은 거래, 싼 가격",
+     "ex": "That's a really good deal. (정말 싸게 잘 샀네요)"
+    },
+    {
+     "w": "cover the cost",
+     "part": "Part 2·3·4",
+     "ko": "비용을 부담하다",
+     "ex": "The company will cover the cost. (회사가 비용을 부담할 거예요)"
+    },
+    {
+     "w": "on a tight budget",
+     "part": "Part 2·3·4",
+     "ko": "예산이 빠듯한",
+     "ex": "We're on a tight budget this year. (올해는 예산이 빠듯해요)"
+    }
    ]
   },
   {
    "theme": "규정·정책",
-   "words": [
+   "rc": [
     {
      "w": "policy",
      "pos": "n",
@@ -2374,11 +3862,73 @@
      "ko": "위반",
      "col": "a violation of the dress code (복장 규정 위반)"
     }
+   ],
+   "lc": [
+    {
+     "w": "adjust",
+     "part": "Part 1",
+     "ko": "조정하다",
+     "ex": "A woman is adjusting a microphone. (여자가 마이크를 조정하고 있다)"
+    },
+    {
+     "w": "sort",
+     "part": "Part 1",
+     "ko": "분류하다",
+     "ex": "Workers are sorting packages. (작업자들이 소포를 분류하고 있다)"
+    },
+    {
+     "w": "weigh",
+     "part": "Part 1",
+     "ko": "무게를 달다",
+     "ex": "A clerk is weighing some produce. (점원이 농산물 무게를 달고 있다)"
+    },
+    {
+     "w": "be allowed to",
+     "part": "Part 2·3·4",
+     "ko": "~이 허용되다",
+     "ex": "Are we allowed to park here? (여기 주차해도 되나요?)"
+    },
+    {
+     "w": "dress code",
+     "part": "Part 2·3·4",
+     "ko": "복장 규정",
+     "ex": "Is there a dress code for the dinner? (만찬에 복장 규정이 있나요?)"
+    },
+    {
+     "w": "ID badge",
+     "part": "Part 2·3·4",
+     "ko": "사원증, 출입증",
+     "ex": "Don't forget your ID badge. (출입증 잊지 마세요)"
+    },
+    {
+     "w": "be not permitted",
+     "part": "Part 2·3·4",
+     "ko": "허용되지 않다",
+     "ex": "Food is not permitted in the lab. (실험실에 음식 반입 금지예요)"
+    },
+    {
+     "w": "new policy",
+     "part": "Part 2·3·4",
+     "ko": "새 방침",
+     "ex": "Did you hear about the new policy? (새 방침 들었어요?)"
+    },
+    {
+     "w": "sign in",
+     "part": "Part 2·3·4",
+     "ko": "(방문자 명부에) 서명하다",
+     "ex": "All visitors must sign in at the front desk. (모든 방문객은 안내 데스크에서 서명해야 해요)"
+    },
+    {
+     "w": "as of",
+     "part": "Part 2·3·4",
+     "ko": "~부로",
+     "ex": "As of next month, parking will be free. (다음 달부터 주차가 무료예요)"
+    }
    ]
   },
   {
    "theme": "연구·개발",
-   "words": [
+   "rc": [
     {
      "w": "conduct",
      "pos": "v",
@@ -2469,11 +4019,73 @@
      "ko": "개선하다, 정제하다",
      "col": "refine the design (설계를 다듬다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "carry",
+     "part": "Part 1",
+     "ko": "나르다",
+     "ex": "Two men are carrying a sofa. (두 남자가 소파를 나르고 있다)"
+    },
+    {
+     "w": "tow",
+     "part": "Part 1",
+     "ko": "견인하다",
+     "ex": "A car is being towed. (차가 견인되고 있다)"
+    },
+    {
+     "w": "fountain",
+     "part": "Part 1",
+     "ko": "분수",
+     "ex": "Water is spraying from a fountain. (분수에서 물이 뿜어져 나오고 있다)"
+    },
+    {
+     "w": "run a test",
+     "part": "Part 2·3·4",
+     "ko": "실험(테스트)을 하다",
+     "ex": "We need to run a few more tests. (테스트를 몇 번 더 해야 해요)"
+    },
+    {
+     "w": "lab results",
+     "part": "Part 2·3·4",
+     "ko": "실험 결과",
+     "ex": "The lab results came back today. (실험 결과가 오늘 나왔어요)"
+    },
+    {
+     "w": "work on",
+     "part": "Part 2·3·4",
+     "ko": "~에 공을 들이다, 작업하다",
+     "ex": "We're working on a new design. (새 디자인 작업 중이에요)"
+    },
+    {
+     "w": "come out",
+     "part": "Part 2·3·4",
+     "ko": "출시되다; (결과가) 나오다",
+     "ex": "When does the new model come out? (신모델은 언제 나와요?)"
+    },
+    {
+     "w": "figure out",
+     "part": "Part 2·3·4",
+     "ko": "알아내다",
+     "ex": "We still haven't figured out the cause. (아직 원인을 알아내지 못했어요)"
+    },
+    {
+     "w": "test run",
+     "part": "Part 2·3·4",
+     "ko": "시험 가동",
+     "ex": "Let's do a test run first. (먼저 시험 가동을 해 봅시다)"
+    },
+    {
+     "w": "research team",
+     "part": "Part 2·3·4",
+     "ko": "연구팀",
+     "ex": "The research team is presenting today. (연구팀이 오늘 발표해요)"
+    }
    ]
   },
   {
    "theme": "외식·호텔",
-   "words": [
+   "rc": [
     {
      "w": "patio",
      "pos": "n",
@@ -2564,11 +4176,73 @@
      "ko": "뷔페",
      "col": "a breakfast buffet (조식 뷔페)"
     }
+   ],
+   "lc": [
+    {
+     "w": "bench",
+     "part": "Part 1",
+     "ko": "벤치",
+     "ex": "Some benches are unoccupied. (벤치 몇 개가 비어 있다)"
+    },
+    {
+     "w": "lamppost",
+     "part": "Part 1",
+     "ko": "가로등 기둥",
+     "ex": "Lampposts line the road. (가로등이 길을 따라 늘어서 있다)"
+    },
+    {
+     "w": "shade",
+     "part": "Part 1",
+     "ko": "그늘; 그늘지게 하다",
+     "ex": "People are resting in the shade. (사람들이 그늘에서 쉬고 있다)"
+    },
+    {
+     "w": "make a reservation",
+     "part": "Part 2·3·4",
+     "ko": "예약하다",
+     "ex": "I'd like to make a reservation for four. (4명 예약하고 싶어요)"
+    },
+    {
+     "w": "table for two",
+     "part": "Part 2·3·4",
+     "ko": "2인석",
+     "ex": "A table for two, please. (두 명 자리 부탁해요)"
+    },
+    {
+     "w": "Are you ready to order?",
+     "part": "Part 2·3·4",
+     "ko": "주문하시겠어요?",
+     "ex": "Are you ready to order? — Yes, I'll have the salmon. (주문하시겠어요? — 네, 연어로 할게요)"
+    },
+    {
+     "w": "check, please",
+     "part": "Part 2·3·4",
+     "ko": "계산서 주세요",
+     "ex": "Could we have the check, please? (계산서 주시겠어요?)"
+    },
+    {
+     "w": "room service",
+     "part": "Part 2·3·4",
+     "ko": "룸서비스",
+     "ex": "I'd like to order room service. (룸서비스를 주문하고 싶어요)"
+    },
+    {
+     "w": "wake-up call",
+     "part": "Part 2·3·4",
+     "ko": "모닝콜",
+     "ex": "Can I get a wake-up call at 6? (6시에 모닝콜 해 줄 수 있어요?)"
+    },
+    {
+     "w": "front desk",
+     "part": "Part 2·3·4",
+     "ko": "프런트, 안내 데스크",
+     "ex": "Leave your key at the front desk. (열쇠는 프런트에 맡겨 주세요)"
+    }
    ]
   },
   {
    "theme": "보험·보증",
-   "words": [
+   "rc": [
     {
      "w": "policyholder",
      "pos": "n",
@@ -2659,11 +4333,73 @@
      "ko": "위험",
      "col": "minimize risk (위험을 최소화하다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "path",
+     "part": "Part 1",
+     "ko": "오솔길, 길",
+     "ex": "A path winds through the garden. (오솔길이 정원 사이로 구불구불 나 있다)"
+    },
+    {
+     "w": "microscope",
+     "part": "Part 1",
+     "ko": "현미경",
+     "ex": "A scientist is looking into a microscope. (과학자가 현미경을 들여다보고 있다)"
+    },
+    {
+     "w": "laboratory coat",
+     "part": "Part 1",
+     "ko": "실험 가운",
+     "ex": "She's wearing a laboratory coat. (그녀가 실험 가운을 입고 있다)"
+    },
+    {
+     "w": "insurance policy",
+     "part": "Part 2·3·4",
+     "ko": "보험 증권",
+     "ex": "Does my insurance policy cover this? (제 보험이 이것도 보장하나요?)"
+    },
+    {
+     "w": "file a claim",
+     "part": "Part 2·3·4",
+     "ko": "보험금을 청구하다",
+     "ex": "You should file a claim right away. (바로 보험금을 청구하세요)"
+    },
+    {
+     "w": "be covered",
+     "part": "Part 2·3·4",
+     "ko": "보장되다, 보상되다",
+     "ex": "Is the repair covered by the warranty? (수리가 보증으로 처리되나요?)"
+    },
+    {
+     "w": "fill out a form",
+     "part": "Part 2·3·4",
+     "ko": "양식을 작성하다",
+     "ex": "You'll need to fill out a claim form. (청구서를 작성하셔야 해요)"
+    },
+    {
+     "w": "accident report",
+     "part": "Part 2·3·4",
+     "ko": "사고 보고서",
+     "ex": "Did you file an accident report? (사고 보고서를 제출했어요?)"
+    },
+    {
+     "w": "extended warranty",
+     "part": "Part 2·3·4",
+     "ko": "연장 보증",
+     "ex": "Would you like an extended warranty? (연장 보증을 추가하시겠어요?)"
+    },
+    {
+     "w": "repair shop",
+     "part": "Part 2·3·4",
+     "ko": "수리점",
+     "ex": "Take it to an authorized repair shop. (공식 수리점에 맡기세요)"
+    }
    ]
   },
   {
    "theme": "이메일·서신 표현",
-   "words": [
+   "rc": [
     {
      "w": "attach",
      "pos": "v",
@@ -2754,11 +4490,73 @@
      "ko": "거듭 말하다",
      "col": "reiterate our commitment (우리의 약속을 거듭 밝히다)"
     }
+   ],
+   "lc": [
+    {
+     "w": "safety vest",
+     "part": "Part 1",
+     "ko": "안전 조끼",
+     "ex": "Workers are wearing safety vests. (작업자들이 안전 조끼를 입고 있다)"
+    },
+    {
+     "w": "hard hat",
+     "part": "Part 1",
+     "ko": "안전모",
+     "ex": "A man is putting on a hard hat. (남자가 안전모를 쓰는 중이다)"
+    },
+    {
+     "w": "paperwork",
+     "part": "Part 1",
+     "ko": "서류 작업",
+     "ex": "She's going over some paperwork. (그녀가 서류를 검토하고 있다)"
+    },
+    {
+     "w": "Did you get my e-mail?",
+     "part": "Part 2·3·4",
+     "ko": "제 이메일 받으셨어요?",
+     "ex": "Did you get my e-mail? — I haven't checked yet. (제 메일 받았어요? — 아직 확인 못 했어요)"
+    },
+    {
+     "w": "reply to",
+     "part": "Part 2·3·4",
+     "ko": "~에 답장하다",
+     "ex": "I'll reply to her message later. (그녀의 메시지에 나중에 답할게요)"
+    },
+    {
+     "w": "cc",
+     "part": "Part 2·3·4",
+     "ko": "참조로 넣다",
+     "ex": "Please cc me on that e-mail. (그 메일에 저를 참조로 넣어 주세요)"
+    },
+    {
+     "w": "voice mail",
+     "part": "Part 2·3·4",
+     "ko": "음성 메시지",
+     "ex": "I left you a voice mail. (음성 메시지 남겼어요)"
+    },
+    {
+     "w": "touch base",
+     "part": "Part 2·3·4",
+     "ko": "잠깐 연락하다",
+     "ex": "Let's touch base next week. (다음 주에 잠깐 연락해요)"
+    },
+    {
+     "w": "keep someone posted",
+     "part": "Part 2·3·4",
+     "ko": "계속 소식을 알려주다",
+     "ex": "Keep me posted on the progress. (진행 상황을 계속 알려주세요)"
+    },
+    {
+     "w": "return a call",
+     "part": "Part 2·3·4",
+     "ko": "회신 전화하다",
+     "ex": "I'm returning your call from this morning. (오늘 아침 전화에 회신드립니다)"
+    }
    ]
   },
   {
    "theme": "Part 5 고난도 부사·형용사",
-   "words": [
+   "rc": [
     {
      "w": "approximately",
      "pos": "adv",
@@ -2848,6 +4646,68 @@
      "pos": "adv",
      "ko": "가급적, 되도록",
      "col": "preferably before noon (가급적 정오 전에)"
+    }
+   ],
+   "lc": [
+    {
+     "w": "photocopier",
+     "part": "Part 1",
+     "ko": "복사기",
+     "ex": "A man is using a photocopier. (남자가 복사기를 사용하고 있다)"
+    },
+    {
+     "w": "tray",
+     "part": "Part 1",
+     "ko": "쟁반",
+     "ex": "A waiter is carrying a tray. (웨이터가 쟁반을 나르고 있다)"
+    },
+    {
+     "w": "dock",
+     "part": "Part 1",
+     "ko": "부두",
+     "ex": "A ship is approaching the dock. (배가 부두로 다가오고 있다)"
+    },
+    {
+     "w": "Why don't we ...?",
+     "part": "Part 2·3·4",
+     "ko": "~하는 게 어때요? (제안)",
+     "ex": "Why don't we take a break? — Good idea. (좀 쉬는 게 어때요? — 좋아요)"
+    },
+    {
+     "w": "I'd be happy to.",
+     "part": "Part 2·3·4",
+     "ko": "기꺼이 할게요",
+     "ex": "Could you help me with this? — I'd be happy to. (도와줄래요? — 기꺼이요)"
+    },
+    {
+     "w": "It depends.",
+     "part": "Part 2·3·4",
+     "ko": "상황에 따라 달라요",
+     "ex": "Will you come? — It depends on the weather. (올 거예요? — 날씨에 따라서요)"
+    },
+    {
+     "w": "I haven't decided yet.",
+     "part": "Part 2·3·4",
+     "ko": "아직 정하지 못했어요",
+     "ex": "Which one will you choose? — I haven't decided yet. (어느 걸로 할 거예요? — 아직 못 정했어요)"
+    },
+    {
+     "w": "Not that I know of.",
+     "part": "Part 2·3·4",
+     "ko": "제가 알기로는 아니에요",
+     "ex": "Is the meeting canceled? — Not that I know of. (회의 취소됐어요? — 제가 알기론 아니에요)"
+    },
+    {
+     "w": "That's news to me.",
+     "part": "Part 2·3·4",
+     "ko": "처음 듣는 얘기예요",
+     "ex": "The office is moving. — That's news to me. (사무실 이전한대요 — 처음 듣는데요)"
+    },
+    {
+     "w": "You can say that again.",
+     "part": "Part 2·3·4",
+     "ko": "정말 그래요(강한 동의)",
+     "ex": "It's so hot today. — You can say that again. (오늘 정말 덥네요 — 그러게요)"
     }
    ]
   }

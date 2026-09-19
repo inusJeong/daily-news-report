@@ -69,7 +69,8 @@ def build(cfg: dict, force: bool, publish: bool = True) -> dict | None:
     terms, next_cursor = glossary.todays_terms(st["term_cursor"], cfg["report"]["terms_per_day"])
     log(f"5 오늘의 용어: {', '.join(t['term'] for t in terms)}")
     words, next_word_day = vocab.todays_vocab(st.get("word_day", 0))
-    log(f"  토익: Day {words['day']} {words['theme']} · 새 단어 {len(words['words'])} · 복습 묶음 {len(words['reviews'])}")
+    log(f"  토익: Day {words['day']} {words['theme']} · LC {len(words['lc'])} · RC {len(words['rc'])}"
+        f" · 복습 묶음 {len(words['reviews'])}")
 
     stats = {"articles": len(articles), "clusters": len(clusters), "shortlisted": n_short, "enriched": n_body,
              "errors": errors, "sources": [asdict(s) for s in source_stats]}

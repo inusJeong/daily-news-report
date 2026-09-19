@@ -1,4 +1,7 @@
-"""토익 단어장: 30일 과정(하루 15단어, 주제별) + 간격 반복 복습.
+"""토익 단어장: 30일 과정(하루 LC 10 + RC 15, 주제별) + 간격 반복 복습.
+
+LC = Part 1 사진 묘사 3 + Part 2~4 대화 표현 7 (예문을 🔊로 듣고 뜻 떠올리기)
+RC = Part 5·6에 나오는 짝꿍 표현(연어) 중심 단어 15
 
 망각 곡선에 맞춰 1·3·7·14·28 학습일 전에 배운 단어를 다시 보여준다.
 날짜가 아니라 "학습일(Day)" 기준이라, 발송이 빠진 날이 있어도 복습 순서가 꼬이지 않는다.
@@ -27,14 +30,16 @@ def todays_vocab(word_day: int) -> tuple[dict, int]:
         past = word_day - gap
         if past >= 0:
             d = bank[past % total]
-            reviews.append({"label": label, "day": past % total + 1, "theme": d["theme"], "words": d["words"]})
+            reviews.append({"label": label, "day": past % total + 1, "theme": d["theme"],
+                            "lc": d["lc"], "rc": d["rc"]})
     vocab = {
         "day": word_day % total + 1,
         "total_days": total,
         "round": word_day // total + 1,          # 30일을 다 돌면 2회독, 3회독…
         "theme": today["theme"],
-        "words": today["words"],
+        "lc": today["lc"],
+        "rc": today["rc"],
         "reviews": reviews,
-        "learned": min(word_day, total) * len(today["words"]),
+        "learned": min(word_day, total) * (len(today["lc"]) + len(today["rc"])),
     }
     return vocab, word_day + 1

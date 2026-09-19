@@ -39,8 +39,8 @@ def kakao_text(cfg: dict, now: datetime, stories: dict[str, list[Story]], terms:
             lines.append(f"{cat['emoji']} {items[0].short}")
     tail = ["📘 " + " · ".join(re.sub(r"\s*\(.*\)$", "", t["term"]) for t in terms)]
     if vocab:
-        n_review = sum(len(r["words"]) for r in vocab["reviews"])
-        tail.append(f"📝 토익 Day {vocab['day']} {vocab['theme']} · 새 단어 {len(vocab['words'])}"
+        n_review = sum(len(r["lc"]) + len(r["rc"]) for r in vocab["reviews"])
+        tail.append(f"📝 토익 Day {vocab['day']} · LC {len(vocab['lc'])} · RC {len(vocab['rc'])}"
                     + (f" · 복습 {n_review}" if n_review else ""))
 
     # 200자 안에 들어갈 때까지 뒤쪽 카테고리부터 줄인다 (용어·토익 줄은 유지)
@@ -120,6 +120,7 @@ margin-bottom:8px;color:var(--ink);text-decoration:none}
 .w .say{margin-left:auto;background:none;border:0;font-size:18px;cursor:pointer;padding:0 2px}
 .w .mean{margin-top:4px}
 .w .col{font-size:14px;color:var(--sub);margin-top:2px}
+.w.lc .col{color:var(--ink);font-size:15px}
 .masked .w:not(.show) .mean{filter:blur(6px);user-select:none}
 .masked .w:not(.show) .col .ko{filter:blur(5px)}
 .rv h3{font-size:15px;color:var(--sub);margin:22px 0 8px}
@@ -151,11 +152,16 @@ def _term_card(t: dict) -> str:
 
 
 def _word(w: dict) -> str:
-    en, col = escape(w["w"]), escape(w["col"])
+    """RC 단어는 단어 발음을, LC 표현은 예문 전체를 읽어준다 (듣기 연습)."""
+    lc = "ex" in w
+    line = w["ex"] if lc else w["col"]
+    spoken = re.sub(r"\s*\([^()]*\)$", "", line) if lc else w["w"]
     # "comply with rules (규칙을 준수하다)" → 영어 부분과 뜻 부분을 나눠 뜻만 가릴 수 있게
-    col = re.sub(r"\(([^()]*)\)$", r'<span class="ko">(\1)</span>', col)
-    return (f'<div class="w"><div class="top"><span class="en">{en}</span><span class="pos">{escape(w["pos"])}</span>'
-            f'<button class="say" data-say="{en}" aria-label="발음 듣기">🔊</button></div>'
+    col = re.sub(r"\(([^()]*)\)$", r'<span class="ko">(\1)</span>', escape(line))
+    tag = w["part"] if lc else w["pos"]
+    return (f'<div class="w{" lc" if lc else ""}"><div class="top"><span class="en">{escape(w["w"])}</span>'
+            f'<span class="pos">{escape(tag)}</span>'
+            f'<button class="say" data-say="{escape(spoken)}" aria-label="듣기">🔊</button></div>'
             f'<div class="mean">{escape(w["ko"])}</div><div class="col">{col}</div></div>')
 
 
@@ -165,12 +171,15 @@ def _toeic_panel(v: dict) -> str:
     out = [f'<div class="prog"><b>Day {v["day"]} / {v["total_days"]} · {escape(v["theme"])}</b>'
            f'<div class="meta">토익 900 과정{rnd} · 지금까지 {v["learned"]}단어</div>'
            f'<div class="bar"><i style="width:{pct}%"></i></div></div>']
-    out.append('<section class="nw"><h2>🆕 오늘의 새 단어</h2>'
+    out.append(f'<section class="nw"><h2>🎧 LC {len(v["lc"])} — 🔊로 먼저 듣고 뜻 떠올리기</h2>'
                '<div class="tools"><button data-mask>뜻 가리고 테스트</button></div>'
-               + "".join(_word(w) for w in v["words"]) + '</section>')
+               + "".join(_word(w) for w in v["lc"]) + '</section>')
+    out.append(f'<section class="nw"><h2>📖 RC {len(v["rc"])} — 짝꿍 표현으로 외우기</h2>'
+               '<div class="tools"><button data-mask>뜻 가리고 테스트</button></div>'
+               + "".join(_word(w) for w in v["rc"]) + '</section>')
     if v["reviews"]:
         groups = "".join(f'<h3>{escape(r["label"])} · Day {r["day"]} {escape(r["theme"])}</h3>'
-                         + "".join(_word(w) for w in r["words"]) for r in v["reviews"])
+                         + "".join(_word(w) for w in r["lc"] + r["rc"]) for r in v["reviews"])
         out.append('<section class="rv masked"><h2>🔁 복습 — 뜻을 떠올린 뒤 눌러서 확인</h2>'
                    '<div class="tools"><button data-mask>뜻 모두 보기</button></div>' + groups + '</section>')
     return "".join(out)
