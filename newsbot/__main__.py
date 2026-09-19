@@ -18,7 +18,7 @@ import webbrowser
 from dataclasses import asdict
 from datetime import datetime
 
-from . import glossary, kakao, state
+from . import glossary, kakao, state, vocab
 from .cluster import cluster_articles
 from .collect import collect
 from .config import OUT, env, load_config
@@ -68,18 +68,20 @@ def build(cfg: dict, force: bool, publish: bool = True) -> dict | None:
 
     terms, next_cursor = glossary.todays_terms(st["term_cursor"], cfg["report"]["terms_per_day"])
     log(f"5 오늘의 용어: {', '.join(t['term'] for t in terms)}")
+    words, next_word_day = vocab.todays_vocab(st.get("word_day", 0))
+    log(f"  토익: Day {words['day']} {words['theme']} · 새 단어 {len(words['words'])} · 복습 묶음 {len(words['reviews'])}")
 
     stats = {"articles": len(articles), "clusters": len(clusters), "shortlisted": n_short, "enriched": n_body,
              "errors": errors, "sources": [asdict(s) for s in source_stats]}
     date_str = today.isoformat()
     first = next((s for c in cfg["categories"] for s in stories.get(c["id"], [])), None)
-    html = report_html(cfg, now, stories, terms, stats)
+    html = report_html(cfg, now, stories, terms, stats, words)
     OUT.mkdir(exist_ok=True)
     if publish:
         write_report(date_str, html, first.headline if first else "")
     else:
         (OUT / "preview.html").write_text(html, encoding="utf-8")
-    text = kakao_text(cfg, now, stories, terms)
+    text = kakao_text(cfg, now, stories, terms, words)
     log(f"6 조립: {'docs/' + date_str if publish else 'out/preview'}.html + 카톡 {len(text)}자")
 
     result = {
@@ -87,6 +89,7 @@ def build(cfg: dict, force: bool, publish: bool = True) -> dict | None:
         "text": text,
         "titles": [s.lead_title for v in stories.values() for s in v],
         "next_cursor": next_cursor,
+        "next_word_day": next_word_day,
     }
     if not publish:
         return result
@@ -112,7 +115,7 @@ def send(cfg: dict) -> None:
     st = state.load()
     today = datetime.fromisoformat(result["date"]).date()
     state.save(state.record_sent(st, today, result["titles"], result["next_cursor"],
-                                 cfg["report"]["history_days"]))
+                                 cfg["report"]["history_days"], result.get("next_word_day")))
     log("상태 저장: data/state.json")
 
 

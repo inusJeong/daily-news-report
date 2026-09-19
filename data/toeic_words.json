@@ -1,0 +1,2855 @@
+{
+ "about": "토익 900 목표 30일 과정 · 하루 15단어 · 주제별 · 연어(짝꿍 표현) 중심",
+ "days": [
+  {
+   "theme": "계약·법무",
+   "words": [
+    {
+     "w": "stipulate",
+     "pos": "v",
+     "ko": "(계약서에) 명시하다, 규정하다",
+     "col": "as stipulated in the contract (계약서에 명시된 대로)"
+    },
+    {
+     "w": "binding",
+     "pos": "adj",
+     "ko": "구속력 있는",
+     "col": "a legally binding agreement (법적 구속력이 있는 합의)"
+    },
+    {
+     "w": "terminate",
+     "pos": "v",
+     "ko": "종료하다, 해지하다",
+     "col": "terminate the contract early (계약을 조기 해지하다)"
+    },
+    {
+     "w": "breach",
+     "pos": "n",
+     "ko": "위반",
+     "col": "a breach of contract (계약 위반)"
+    },
+    {
+     "w": "clause",
+     "pos": "n",
+     "ko": "조항",
+     "col": "a confidentiality clause (비밀유지 조항)"
+    },
+    {
+     "w": "amend",
+     "pos": "v",
+     "ko": "수정하다, 개정하다",
+     "col": "amend the terms of the lease (임대 조건을 수정하다)"
+    },
+    {
+     "w": "void",
+     "pos": "adj",
+     "ko": "무효의",
+     "col": "null and void (법적으로 무효인)"
+    },
+    {
+     "w": "liable",
+     "pos": "adj",
+     "ko": "(법적) 책임이 있는",
+     "col": "be liable for damages (손해에 책임이 있다)"
+    },
+    {
+     "w": "renew",
+     "pos": "v",
+     "ko": "갱신하다",
+     "col": "renew a subscription (구독을 갱신하다)"
+    },
+    {
+     "w": "expire",
+     "pos": "v",
+     "ko": "만료되다",
+     "col": "The warranty expires next month. (보증이 다음 달 만료된다)"
+    },
+    {
+     "w": "provision",
+     "pos": "n",
+     "ko": "(법률·계약의) 조항, 규정",
+     "col": "under the provisions of the agreement (합의 조항에 따라)"
+    },
+    {
+     "w": "in accordance with",
+     "pos": "phr",
+     "ko": "~에 따라",
+     "col": "in accordance with company policy (회사 방침에 따라)"
+    },
+    {
+     "w": "waive",
+     "pos": "v",
+     "ko": "(권리·요금을) 면제하다, 포기하다",
+     "col": "waive the late fee (연체료를 면제하다)"
+    },
+    {
+     "w": "enforce",
+     "pos": "v",
+     "ko": "시행하다, 집행하다",
+     "col": "strictly enforce the rules (규정을 엄격히 시행하다)"
+    },
+    {
+     "w": "counterpart",
+     "pos": "n",
+     "ko": "(대등한) 상대방",
+     "col": "meet with their Japanese counterparts (일본 측 상대방과 만나다)"
+    }
+   ]
+  },
+  {
+   "theme": "인사·채용",
+   "words": [
+    {
+     "w": "candidate",
+     "pos": "n",
+     "ko": "지원자, 후보자",
+     "col": "a qualified candidate (자격을 갖춘 지원자)"
+    },
+    {
+     "w": "eligible",
+     "pos": "adj",
+     "ko": "자격이 있는",
+     "col": "be eligible for promotion (승진 자격이 있다)"
+    },
+    {
+     "w": "credential",
+     "pos": "n",
+     "ko": "자격 증명, 자격증",
+     "col": "verify a candidate's credentials (지원자의 자격을 확인하다)"
+    },
+    {
+     "w": "recruit",
+     "pos": "v",
+     "ko": "모집하다, 채용하다",
+     "col": "recruit experienced engineers (경력 엔지니어를 채용하다)"
+    },
+    {
+     "w": "probation",
+     "pos": "n",
+     "ko": "수습 기간",
+     "col": "a three-month probation period (3개월 수습 기간)"
+    },
+    {
+     "w": "commensurate",
+     "pos": "adj",
+     "ko": "(~에) 상응하는",
+     "col": "salary commensurate with experience (경력에 상응하는 급여)"
+    },
+    {
+     "w": "compensation",
+     "pos": "n",
+     "ko": "보수, 보상",
+     "col": "a competitive compensation package (경쟁력 있는 보수 조건)"
+    },
+    {
+     "w": "retain",
+     "pos": "v",
+     "ko": "(인재를) 유지하다, 보유하다",
+     "col": "retain skilled employees (숙련된 직원을 붙잡아 두다)"
+    },
+    {
+     "w": "turnover",
+     "pos": "n",
+     "ko": "이직률; 매출액",
+     "col": "reduce staff turnover (직원 이직률을 낮추다)"
+    },
+    {
+     "w": "resign",
+     "pos": "v",
+     "ko": "사임하다",
+     "col": "resign from the position (그 직책에서 사임하다)"
+    },
+    {
+     "w": "successor",
+     "pos": "n",
+     "ko": "후임자",
+     "col": "name a successor (후임자를 지명하다)"
+    },
+    {
+     "w": "reference",
+     "pos": "n",
+     "ko": "추천서, 추천인",
+     "col": "provide two references (추천인 두 명을 제시하다)"
+    },
+    {
+     "w": "proficiency",
+     "pos": "n",
+     "ko": "능숙함, 숙달",
+     "col": "proficiency in Spanish (스페인어 능통)"
+    },
+    {
+     "w": "tenure",
+     "pos": "n",
+     "ko": "재임 기간",
+     "col": "during her tenure as CEO (그녀의 CEO 재임 기간 동안)"
+    },
+    {
+     "w": "promote",
+     "pos": "v",
+     "ko": "승진시키다; 홍보하다",
+     "col": "be promoted to senior manager (부장으로 승진하다)"
+    }
+   ]
+  },
+  {
+   "theme": "회의·일정",
+   "words": [
+    {
+     "w": "agenda",
+     "pos": "n",
+     "ko": "안건, 의제",
+     "col": "the first item on the agenda (첫 번째 안건)"
+    },
+    {
+     "w": "postpone",
+     "pos": "v",
+     "ko": "연기하다",
+     "col": "postpone the meeting until Friday (회의를 금요일로 연기하다)"
+    },
+    {
+     "w": "tentative",
+     "pos": "adj",
+     "ko": "잠정적인",
+     "col": "a tentative schedule (잠정 일정)"
+    },
+    {
+     "w": "convene",
+     "pos": "v",
+     "ko": "(회의를) 소집하다, 모이다",
+     "col": "The board will convene next week. (이사회가 다음 주에 소집된다)"
+    },
+    {
+     "w": "adjourn",
+     "pos": "v",
+     "ko": "휴회하다, 폐회하다",
+     "col": "The meeting was adjourned at noon. (회의는 정오에 폐회되었다)"
+    },
+    {
+     "w": "minutes",
+     "pos": "n",
+     "ko": "회의록",
+     "col": "take the minutes (회의록을 작성하다)"
+    },
+    {
+     "w": "attendee",
+     "pos": "n",
+     "ko": "참석자",
+     "col": "all attendees must register (모든 참석자는 등록해야 한다)"
+    },
+    {
+     "w": "reschedule",
+     "pos": "v",
+     "ko": "일정을 변경하다",
+     "col": "reschedule the appointment (약속 일정을 다시 잡다)"
+    },
+    {
+     "w": "conflict",
+     "pos": "n",
+     "ko": "(일정의) 겹침, 충돌",
+     "col": "a scheduling conflict (일정 충돌)"
+    },
+    {
+     "w": "brief",
+     "pos": "v",
+     "ko": "간단히 보고하다",
+     "col": "brief the team on the changes (변경 사항을 팀에 브리핑하다)"
+    },
+    {
+     "w": "consensus",
+     "pos": "n",
+     "ko": "합의, 의견 일치",
+     "col": "reach a consensus (합의에 이르다)"
+    },
+    {
+     "w": "prior to",
+     "pos": "prep",
+     "ko": "~ 전에",
+     "col": "prior to the meeting (회의 전에)"
+    },
+    {
+     "w": "in advance",
+     "pos": "phr",
+     "ko": "미리",
+     "col": "notify us in advance (미리 알려주다)"
+    },
+    {
+     "w": "punctual",
+     "pos": "adj",
+     "ko": "시간을 엄수하는",
+     "col": "be punctual for meetings (회의 시간을 잘 지키다)"
+    },
+    {
+     "w": "facilitate",
+     "pos": "v",
+     "ko": "(진행을) 돕다, 촉진하다",
+     "col": "facilitate the discussion (토론 진행을 돕다)"
+    }
+   ]
+  },
+  {
+   "theme": "마케팅·광고",
+   "words": [
+    {
+     "w": "launch",
+     "pos": "v",
+     "ko": "출시하다",
+     "col": "launch a new product line (신제품 라인을 출시하다)"
+    },
+    {
+     "w": "campaign",
+     "pos": "n",
+     "ko": "(광고) 캠페인",
+     "col": "an advertising campaign (광고 캠페인)"
+    },
+    {
+     "w": "target",
+     "pos": "v",
+     "ko": "겨냥하다, 대상으로 하다",
+     "col": "target young consumers (젊은 소비자를 겨냥하다)"
+    },
+    {
+     "w": "demographic",
+     "pos": "n",
+     "ko": "인구 집단, 소비자층",
+     "col": "appeal to a younger demographic (젊은 층에 어필하다)"
+    },
+    {
+     "w": "exposure",
+     "pos": "n",
+     "ko": "노출",
+     "col": "increase brand exposure (브랜드 노출을 늘리다)"
+    },
+    {
+     "w": "endorse",
+     "pos": "v",
+     "ko": "(공개적으로) 지지하다, 광고하다",
+     "col": "endorsed by a famous athlete (유명 운동선수가 광고하는)"
+    },
+    {
+     "w": "feature",
+     "pos": "v",
+     "ko": "특징으로 하다, 포함하다",
+     "col": "The phone features a larger screen. (그 휴대폰은 더 큰 화면을 갖췄다)"
+    },
+    {
+     "w": "survey",
+     "pos": "n",
+     "ko": "설문 조사",
+     "col": "conduct a customer survey (고객 설문 조사를 실시하다)"
+    },
+    {
+     "w": "competitor",
+     "pos": "n",
+     "ko": "경쟁사",
+     "col": "outperform competitors (경쟁사를 능가하다)"
+    },
+    {
+     "w": "promotional",
+     "pos": "adj",
+     "ko": "판촉의",
+     "col": "promotional materials (홍보물)"
+    },
+    {
+     "w": "visibility",
+     "pos": "n",
+     "ko": "가시성, 인지도",
+     "col": "improve online visibility (온라인 인지도를 높이다)"
+    },
+    {
+     "w": "distinctive",
+     "pos": "adj",
+     "ko": "독특한, 특색 있는",
+     "col": "a distinctive logo (독특한 로고)"
+    },
+    {
+     "w": "lucrative",
+     "pos": "adj",
+     "ko": "수익성 좋은",
+     "col": "a lucrative market (수익성 좋은 시장)"
+    },
+    {
+     "w": "penetrate",
+     "pos": "v",
+     "ko": "(시장에) 진출하다, 침투하다",
+     "col": "penetrate the Asian market (아시아 시장에 진출하다)"
+    },
+    {
+     "w": "testimonial",
+     "pos": "n",
+     "ko": "(고객) 추천의 글, 사용 후기",
+     "col": "customer testimonials (고객 후기)"
+    }
+   ]
+  },
+  {
+   "theme": "재무·회계",
+   "words": [
+    {
+     "w": "revenue",
+     "pos": "n",
+     "ko": "수익, 매출",
+     "col": "annual revenue (연간 매출)"
+    },
+    {
+     "w": "expenditure",
+     "pos": "n",
+     "ko": "지출",
+     "col": "reduce capital expenditure (설비 투자 지출을 줄이다)"
+    },
+    {
+     "w": "fiscal",
+     "pos": "adj",
+     "ko": "회계의, 재정의",
+     "col": "the fiscal year (회계 연도)"
+    },
+    {
+     "w": "audit",
+     "pos": "n",
+     "ko": "회계 감사",
+     "col": "an internal audit (내부 감사)"
+    },
+    {
+     "w": "reimburse",
+     "pos": "v",
+     "ko": "(비용을) 상환하다, 환급하다",
+     "col": "be reimbursed for travel expenses (출장비를 환급받다)"
+    },
+    {
+     "w": "invoice",
+     "pos": "n",
+     "ko": "송장, 청구서",
+     "col": "issue an invoice (청구서를 발행하다)"
+    },
+    {
+     "w": "deficit",
+     "pos": "n",
+     "ko": "적자",
+     "col": "a budget deficit (예산 적자)"
+    },
+    {
+     "w": "surplus",
+     "pos": "n",
+     "ko": "흑자, 잉여",
+     "col": "a trade surplus (무역 흑자)"
+    },
+    {
+     "w": "depreciation",
+     "pos": "n",
+     "ko": "감가상각; 가치 하락",
+     "col": "depreciation of equipment (장비의 감가상각)"
+    },
+    {
+     "w": "outstanding",
+     "pos": "adj",
+     "ko": "미지불의; 뛰어난",
+     "col": "an outstanding balance (미지불 잔액)"
+    },
+    {
+     "w": "projection",
+     "pos": "n",
+     "ko": "예측, 추정",
+     "col": "sales projections (매출 예측)"
+    },
+    {
+     "w": "dividend",
+     "pos": "n",
+     "ko": "배당금",
+     "col": "pay a dividend to shareholders (주주에게 배당금을 지급하다)"
+    },
+    {
+     "w": "asset",
+     "pos": "n",
+     "ko": "자산",
+     "col": "fixed assets (고정 자산)"
+    },
+    {
+     "w": "liability",
+     "pos": "n",
+     "ko": "부채; 법적 책임",
+     "col": "assets and liabilities (자산과 부채)"
+    },
+    {
+     "w": "ledger",
+     "pos": "n",
+     "ko": "장부, 원장",
+     "col": "a general ledger (총계정원장)"
+    }
+   ]
+  },
+  {
+   "theme": "물류·배송",
+   "words": [
+    {
+     "w": "shipment",
+     "pos": "n",
+     "ko": "배송(품), 선적",
+     "col": "track a shipment (배송품을 추적하다)"
+    },
+    {
+     "w": "dispatch",
+     "pos": "v",
+     "ko": "발송하다",
+     "col": "dispatch the order within 24 hours (24시간 내 주문품을 발송하다)"
+    },
+    {
+     "w": "expedite",
+     "pos": "v",
+     "ko": "신속히 처리하다",
+     "col": "expedite delivery (배송을 앞당기다)"
+    },
+    {
+     "w": "inventory",
+     "pos": "n",
+     "ko": "재고",
+     "col": "take inventory (재고 조사를 하다)"
+    },
+    {
+     "w": "warehouse",
+     "pos": "n",
+     "ko": "창고",
+     "col": "a distribution warehouse (물류 창고)"
+    },
+    {
+     "w": "freight",
+     "pos": "n",
+     "ko": "화물; 운송료",
+     "col": "freight charges (운송료)"
+    },
+    {
+     "w": "courier",
+     "pos": "n",
+     "ko": "택배 회사, 배달원",
+     "col": "send it by courier (택배로 보내다)"
+    },
+    {
+     "w": "consignment",
+     "pos": "n",
+     "ko": "탁송물, 위탁 판매",
+     "col": "a consignment of goods (탁송 화물)"
+    },
+    {
+     "w": "backorder",
+     "pos": "n",
+     "ko": "이월 주문(재고 부족으로 밀린 주문)",
+     "col": "The item is on backorder. (그 품목은 입고 대기 중이다)"
+    },
+    {
+     "w": "fragile",
+     "pos": "adj",
+     "ko": "깨지기 쉬운",
+     "col": "handle fragile items with care (깨지기 쉬운 물품을 조심히 다루다)"
+    },
+    {
+     "w": "transit",
+     "pos": "n",
+     "ko": "운송, 수송",
+     "col": "damaged in transit (운송 중에 파손된)"
+    },
+    {
+     "w": "surcharge",
+     "pos": "n",
+     "ko": "추가 요금",
+     "col": "a fuel surcharge (유류 할증료)"
+    },
+    {
+     "w": "logistics",
+     "pos": "n",
+     "ko": "물류",
+     "col": "a logistics provider (물류 업체)"
+    },
+    {
+     "w": "en route",
+     "pos": "adv",
+     "ko": "도중에, 가는 중에",
+     "col": "The package is en route to Seoul. (소포는 서울로 가는 중이다)"
+    },
+    {
+     "w": "customs",
+     "pos": "n",
+     "ko": "세관",
+     "col": "clear customs (통관하다)"
+    }
+   ]
+  },
+  {
+   "theme": "구매·조달",
+   "words": [
+    {
+     "w": "procure",
+     "pos": "v",
+     "ko": "조달하다, 입수하다",
+     "col": "procure raw materials (원자재를 조달하다)"
+    },
+    {
+     "w": "vendor",
+     "pos": "n",
+     "ko": "판매업체, 공급업체",
+     "col": "an approved vendor (승인된 공급업체)"
+    },
+    {
+     "w": "quotation",
+     "pos": "n",
+     "ko": "견적(서)",
+     "col": "request a quotation (견적을 요청하다)"
+    },
+    {
+     "w": "bulk",
+     "pos": "n",
+     "ko": "대량",
+     "col": "buy in bulk (대량으로 구매하다)"
+    },
+    {
+     "w": "purchase order",
+     "pos": "n",
+     "ko": "발주서, 구매 주문서",
+     "col": "issue a purchase order (발주서를 발행하다)"
+    },
+    {
+     "w": "bid",
+     "pos": "n",
+     "ko": "입찰",
+     "col": "submit a bid (입찰서를 제출하다)"
+    },
+    {
+     "w": "negotiate",
+     "pos": "v",
+     "ko": "협상하다",
+     "col": "negotiate a discount (할인을 협상하다)"
+    },
+    {
+     "w": "supplier",
+     "pos": "n",
+     "ko": "공급업체",
+     "col": "switch suppliers (공급업체를 바꾸다)"
+    },
+    {
+     "w": "specification",
+     "pos": "n",
+     "ko": "사양, 명세",
+     "col": "meet the specifications (사양을 충족하다)"
+    },
+    {
+     "w": "requisition",
+     "pos": "n",
+     "ko": "(물품) 청구서",
+     "col": "a purchase requisition (구매 요청서)"
+    },
+    {
+     "w": "tender",
+     "pos": "n",
+     "ko": "입찰",
+     "col": "put the contract out to tender (계약을 입찰에 부치다)"
+    },
+    {
+     "w": "wholesale",
+     "pos": "adj",
+     "ko": "도매의",
+     "col": "wholesale prices (도매가)"
+    },
+    {
+     "w": "discrepancy",
+     "pos": "n",
+     "ko": "불일치",
+     "col": "a discrepancy between the invoice and the order (청구서와 주문 간 불일치)"
+    },
+    {
+     "w": "stock",
+     "pos": "v",
+     "ko": "(상품을) 갖추다, 비축하다",
+     "col": "be well stocked with supplies (물품이 잘 갖춰져 있다)"
+    },
+    {
+     "w": "allocate",
+     "pos": "v",
+     "ko": "할당하다, 배분하다",
+     "col": "allocate resources efficiently (자원을 효율적으로 배분하다)"
+    }
+   ]
+  },
+  {
+   "theme": "제조·품질",
+   "words": [
+    {
+     "w": "assemble",
+     "pos": "v",
+     "ko": "조립하다",
+     "col": "assemble the components (부품을 조립하다)"
+    },
+    {
+     "w": "defective",
+     "pos": "adj",
+     "ko": "결함이 있는",
+     "col": "replace defective parts (결함 부품을 교체하다)"
+    },
+    {
+     "w": "inspection",
+     "pos": "n",
+     "ko": "검사, 점검",
+     "col": "a safety inspection (안전 점검)"
+    },
+    {
+     "w": "comply",
+     "pos": "v",
+     "ko": "준수하다",
+     "col": "comply with safety standards (안전 기준을 준수하다)"
+    },
+    {
+     "w": "output",
+     "pos": "n",
+     "ko": "생산량",
+     "col": "increase output by 20% (생산량을 20% 늘리다)"
+    },
+    {
+     "w": "capacity",
+     "pos": "n",
+     "ko": "생산 능력; 수용력",
+     "col": "operate at full capacity (최대 가동하다)"
+    },
+    {
+     "w": "streamline",
+     "pos": "v",
+     "ko": "간소화하다, 효율화하다",
+     "col": "streamline the production process (생산 과정을 효율화하다)"
+    },
+    {
+     "w": "malfunction",
+     "pos": "n",
+     "ko": "오작동",
+     "col": "an equipment malfunction (장비 오작동)"
+    },
+    {
+     "w": "durable",
+     "pos": "adj",
+     "ko": "내구성 있는",
+     "col": "durable materials (내구성 있는 재료)"
+    },
+    {
+     "w": "prototype",
+     "pos": "n",
+     "ko": "시제품, 원형",
+     "col": "develop a prototype (시제품을 개발하다)"
+    },
+    {
+     "w": "automate",
+     "pos": "v",
+     "ko": "자동화하다",
+     "col": "automate the assembly line (조립 라인을 자동화하다)"
+    },
+    {
+     "w": "calibrate",
+     "pos": "v",
+     "ko": "(기기를) 조정하다, 보정하다",
+     "col": "calibrate the machines regularly (기계를 정기적으로 보정하다)"
+    },
+    {
+     "w": "adhere",
+     "pos": "v",
+     "ko": "(규칙을) 고수하다, 지키다",
+     "col": "adhere to strict guidelines (엄격한 지침을 지키다)"
+    },
+    {
+     "w": "yield",
+     "pos": "n",
+     "ko": "수율, 산출량",
+     "col": "improve the production yield (생산 수율을 높이다)"
+    },
+    {
+     "w": "recall",
+     "pos": "n",
+     "ko": "(제품) 회수, 리콜",
+     "col": "a product recall (제품 리콜)"
+    }
+   ]
+  },
+  {
+   "theme": "고객 서비스",
+   "words": [
+    {
+     "w": "inquiry",
+     "pos": "n",
+     "ko": "문의",
+     "col": "respond to customer inquiries (고객 문의에 답하다)"
+    },
+    {
+     "w": "complaint",
+     "pos": "n",
+     "ko": "불만, 항의",
+     "col": "file a complaint (항의를 제기하다)"
+    },
+    {
+     "w": "refund",
+     "pos": "n",
+     "ko": "환불",
+     "col": "issue a full refund (전액 환불해 주다)"
+    },
+    {
+     "w": "warranty",
+     "pos": "n",
+     "ko": "품질 보증(서)",
+     "col": "under warranty (보증 기간 중인)"
+    },
+    {
+     "w": "courteous",
+     "pos": "adj",
+     "ko": "정중한, 예의 바른",
+     "col": "courteous staff (친절한 직원)"
+    },
+    {
+     "w": "accommodate",
+     "pos": "v",
+     "ko": "(요구를) 수용하다; 숙박시키다",
+     "col": "accommodate special requests (특별 요청을 들어주다)"
+    },
+    {
+     "w": "resolve",
+     "pos": "v",
+     "ko": "해결하다",
+     "col": "resolve the issue promptly (문제를 신속히 해결하다)"
+    },
+    {
+     "w": "patronage",
+     "pos": "n",
+     "ko": "(고객의) 애용, 후원",
+     "col": "Thank you for your patronage. (애용해 주셔서 감사합니다)"
+    },
+    {
+     "w": "compensate",
+     "pos": "v",
+     "ko": "보상하다",
+     "col": "compensate customers for the delay (지연에 대해 고객에게 보상하다)"
+    },
+    {
+     "w": "inconvenience",
+     "pos": "n",
+     "ko": "불편",
+     "col": "We apologize for any inconvenience. (불편을 드려 죄송합니다)"
+    },
+    {
+     "w": "loyal",
+     "pos": "adj",
+     "ko": "충성스러운, 단골의",
+     "col": "loyal customers (단골 고객)"
+    },
+    {
+     "w": "feedback",
+     "pos": "n",
+     "ko": "의견, 피드백",
+     "col": "gather customer feedback (고객 의견을 수집하다)"
+    },
+    {
+     "w": "replacement",
+     "pos": "n",
+     "ko": "교환품; 후임자",
+     "col": "send a replacement (교환품을 보내다)"
+    },
+    {
+     "w": "satisfaction",
+     "pos": "n",
+     "ko": "만족",
+     "col": "customer satisfaction ratings (고객 만족도)"
+    },
+    {
+     "w": "prompt",
+     "pos": "adj",
+     "ko": "신속한",
+     "col": "a prompt response (신속한 답변)"
+    }
+   ]
+  },
+  {
+   "theme": "사무·행정",
+   "words": [
+    {
+     "w": "submit",
+     "pos": "v",
+     "ko": "제출하다",
+     "col": "submit the report by Friday (금요일까지 보고서를 제출하다)"
+    },
+    {
+     "w": "approve",
+     "pos": "v",
+     "ko": "승인하다",
+     "col": "approve the budget (예산을 승인하다)"
+    },
+    {
+     "w": "authorize",
+     "pos": "v",
+     "ko": "권한을 부여하다, 허가하다",
+     "col": "authorized personnel only (권한 있는 직원만 출입)"
+    },
+    {
+     "w": "documentation",
+     "pos": "n",
+     "ko": "서류, 증빙 자료",
+     "col": "supporting documentation (증빙 서류)"
+    },
+    {
+     "w": "file",
+     "pos": "v",
+     "ko": "(서류를) 제출하다, 정리하다",
+     "col": "file a report (보고서를 제출하다)"
+    },
+    {
+     "w": "duplicate",
+     "pos": "n",
+     "ko": "사본",
+     "col": "a duplicate of the receipt (영수증 사본)"
+    },
+    {
+     "w": "confidential",
+     "pos": "adj",
+     "ko": "기밀의",
+     "col": "confidential information (기밀 정보)"
+    },
+    {
+     "w": "memo",
+     "pos": "n",
+     "ko": "회람, 메모",
+     "col": "circulate a memo (회람을 돌리다)"
+    },
+    {
+     "w": "stationery",
+     "pos": "n",
+     "ko": "문구류",
+     "col": "order office stationery (사무용 문구를 주문하다)"
+    },
+    {
+     "w": "deadline",
+     "pos": "n",
+     "ko": "마감 기한",
+     "col": "meet the deadline (마감을 지키다)"
+    },
+    {
+     "w": "delegate",
+     "pos": "v",
+     "ko": "(업무를) 위임하다",
+     "col": "delegate tasks to staff (직원에게 업무를 위임하다)"
+    },
+    {
+     "w": "oversee",
+     "pos": "v",
+     "ko": "감독하다",
+     "col": "oversee the project (프로젝트를 감독하다)"
+    },
+    {
+     "w": "administrative",
+     "pos": "adj",
+     "ko": "행정의",
+     "col": "administrative duties (행정 업무)"
+    },
+    {
+     "w": "cabinet",
+     "pos": "n",
+     "ko": "캐비닛, 보관장",
+     "col": "a filing cabinet (서류 보관함)"
+    },
+    {
+     "w": "personnel",
+     "pos": "n",
+     "ko": "직원들, 인사부",
+     "col": "personnel department (인사부)"
+    }
+   ]
+  },
+  {
+   "theme": "출장·여행",
+   "words": [
+    {
+     "w": "itinerary",
+     "pos": "n",
+     "ko": "여행 일정표",
+     "col": "a detailed itinerary (상세 일정표)"
+    },
+    {
+     "w": "accommodation",
+     "pos": "n",
+     "ko": "숙박 시설",
+     "col": "arrange accommodations (숙소를 마련하다)"
+    },
+    {
+     "w": "reservation",
+     "pos": "n",
+     "ko": "예약",
+     "col": "confirm a reservation (예약을 확인하다)"
+    },
+    {
+     "w": "depart",
+     "pos": "v",
+     "ko": "출발하다",
+     "col": "depart from Gate 12 (12번 게이트에서 출발하다)"
+    },
+    {
+     "w": "boarding pass",
+     "pos": "n",
+     "ko": "탑승권",
+     "col": "present your boarding pass (탑승권을 제시하다)"
+    },
+    {
+     "w": "layover",
+     "pos": "n",
+     "ko": "(비행 중) 경유, 중간 체류",
+     "col": "a two-hour layover in Tokyo (도쿄 2시간 경유)"
+    },
+    {
+     "w": "per diem",
+     "pos": "n",
+     "ko": "일당(출장 일일 경비)",
+     "col": "a daily per diem for meals (식비 일당)"
+    },
+    {
+     "w": "fare",
+     "pos": "n",
+     "ko": "(교통) 요금",
+     "col": "a round-trip fare (왕복 요금)"
+    },
+    {
+     "w": "destination",
+     "pos": "n",
+     "ko": "목적지",
+     "col": "arrive at the destination (목적지에 도착하다)"
+    },
+    {
+     "w": "luggage",
+     "pos": "n",
+     "ko": "수하물",
+     "col": "carry-on luggage (기내 수하물)"
+    },
+    {
+     "w": "vacancy",
+     "pos": "n",
+     "ko": "빈방; 공석",
+     "col": "No vacancy. (빈방 없음)"
+    },
+    {
+     "w": "excursion",
+     "pos": "n",
+     "ko": "(짧은) 여행, 견학",
+     "col": "a day excursion (당일 여행)"
+    },
+    {
+     "w": "commute",
+     "pos": "v",
+     "ko": "통근하다",
+     "col": "commute by subway (지하철로 출퇴근하다)"
+    },
+    {
+     "w": "complimentary",
+     "pos": "adj",
+     "ko": "무료의",
+     "col": "complimentary breakfast (무료 조식)"
+    },
+    {
+     "w": "amenity",
+     "pos": "n",
+     "ko": "편의 시설",
+     "col": "hotel amenities (호텔 편의 시설)"
+    }
+   ]
+  },
+  {
+   "theme": "부동산·시설",
+   "words": [
+    {
+     "w": "lease",
+     "pos": "n",
+     "ko": "임대차 계약",
+     "col": "sign a two-year lease (2년 임대 계약을 맺다)"
+    },
+    {
+     "w": "tenant",
+     "pos": "n",
+     "ko": "세입자",
+     "col": "the building's tenants (건물 세입자들)"
+    },
+    {
+     "w": "landlord",
+     "pos": "n",
+     "ko": "집주인, 임대인",
+     "col": "contact the landlord (집주인에게 연락하다)"
+    },
+    {
+     "w": "renovate",
+     "pos": "v",
+     "ko": "개조하다, 보수하다",
+     "col": "renovate the lobby (로비를 보수하다)"
+    },
+    {
+     "w": "premises",
+     "pos": "n",
+     "ko": "구내, 부지",
+     "col": "on the premises (구내에서)"
+    },
+    {
+     "w": "spacious",
+     "pos": "adj",
+     "ko": "넓은",
+     "col": "a spacious office (넓은 사무실)"
+    },
+    {
+     "w": "utilities",
+     "pos": "n",
+     "ko": "(전기·수도 등) 공공요금",
+     "col": "utilities are included in the rent (공과금은 임대료에 포함)"
+    },
+    {
+     "w": "occupancy",
+     "pos": "n",
+     "ko": "입주율, 점유",
+     "col": "the hotel's occupancy rate (호텔 객실 점유율)"
+    },
+    {
+     "w": "adjacent",
+     "pos": "adj",
+     "ko": "인접한",
+     "col": "adjacent to the station (역에 인접한)"
+    },
+    {
+     "w": "vacate",
+     "pos": "v",
+     "ko": "(방·건물을) 비우다",
+     "col": "vacate the premises by noon (정오까지 비우다)"
+    },
+    {
+     "w": "maintenance",
+     "pos": "n",
+     "ko": "유지 보수",
+     "col": "routine maintenance (정기 유지 보수)"
+    },
+    {
+     "w": "relocate",
+     "pos": "v",
+     "ko": "이전하다",
+     "col": "relocate the headquarters (본사를 이전하다)"
+    },
+    {
+     "w": "facility",
+     "pos": "n",
+     "ko": "시설",
+     "col": "a state-of-the-art facility (최첨단 시설)"
+    },
+    {
+     "w": "property",
+     "pos": "n",
+     "ko": "부동산, 건물",
+     "col": "commercial property (상업용 부동산)"
+    },
+    {
+     "w": "blueprint",
+     "pos": "n",
+     "ko": "설계도, 청사진",
+     "col": "review the blueprints (설계도를 검토하다)"
+    }
+   ]
+  },
+  {
+   "theme": "은행·투자",
+   "words": [
+    {
+     "w": "deposit",
+     "pos": "v",
+     "ko": "예금하다, 입금하다",
+     "col": "deposit a check (수표를 입금하다)"
+    },
+    {
+     "w": "withdraw",
+     "pos": "v",
+     "ko": "인출하다; 철회하다",
+     "col": "withdraw cash (현금을 인출하다)"
+    },
+    {
+     "w": "loan",
+     "pos": "n",
+     "ko": "대출",
+     "col": "apply for a loan (대출을 신청하다)"
+    },
+    {
+     "w": "interest rate",
+     "pos": "n",
+     "ko": "금리",
+     "col": "lower interest rates (금리를 인하하다)"
+    },
+    {
+     "w": "collateral",
+     "pos": "n",
+     "ko": "담보",
+     "col": "use property as collateral (부동산을 담보로 쓰다)"
+    },
+    {
+     "w": "portfolio",
+     "pos": "n",
+     "ko": "(투자) 포트폴리오",
+     "col": "diversify a portfolio (포트폴리오를 다각화하다)"
+    },
+    {
+     "w": "stake",
+     "pos": "n",
+     "ko": "지분",
+     "col": "acquire a 30% stake (30% 지분을 인수하다)"
+    },
+    {
+     "w": "shareholder",
+     "pos": "n",
+     "ko": "주주",
+     "col": "the annual shareholders' meeting (연례 주주총회)"
+    },
+    {
+     "w": "merger",
+     "pos": "n",
+     "ko": "합병",
+     "col": "a merger between two banks (두 은행의 합병)"
+    },
+    {
+     "w": "acquisition",
+     "pos": "n",
+     "ko": "인수",
+     "col": "a hostile acquisition (적대적 인수)"
+    },
+    {
+     "w": "volatile",
+     "pos": "adj",
+     "ko": "변동성이 큰",
+     "col": "a volatile market (변동성이 큰 시장)"
+    },
+    {
+     "w": "statement",
+     "pos": "n",
+     "ko": "(은행) 명세서; 성명",
+     "col": "a monthly bank statement (월별 은행 명세서)"
+    },
+    {
+     "w": "accrue",
+     "pos": "v",
+     "ko": "(이자 등이) 누적되다",
+     "col": "interest accrues daily (이자가 매일 쌓인다)"
+    },
+    {
+     "w": "transaction",
+     "pos": "n",
+     "ko": "거래",
+     "col": "an online transaction (온라인 거래)"
+    },
+    {
+     "w": "solvent",
+     "pos": "adj",
+     "ko": "지불 능력이 있는",
+     "col": "remain financially solvent (재정적으로 지불 능력을 유지하다)"
+    }
+   ]
+  },
+  {
+   "theme": "IT·기술",
+   "words": [
+    {
+     "w": "upgrade",
+     "pos": "v",
+     "ko": "업그레이드하다",
+     "col": "upgrade the software (소프트웨어를 업그레이드하다)"
+    },
+    {
+     "w": "install",
+     "pos": "v",
+     "ko": "설치하다",
+     "col": "install the latest update (최신 업데이트를 설치하다)"
+    },
+    {
+     "w": "compatible",
+     "pos": "adj",
+     "ko": "호환되는",
+     "col": "compatible with most devices (대부분 기기와 호환되는)"
+    },
+    {
+     "w": "malware",
+     "pos": "n",
+     "ko": "악성 소프트웨어",
+     "col": "protect against malware (악성코드를 막다)"
+    },
+    {
+     "w": "outage",
+     "pos": "n",
+     "ko": "(전기·서비스) 중단",
+     "col": "a power outage (정전)"
+    },
+    {
+     "w": "troubleshoot",
+     "pos": "v",
+     "ko": "(문제를) 해결하다, 점검하다",
+     "col": "troubleshoot network problems (네트워크 문제를 점검하다)"
+    },
+    {
+     "w": "encrypt",
+     "pos": "v",
+     "ko": "암호화하다",
+     "col": "encrypt sensitive data (민감한 데이터를 암호화하다)"
+    },
+    {
+     "w": "interface",
+     "pos": "n",
+     "ko": "인터페이스, 접점",
+     "col": "a user-friendly interface (사용하기 쉬운 화면)"
+    },
+    {
+     "w": "obsolete",
+     "pos": "adj",
+     "ko": "구식의, 쓸모없어진",
+     "col": "obsolete equipment (구식 장비)"
+    },
+    {
+     "w": "bandwidth",
+     "pos": "n",
+     "ko": "대역폭; (업무) 여력",
+     "col": "limited bandwidth (제한된 대역폭)"
+    },
+    {
+     "w": "access",
+     "pos": "v",
+     "ko": "접속하다, 이용하다",
+     "col": "access the database remotely (원격으로 데이터베이스에 접속하다)"
+    },
+    {
+     "w": "backup",
+     "pos": "n",
+     "ko": "백업",
+     "col": "make a backup of your files (파일을 백업하다)"
+    },
+    {
+     "w": "integrate",
+     "pos": "v",
+     "ko": "통합하다",
+     "col": "integrate new systems (새 시스템을 통합하다)"
+    },
+    {
+     "w": "glitch",
+     "pos": "n",
+     "ko": "(작은) 결함, 오류",
+     "col": "a technical glitch (기술적 오류)"
+    },
+    {
+     "w": "innovative",
+     "pos": "adj",
+     "ko": "혁신적인",
+     "col": "innovative solutions (혁신적인 해결책)"
+    }
+   ]
+  },
+  {
+   "theme": "경영 전략",
+   "words": [
+    {
+     "w": "objective",
+     "pos": "n",
+     "ko": "목표",
+     "col": "achieve business objectives (사업 목표를 달성하다)"
+    },
+    {
+     "w": "initiative",
+     "pos": "n",
+     "ko": "(새로운) 계획, 주도권",
+     "col": "a cost-cutting initiative (비용 절감 계획)"
+    },
+    {
+     "w": "expand",
+     "pos": "v",
+     "ko": "확장하다",
+     "col": "expand into overseas markets (해외 시장으로 확장하다)"
+    },
+    {
+     "w": "diversify",
+     "pos": "v",
+     "ko": "다각화하다",
+     "col": "diversify the product range (제품군을 다각화하다)"
+    },
+    {
+     "w": "restructure",
+     "pos": "v",
+     "ko": "구조 조정하다",
+     "col": "restructure the company (회사를 구조 조정하다)"
+    },
+    {
+     "w": "feasible",
+     "pos": "adj",
+     "ko": "실현 가능한",
+     "col": "a feasible plan (실현 가능한 계획)"
+    },
+    {
+     "w": "viable",
+     "pos": "adj",
+     "ko": "성공 가능한, 존립 가능한",
+     "col": "a commercially viable product (상업적으로 성공 가능한 제품)"
+    },
+    {
+     "w": "outsource",
+     "pos": "v",
+     "ko": "외주를 주다",
+     "col": "outsource customer support (고객 지원을 외주 주다)"
+    },
+    {
+     "w": "subsidiary",
+     "pos": "n",
+     "ko": "자회사",
+     "col": "a wholly owned subsidiary (100% 자회사)"
+    },
+    {
+     "w": "headquarters",
+     "pos": "n",
+     "ko": "본사",
+     "col": "relocate the headquarters (본사를 이전하다)"
+    },
+    {
+     "w": "stakeholder",
+     "pos": "n",
+     "ko": "이해관계자",
+     "col": "consult key stakeholders (주요 이해관계자와 협의하다)"
+    },
+    {
+     "w": "benchmark",
+     "pos": "n",
+     "ko": "기준, 벤치마크",
+     "col": "set a benchmark (기준을 세우다)"
+    },
+    {
+     "w": "leverage",
+     "pos": "v",
+     "ko": "활용하다",
+     "col": "leverage our expertise (우리의 전문성을 활용하다)"
+    },
+    {
+     "w": "consolidate",
+     "pos": "v",
+     "ko": "통합하다, 강화하다",
+     "col": "consolidate operations (운영을 통합하다)"
+    },
+    {
+     "w": "foresee",
+     "pos": "v",
+     "ko": "예견하다",
+     "col": "foresee potential problems (잠재적 문제를 예견하다)"
+    }
+   ]
+  },
+  {
+   "theme": "판매·유통",
+   "words": [
+    {
+     "w": "retail",
+     "pos": "adj",
+     "ko": "소매의",
+     "col": "retail outlets (소매점)"
+    },
+    {
+     "w": "distributor",
+     "pos": "n",
+     "ko": "유통업체",
+     "col": "an authorized distributor (공인 유통업체)"
+    },
+    {
+     "w": "outlet",
+     "pos": "n",
+     "ko": "판매점, 직판장",
+     "col": "a factory outlet (공장 직판장)"
+    },
+    {
+     "w": "markup",
+     "pos": "n",
+     "ko": "가격 인상폭, 이윤",
+     "col": "a 30% markup (30%의 이윤)"
+    },
+    {
+     "w": "clearance",
+     "pos": "n",
+     "ko": "재고 정리; 허가",
+     "col": "a clearance sale (재고 정리 세일)"
+    },
+    {
+     "w": "merchandise",
+     "pos": "n",
+     "ko": "상품",
+     "col": "display merchandise (상품을 진열하다)"
+    },
+    {
+     "w": "quota",
+     "pos": "n",
+     "ko": "할당량",
+     "col": "meet the sales quota (판매 할당량을 달성하다)"
+    },
+    {
+     "w": "voucher",
+     "pos": "n",
+     "ko": "상품권, 쿠폰",
+     "col": "a gift voucher (상품권)"
+    },
+    {
+     "w": "affordable",
+     "pos": "adj",
+     "ko": "저렴한, 감당할 수 있는",
+     "col": "affordable prices (알맞은 가격)"
+    },
+    {
+     "w": "prospective",
+     "pos": "adj",
+     "ko": "잠재적인, 장래의",
+     "col": "prospective clients (잠재 고객)"
+    },
+    {
+     "w": "intermediary",
+     "pos": "n",
+     "ko": "중개자, 중간 상인",
+     "col": "sell through intermediaries (중개상을 통해 판매하다)"
+    },
+    {
+     "w": "franchise",
+     "pos": "n",
+     "ko": "가맹점, 프랜차이즈",
+     "col": "open a franchise (가맹점을 열다)"
+    },
+    {
+     "w": "exclusive",
+     "pos": "adj",
+     "ko": "독점적인",
+     "col": "an exclusive distributor (독점 유통업체)"
+    },
+    {
+     "w": "consumer",
+     "pos": "n",
+     "ko": "소비자",
+     "col": "consumer demand (소비자 수요)"
+    },
+    {
+     "w": "fluctuate",
+     "pos": "v",
+     "ko": "변동하다",
+     "col": "Prices fluctuate seasonally. (가격이 계절에 따라 변동한다)"
+    }
+   ]
+  },
+  {
+   "theme": "교육·연수",
+   "words": [
+    {
+     "w": "orientation",
+     "pos": "n",
+     "ko": "오리엔테이션",
+     "col": "attend the new employee orientation (신입 오리엔테이션에 참석하다)"
+    },
+    {
+     "w": "workshop",
+     "pos": "n",
+     "ko": "워크숍, 연수회",
+     "col": "lead a workshop (워크숍을 진행하다)"
+    },
+    {
+     "w": "enroll",
+     "pos": "v",
+     "ko": "등록하다",
+     "col": "enroll in a course (강좌에 등록하다)"
+    },
+    {
+     "w": "mandatory",
+     "pos": "adj",
+     "ko": "의무적인",
+     "col": "mandatory training (의무 교육)"
+    },
+    {
+     "w": "certification",
+     "pos": "n",
+     "ko": "자격증, 인증",
+     "col": "obtain certification (자격증을 취득하다)"
+    },
+    {
+     "w": "instructor",
+     "pos": "n",
+     "ko": "강사",
+     "col": "a qualified instructor (자격을 갖춘 강사)"
+    },
+    {
+     "w": "curriculum",
+     "pos": "n",
+     "ko": "교육 과정",
+     "col": "a revised curriculum (개정된 교육 과정)"
+    },
+    {
+     "w": "seminar",
+     "pos": "n",
+     "ko": "세미나",
+     "col": "register for the seminar (세미나에 등록하다)"
+    },
+    {
+     "w": "mentor",
+     "pos": "n",
+     "ko": "멘토, 조언자",
+     "col": "assign a mentor to new hires (신입에게 멘토를 배정하다)"
+    },
+    {
+     "w": "competent",
+     "pos": "adj",
+     "ko": "유능한",
+     "col": "a competent manager (유능한 관리자)"
+    },
+    {
+     "w": "acquire",
+     "pos": "v",
+     "ko": "습득하다; 인수하다",
+     "col": "acquire new skills (새 기술을 습득하다)"
+    },
+    {
+     "w": "hands-on",
+     "pos": "adj",
+     "ko": "실습의, 직접 해보는",
+     "col": "hands-on experience (실무 경험)"
+    },
+    {
+     "w": "tuition",
+     "pos": "n",
+     "ko": "수업료",
+     "col": "tuition reimbursement (학비 지원)"
+    },
+    {
+     "w": "assess",
+     "pos": "v",
+     "ko": "평가하다",
+     "col": "assess employee skills (직원 역량을 평가하다)"
+    },
+    {
+     "w": "supervise",
+     "pos": "v",
+     "ko": "감독하다, 지도하다",
+     "col": "supervise trainees (연수생을 지도하다)"
+    }
+   ]
+  },
+  {
+   "theme": "건강·안전",
+   "words": [
+    {
+     "w": "hazard",
+     "pos": "n",
+     "ko": "위험 요소",
+     "col": "a fire hazard (화재 위험 요소)"
+    },
+    {
+     "w": "precaution",
+     "pos": "n",
+     "ko": "예방 조치",
+     "col": "take precautions (예방 조치를 취하다)"
+    },
+    {
+     "w": "evacuate",
+     "pos": "v",
+     "ko": "대피시키다",
+     "col": "evacuate the building (건물에서 대피하다)"
+    },
+    {
+     "w": "protective",
+     "pos": "adj",
+     "ko": "보호용의",
+     "col": "protective gear (보호 장비)"
+    },
+    {
+     "w": "regulation",
+     "pos": "n",
+     "ko": "규정",
+     "col": "safety regulations (안전 규정)"
+    },
+    {
+     "w": "injury",
+     "pos": "n",
+     "ko": "부상",
+     "col": "prevent workplace injuries (작업장 부상을 예방하다)"
+    },
+    {
+     "w": "ventilation",
+     "pos": "n",
+     "ko": "환기",
+     "col": "poor ventilation (환기 불량)"
+    },
+    {
+     "w": "emergency exit",
+     "pos": "n",
+     "ko": "비상구",
+     "col": "keep emergency exits clear (비상구를 막지 않다)"
+    },
+    {
+     "w": "compliance",
+     "pos": "n",
+     "ko": "(규정) 준수",
+     "col": "in compliance with regulations (규정을 준수하여)"
+    },
+    {
+     "w": "drill",
+     "pos": "n",
+     "ko": "(비상) 훈련",
+     "col": "a fire drill (소방 훈련)"
+    },
+    {
+     "w": "sanitary",
+     "pos": "adj",
+     "ko": "위생적인",
+     "col": "sanitary conditions (위생 상태)"
+    },
+    {
+     "w": "first aid",
+     "pos": "n",
+     "ko": "응급 처치",
+     "col": "a first aid kit (구급상자)"
+    },
+    {
+     "w": "wellness",
+     "pos": "n",
+     "ko": "건강, 웰빙",
+     "col": "a wellness program (건강 증진 프로그램)"
+    },
+    {
+     "w": "ergonomic",
+     "pos": "adj",
+     "ko": "인체공학적인",
+     "col": "ergonomic office chairs (인체공학적 사무용 의자)"
+    },
+    {
+     "w": "immune",
+     "pos": "adj",
+     "ko": "면역의; 영향받지 않는",
+     "col": "immune to economic downturns (경기 침체에 영향받지 않는)"
+    }
+   ]
+  },
+  {
+   "theme": "행사·이벤트",
+   "words": [
+    {
+     "w": "venue",
+     "pos": "n",
+     "ko": "개최 장소",
+     "col": "book a venue (장소를 예약하다)"
+    },
+    {
+     "w": "banquet",
+     "pos": "n",
+     "ko": "연회",
+     "col": "an awards banquet (시상 연회)"
+    },
+    {
+     "w": "host",
+     "pos": "v",
+     "ko": "주최하다",
+     "col": "host a conference (회의를 주최하다)"
+    },
+    {
+     "w": "keynote",
+     "pos": "n",
+     "ko": "기조연설",
+     "col": "deliver the keynote speech (기조연설을 하다)"
+    },
+    {
+     "w": "register",
+     "pos": "v",
+     "ko": "등록하다",
+     "col": "register online (온라인으로 등록하다)"
+    },
+    {
+     "w": "admission",
+     "pos": "n",
+     "ko": "입장(료)",
+     "col": "free admission (무료 입장)"
+    },
+    {
+     "w": "exhibit",
+     "pos": "n",
+     "ko": "전시(품)",
+     "col": "an art exhibit (미술 전시)"
+    },
+    {
+     "w": "caterer",
+     "pos": "n",
+     "ko": "출장 연회업체",
+     "col": "hire a caterer (출장 요리업체를 고용하다)"
+    },
+    {
+     "w": "commemorate",
+     "pos": "v",
+     "ko": "기념하다",
+     "col": "commemorate the anniversary (기념일을 기념하다)"
+    },
+    {
+     "w": "attire",
+     "pos": "n",
+     "ko": "복장",
+     "col": "business attire required (정장 착용 필수)"
+    },
+    {
+     "w": "sponsor",
+     "pos": "n",
+     "ko": "후원자, 후원사",
+     "col": "a corporate sponsor (기업 후원사)"
+    },
+    {
+     "w": "turnout",
+     "pos": "n",
+     "ko": "참가자 수, 투표율",
+     "col": "a large turnout (많은 참가자)"
+    },
+    {
+     "w": "reception",
+     "pos": "n",
+     "ko": "환영회; 수신",
+     "col": "a welcome reception (환영 연회)"
+    },
+    {
+     "w": "seating",
+     "pos": "n",
+     "ko": "좌석 (배치)",
+     "col": "limited seating (좌석 한정)"
+    },
+    {
+     "w": "RSVP",
+     "pos": "v",
+     "ko": "참석 여부를 회신하다",
+     "col": "RSVP by June 5 (6월 5일까지 참석 여부 회신)"
+    }
+   ]
+  },
+  {
+   "theme": "언론·홍보",
+   "words": [
+    {
+     "w": "press release",
+     "pos": "n",
+     "ko": "보도자료",
+     "col": "issue a press release (보도자료를 배포하다)"
+    },
+    {
+     "w": "publicity",
+     "pos": "n",
+     "ko": "홍보, 매스컴의 관심",
+     "col": "positive publicity (긍정적인 홍보 효과)"
+    },
+    {
+     "w": "coverage",
+     "pos": "n",
+     "ko": "보도; (보험) 보장 범위",
+     "col": "media coverage (언론 보도)"
+    },
+    {
+     "w": "spokesperson",
+     "pos": "n",
+     "ko": "대변인",
+     "col": "a company spokesperson (회사 대변인)"
+    },
+    {
+     "w": "announce",
+     "pos": "v",
+     "ko": "발표하다",
+     "col": "announce the results (결과를 발표하다)"
+    },
+    {
+     "w": "reputation",
+     "pos": "n",
+     "ko": "평판",
+     "col": "build a strong reputation (좋은 평판을 쌓다)"
+    },
+    {
+     "w": "publication",
+     "pos": "n",
+     "ko": "출판물; 발행",
+     "col": "a trade publication (업계 전문지)"
+    },
+    {
+     "w": "editorial",
+     "pos": "n",
+     "ko": "사설",
+     "col": "write an editorial (사설을 쓰다)"
+    },
+    {
+     "w": "circulation",
+     "pos": "n",
+     "ko": "(신문) 발행 부수; 유통",
+     "col": "a newspaper with wide circulation (발행 부수가 많은 신문)"
+    },
+    {
+     "w": "interview",
+     "pos": "v",
+     "ko": "인터뷰하다, 면접하다",
+     "col": "be interviewed by a reporter (기자와 인터뷰하다)"
+    },
+    {
+     "w": "disclose",
+     "pos": "v",
+     "ko": "공개하다, 밝히다",
+     "col": "disclose financial details (재무 세부 사항을 공개하다)"
+    },
+    {
+     "w": "subscription",
+     "pos": "n",
+     "ko": "구독",
+     "col": "renew a subscription (구독을 갱신하다)"
+    },
+    {
+     "w": "headline",
+     "pos": "n",
+     "ko": "헤드라인, 표제",
+     "col": "make headlines (화제가 되다)"
+    },
+    {
+     "w": "correspondent",
+     "pos": "n",
+     "ko": "특파원, 통신원",
+     "col": "a foreign correspondent (해외 특파원)"
+    },
+    {
+     "w": "anonymous",
+     "pos": "adj",
+     "ko": "익명의",
+     "col": "an anonymous source (익명의 소식통)"
+    }
+   ]
+  },
+  {
+   "theme": "환경·에너지",
+   "words": [
+    {
+     "w": "sustainable",
+     "pos": "adj",
+     "ko": "지속 가능한",
+     "col": "sustainable practices (지속 가능한 관행)"
+    },
+    {
+     "w": "emission",
+     "pos": "n",
+     "ko": "배출(량)",
+     "col": "reduce carbon emissions (탄소 배출을 줄이다)"
+    },
+    {
+     "w": "renewable",
+     "pos": "adj",
+     "ko": "재생 가능한",
+     "col": "renewable energy (재생 에너지)"
+    },
+    {
+     "w": "conserve",
+     "pos": "v",
+     "ko": "아끼다, 보존하다",
+     "col": "conserve energy (에너지를 아끼다)"
+    },
+    {
+     "w": "dispose of",
+     "pos": "phr",
+     "ko": "~을 처리하다, 버리다",
+     "col": "dispose of waste properly (폐기물을 적절히 처리하다)"
+    },
+    {
+     "w": "recycle",
+     "pos": "v",
+     "ko": "재활용하다",
+     "col": "recycle paper (종이를 재활용하다)"
+    },
+    {
+     "w": "efficient",
+     "pos": "adj",
+     "ko": "효율적인",
+     "col": "energy-efficient appliances (에너지 효율이 높은 가전)"
+    },
+    {
+     "w": "pollutant",
+     "pos": "n",
+     "ko": "오염 물질",
+     "col": "industrial pollutants (산업 오염 물질)"
+    },
+    {
+     "w": "footprint",
+     "pos": "n",
+     "ko": "(환경) 발자국, 영향",
+     "col": "reduce our carbon footprint (탄소 발자국을 줄이다)"
+    },
+    {
+     "w": "consumption",
+     "pos": "n",
+     "ko": "소비(량)",
+     "col": "fuel consumption (연료 소비)"
+    },
+    {
+     "w": "biodegradable",
+     "pos": "adj",
+     "ko": "생분해성의",
+     "col": "biodegradable packaging (생분해성 포장)"
+    },
+    {
+     "w": "preserve",
+     "pos": "v",
+     "ko": "보존하다",
+     "col": "preserve natural habitats (자연 서식지를 보존하다)"
+    },
+    {
+     "w": "shortage",
+     "pos": "n",
+     "ko": "부족",
+     "col": "a water shortage (물 부족)"
+    },
+    {
+     "w": "mitigate",
+     "pos": "v",
+     "ko": "완화하다",
+     "col": "mitigate environmental impact (환경 영향을 완화하다)"
+    },
+    {
+     "w": "eco-friendly",
+     "pos": "adj",
+     "ko": "친환경적인",
+     "col": "eco-friendly products (친환경 제품)"
+    }
+   ]
+  },
+  {
+   "theme": "협상·합의",
+   "words": [
+    {
+     "w": "compromise",
+     "pos": "n",
+     "ko": "타협",
+     "col": "reach a compromise (타협에 이르다)"
+    },
+    {
+     "w": "concession",
+     "pos": "n",
+     "ko": "양보",
+     "col": "make concessions (양보하다)"
+    },
+    {
+     "w": "terms",
+     "pos": "n",
+     "ko": "(계약) 조건",
+     "col": "agree on the terms (조건에 합의하다)"
+    },
+    {
+     "w": "mutual",
+     "pos": "adj",
+     "ko": "상호의",
+     "col": "mutual benefit (상호 이익)"
+    },
+    {
+     "w": "unanimous",
+     "pos": "adj",
+     "ko": "만장일치의",
+     "col": "a unanimous decision (만장일치 결정)"
+    },
+    {
+     "w": "deadlock",
+     "pos": "n",
+     "ko": "교착 상태",
+     "col": "break the deadlock (교착 상태를 깨다)"
+    },
+    {
+     "w": "finalize",
+     "pos": "v",
+     "ko": "마무리하다, 확정하다",
+     "col": "finalize the deal (거래를 확정하다)"
+    },
+    {
+     "w": "proposal",
+     "pos": "n",
+     "ko": "제안(서)",
+     "col": "submit a proposal (제안서를 제출하다)"
+    },
+    {
+     "w": "counteroffer",
+     "pos": "n",
+     "ko": "수정 제안, 역제안",
+     "col": "make a counteroffer (역제안을 하다)"
+    },
+    {
+     "w": "contingent upon",
+     "pos": "phr",
+     "ko": "~을 조건으로 하는",
+     "col": "contingent upon approval (승인을 조건으로)"
+    },
+    {
+     "w": "settle",
+     "pos": "v",
+     "ko": "해결하다; 정산하다",
+     "col": "settle the dispute (분쟁을 해결하다)"
+    },
+    {
+     "w": "amenable",
+     "pos": "adj",
+     "ko": "(제안을) 기꺼이 받아들이는",
+     "col": "amenable to changes (변경을 받아들일 의향이 있는)"
+    },
+    {
+     "w": "reconcile",
+     "pos": "v",
+     "ko": "조정하다; (장부를) 맞추다",
+     "col": "reconcile differences (차이를 조정하다)"
+    },
+    {
+     "w": "ratify",
+     "pos": "v",
+     "ko": "비준하다, 승인하다",
+     "col": "ratify the agreement (협정을 비준하다)"
+    },
+    {
+     "w": "mediate",
+     "pos": "v",
+     "ko": "중재하다",
+     "col": "mediate between the two parties (양측을 중재하다)"
+    }
+   ]
+  },
+  {
+   "theme": "성과·평가",
+   "words": [
+    {
+     "w": "performance review",
+     "pos": "n",
+     "ko": "인사 고과, 성과 평가",
+     "col": "an annual performance review (연례 성과 평가)"
+    },
+    {
+     "w": "evaluate",
+     "pos": "v",
+     "ko": "평가하다",
+     "col": "evaluate the results (결과를 평가하다)"
+    },
+    {
+     "w": "productivity",
+     "pos": "n",
+     "ko": "생산성",
+     "col": "boost productivity (생산성을 높이다)"
+    },
+    {
+     "w": "incentive",
+     "pos": "n",
+     "ko": "장려책, 인센티브",
+     "col": "offer incentives (인센티브를 제공하다)"
+    },
+    {
+     "w": "milestone",
+     "pos": "n",
+     "ko": "중요한 단계, 이정표",
+     "col": "reach a milestone (중요한 단계에 도달하다)"
+    },
+    {
+     "w": "exceed",
+     "pos": "v",
+     "ko": "초과하다",
+     "col": "exceed expectations (기대를 뛰어넘다)"
+    },
+    {
+     "w": "commend",
+     "pos": "v",
+     "ko": "칭찬하다",
+     "col": "be commended for hard work (노고를 칭찬받다)"
+    },
+    {
+     "w": "recognition",
+     "pos": "n",
+     "ko": "인정, 표창",
+     "col": "in recognition of her efforts (그녀의 노력을 인정하여)"
+    },
+    {
+     "w": "criteria",
+     "pos": "n",
+     "ko": "기준(복수)",
+     "col": "meet the criteria (기준을 충족하다)"
+    },
+    {
+     "w": "accountable",
+     "pos": "adj",
+     "ko": "책임이 있는",
+     "col": "be held accountable for results (결과에 책임을 지다)"
+    },
+    {
+     "w": "diligent",
+     "pos": "adj",
+     "ko": "근면한, 성실한",
+     "col": "a diligent worker (성실한 직원)"
+    },
+    {
+     "w": "merit",
+     "pos": "n",
+     "ko": "장점; 공로",
+     "col": "promotion based on merit (능력에 따른 승진)"
+    },
+    {
+     "w": "deficiency",
+     "pos": "n",
+     "ko": "부족, 결함",
+     "col": "address deficiencies (부족한 점을 보완하다)"
+    },
+    {
+     "w": "exemplary",
+     "pos": "adj",
+     "ko": "모범적인",
+     "col": "exemplary service (모범적인 서비스)"
+    },
+    {
+     "w": "bonus",
+     "pos": "n",
+     "ko": "상여금",
+     "col": "a year-end bonus (연말 상여금)"
+    }
+   ]
+  },
+  {
+   "theme": "예산·비용",
+   "words": [
+    {
+     "w": "budget",
+     "pos": "n",
+     "ko": "예산",
+     "col": "stay within budget (예산 내로 유지하다)"
+    },
+    {
+     "w": "estimate",
+     "pos": "n",
+     "ko": "견적, 추정치",
+     "col": "a rough estimate (대략적인 견적)"
+    },
+    {
+     "w": "overhead",
+     "pos": "n",
+     "ko": "간접비, 경상비",
+     "col": "reduce overhead costs (간접비를 줄이다)"
+    },
+    {
+     "w": "allowance",
+     "pos": "n",
+     "ko": "수당; 허용량",
+     "col": "a travel allowance (출장 수당)"
+    },
+    {
+     "w": "cut back",
+     "pos": "phr",
+     "ko": "줄이다, 삭감하다",
+     "col": "cut back on spending (지출을 줄이다)"
+    },
+    {
+     "w": "cost-effective",
+     "pos": "adj",
+     "ko": "비용 효율적인",
+     "col": "a cost-effective solution (비용 효율적인 해결책)"
+    },
+    {
+     "w": "allot",
+     "pos": "v",
+     "ko": "(몫을) 할당하다",
+     "col": "allot funds to marketing (마케팅에 자금을 할당하다)"
+    },
+    {
+     "w": "expense",
+     "pos": "n",
+     "ko": "비용",
+     "col": "business expenses (업무 경비)"
+    },
+    {
+     "w": "subsidy",
+     "pos": "n",
+     "ko": "보조금",
+     "col": "government subsidies (정부 보조금)"
+    },
+    {
+     "w": "tariff",
+     "pos": "n",
+     "ko": "관세",
+     "col": "impose tariffs (관세를 부과하다)"
+    },
+    {
+     "w": "reimbursement",
+     "pos": "n",
+     "ko": "환급, 상환",
+     "col": "submit for reimbursement (환급을 신청하다)"
+    },
+    {
+     "w": "nominal",
+     "pos": "adj",
+     "ko": "아주 적은; 명목상의",
+     "col": "a nominal fee (소액의 수수료)"
+    },
+    {
+     "w": "incur",
+     "pos": "v",
+     "ko": "(비용을) 발생시키다, 초래하다",
+     "col": "incur additional costs (추가 비용이 발생하다)"
+    },
+    {
+     "w": "frugal",
+     "pos": "adj",
+     "ko": "절약하는, 검소한",
+     "col": "a frugal approach (검소한 방식)"
+    },
+    {
+     "w": "appropriate",
+     "pos": "v",
+     "ko": "(예산을) 책정하다",
+     "col": "appropriate funds for research (연구비를 책정하다)"
+    }
+   ]
+  },
+  {
+   "theme": "규정·정책",
+   "words": [
+    {
+     "w": "policy",
+     "pos": "n",
+     "ko": "정책, 방침",
+     "col": "company policy (회사 방침)"
+    },
+    {
+     "w": "guideline",
+     "pos": "n",
+     "ko": "지침",
+     "col": "follow the guidelines (지침을 따르다)"
+    },
+    {
+     "w": "prohibit",
+     "pos": "v",
+     "ko": "금지하다",
+     "col": "Smoking is prohibited. (흡연 금지)"
+    },
+    {
+     "w": "permit",
+     "pos": "n",
+     "ko": "허가증",
+     "col": "a parking permit (주차 허가증)"
+    },
+    {
+     "w": "exempt",
+     "pos": "adj",
+     "ko": "면제된",
+     "col": "exempt from taxes (면세인)"
+    },
+    {
+     "w": "mandate",
+     "pos": "n",
+     "ko": "권한; 명령",
+     "col": "a government mandate (정부의 명령)"
+    },
+    {
+     "w": "restriction",
+     "pos": "n",
+     "ko": "제한",
+     "col": "travel restrictions (이동 제한)"
+    },
+    {
+     "w": "in effect",
+     "pos": "phr",
+     "ko": "시행 중인",
+     "col": "The new policy is in effect. (새 방침이 시행 중이다)"
+    },
+    {
+     "w": "effective",
+     "pos": "adj",
+     "ko": "(법·규정이) 시행되는",
+     "col": "effective immediately (즉시 시행)"
+    },
+    {
+     "w": "revise",
+     "pos": "v",
+     "ko": "개정하다, 수정하다",
+     "col": "revise the policy (방침을 개정하다)"
+    },
+    {
+     "w": "jurisdiction",
+     "pos": "n",
+     "ko": "관할권",
+     "col": "under local jurisdiction (지역 관할 하에)"
+    },
+    {
+     "w": "authorization",
+     "pos": "n",
+     "ko": "허가, 승인",
+     "col": "require prior authorization (사전 승인이 필요하다)"
+    },
+    {
+     "w": "discretion",
+     "pos": "n",
+     "ko": "재량",
+     "col": "at the manager's discretion (관리자 재량으로)"
+    },
+    {
+     "w": "obligation",
+     "pos": "n",
+     "ko": "의무",
+     "col": "a legal obligation (법적 의무)"
+    },
+    {
+     "w": "violation",
+     "pos": "n",
+     "ko": "위반",
+     "col": "a violation of the dress code (복장 규정 위반)"
+    }
+   ]
+  },
+  {
+   "theme": "연구·개발",
+   "words": [
+    {
+     "w": "conduct",
+     "pos": "v",
+     "ko": "수행하다",
+     "col": "conduct research (연구를 수행하다)"
+    },
+    {
+     "w": "findings",
+     "pos": "n",
+     "ko": "(연구) 결과",
+     "col": "publish the findings (연구 결과를 발표하다)"
+    },
+    {
+     "w": "patent",
+     "pos": "n",
+     "ko": "특허",
+     "col": "file a patent (특허를 출원하다)"
+    },
+    {
+     "w": "hypothesis",
+     "pos": "n",
+     "ko": "가설",
+     "col": "test a hypothesis (가설을 검증하다)"
+    },
+    {
+     "w": "laboratory",
+     "pos": "n",
+     "ko": "실험실",
+     "col": "a research laboratory (연구소)"
+    },
+    {
+     "w": "analyze",
+     "pos": "v",
+     "ko": "분석하다",
+     "col": "analyze the data (데이터를 분석하다)"
+    },
+    {
+     "w": "breakthrough",
+     "pos": "n",
+     "ko": "돌파구, 획기적 발전",
+     "col": "a major breakthrough (획기적인 발견)"
+    },
+    {
+     "w": "experiment",
+     "pos": "n",
+     "ko": "실험",
+     "col": "carry out an experiment (실험을 하다)"
+    },
+    {
+     "w": "pioneer",
+     "pos": "v",
+     "ko": "개척하다",
+     "col": "pioneer new technology (신기술을 개척하다)"
+    },
+    {
+     "w": "empirical",
+     "pos": "adj",
+     "ko": "경험적인, 실증적인",
+     "col": "empirical evidence (실증적 증거)"
+    },
+    {
+     "w": "preliminary",
+     "pos": "adj",
+     "ko": "예비의, 사전의",
+     "col": "preliminary results (예비 결과)"
+    },
+    {
+     "w": "validate",
+     "pos": "v",
+     "ko": "검증하다, 입증하다",
+     "col": "validate the results (결과를 검증하다)"
+    },
+    {
+     "w": "proprietary",
+     "pos": "adj",
+     "ko": "독점적인, 소유권이 있는",
+     "col": "proprietary technology (독자 기술)"
+    },
+    {
+     "w": "feasibility",
+     "pos": "n",
+     "ko": "실현 가능성",
+     "col": "a feasibility study (타당성 조사)"
+    },
+    {
+     "w": "refine",
+     "pos": "v",
+     "ko": "개선하다, 정제하다",
+     "col": "refine the design (설계를 다듬다)"
+    }
+   ]
+  },
+  {
+   "theme": "외식·호텔",
+   "words": [
+    {
+     "w": "patio",
+     "pos": "n",
+     "ko": "테라스, 야외석",
+     "col": "outdoor patio seating (야외 테라스 좌석)"
+    },
+    {
+     "w": "cuisine",
+     "pos": "n",
+     "ko": "요리(법)",
+     "col": "local cuisine (지역 요리)"
+    },
+    {
+     "w": "beverage",
+     "pos": "n",
+     "ko": "음료",
+     "col": "food and beverages (식음료)"
+    },
+    {
+     "w": "entree",
+     "pos": "n",
+     "ko": "주요리",
+     "col": "choose an entree (주요리를 고르다)"
+    },
+    {
+     "w": "patron",
+     "pos": "n",
+     "ko": "(단골) 고객",
+     "col": "restaurant patrons (식당 손님들)"
+    },
+    {
+     "w": "chef",
+     "pos": "n",
+     "ko": "주방장",
+     "col": "the head chef (주방장)"
+    },
+    {
+     "w": "dietary",
+     "pos": "adj",
+     "ko": "식이의, 음식의",
+     "col": "dietary restrictions (식이 제한)"
+    },
+    {
+     "w": "check out",
+     "pos": "phr",
+     "ko": "체크아웃하다",
+     "col": "check out by 11 a.m. (오전 11시까지 체크아웃하다)"
+    },
+    {
+     "w": "concierge",
+     "pos": "n",
+     "ko": "(호텔) 안내 직원",
+     "col": "ask the concierge (안내 데스크에 문의하다)"
+    },
+    {
+     "w": "housekeeping",
+     "pos": "n",
+     "ko": "객실 관리",
+     "col": "call housekeeping (객실 관리부에 연락하다)"
+    },
+    {
+     "w": "suite",
+     "pos": "n",
+     "ko": "스위트룸",
+     "col": "a presidential suite (프레지덴셜 스위트)"
+    },
+    {
+     "w": "gratuity",
+     "pos": "n",
+     "ko": "팁, 봉사료",
+     "col": "gratuity included (봉사료 포함)"
+    },
+    {
+     "w": "cater",
+     "pos": "v",
+     "ko": "음식을 제공하다; 부응하다",
+     "col": "cater to customers' needs (고객 요구에 부응하다)"
+    },
+    {
+     "w": "hospitality",
+     "pos": "n",
+     "ko": "환대; 접객업",
+     "col": "the hospitality industry (호텔·외식 서비스업)"
+    },
+    {
+     "w": "buffet",
+     "pos": "n",
+     "ko": "뷔페",
+     "col": "a breakfast buffet (조식 뷔페)"
+    }
+   ]
+  },
+  {
+   "theme": "보험·보증",
+   "words": [
+    {
+     "w": "policyholder",
+     "pos": "n",
+     "ko": "보험 계약자",
+     "col": "notify policyholders (보험 계약자에게 통지하다)"
+    },
+    {
+     "w": "premium",
+     "pos": "n",
+     "ko": "보험료; 할증금",
+     "col": "monthly premiums (월 보험료)"
+    },
+    {
+     "w": "claim",
+     "pos": "n",
+     "ko": "(보험금) 청구",
+     "col": "file a claim (보험금을 청구하다)"
+    },
+    {
+     "w": "actuary",
+     "pos": "n",
+     "ko": "보험 계리사",
+     "col": "consult an actuary (보험 계리사와 상의하다)"
+    },
+    {
+     "w": "deductible",
+     "pos": "n",
+     "ko": "(보험) 자기 부담금",
+     "col": "a $500 deductible (500달러 자기 부담금)"
+    },
+    {
+     "w": "beneficiary",
+     "pos": "n",
+     "ko": "수혜자",
+     "col": "name a beneficiary (수혜자를 지정하다)"
+    },
+    {
+     "w": "indemnify",
+     "pos": "v",
+     "ko": "배상하다, 보상하다",
+     "col": "indemnify against losses (손실을 배상하다)"
+    },
+    {
+     "w": "underwrite",
+     "pos": "v",
+     "ko": "(보험을) 인수하다; 보증하다",
+     "col": "underwrite the policy (보험을 인수하다)"
+    },
+    {
+     "w": "guarantee",
+     "pos": "n",
+     "ko": "보증",
+     "col": "a money-back guarantee (환불 보증)"
+    },
+    {
+     "w": "comprehensive",
+     "pos": "adj",
+     "ko": "포괄적인",
+     "col": "comprehensive coverage (종합 보장)"
+    },
+    {
+     "w": "entitle",
+     "pos": "v",
+     "ko": "자격을 주다",
+     "col": "be entitled to a refund (환불받을 자격이 있다)"
+    },
+    {
+     "w": "lapse",
+     "pos": "v",
+     "ko": "(계약이) 효력을 잃다, 소멸하다",
+     "col": "let the policy lapse (보험이 실효되게 두다)"
+    },
+    {
+     "w": "liability insurance",
+     "pos": "n",
+     "ko": "배상 책임 보험",
+     "col": "carry liability insurance (배상 책임 보험에 가입하다)"
+    },
+    {
+     "w": "reimbursable",
+     "pos": "adj",
+     "ko": "환급 가능한",
+     "col": "reimbursable expenses (환급 가능한 비용)"
+    },
+    {
+     "w": "risk",
+     "pos": "n",
+     "ko": "위험",
+     "col": "minimize risk (위험을 최소화하다)"
+    }
+   ]
+  },
+  {
+   "theme": "이메일·서신 표현",
+   "words": [
+    {
+     "w": "attach",
+     "pos": "v",
+     "ko": "첨부하다",
+     "col": "Please find attached the report. (보고서를 첨부합니다)"
+    },
+    {
+     "w": "enclose",
+     "pos": "v",
+     "ko": "동봉하다",
+     "col": "enclosed please find a check (수표를 동봉합니다)"
+    },
+    {
+     "w": "regarding",
+     "pos": "prep",
+     "ko": "~에 관하여",
+     "col": "regarding your inquiry (문의하신 건에 관해)"
+    },
+    {
+     "w": "at your earliest convenience",
+     "pos": "phr",
+     "ko": "편하신 대로 빨리",
+     "col": "reply at your earliest convenience (가능한 한 빨리 답장 주세요)"
+    },
+    {
+     "w": "acknowledge",
+     "pos": "v",
+     "ko": "(수령을) 확인하다, 인정하다",
+     "col": "acknowledge receipt of the order (주문 수령을 확인하다)"
+    },
+    {
+     "w": "forward",
+     "pos": "v",
+     "ko": "전달하다",
+     "col": "forward the email to the team (이메일을 팀에 전달하다)"
+    },
+    {
+     "w": "follow up",
+     "pos": "phr",
+     "ko": "후속 조치하다",
+     "col": "follow up on the request (요청을 후속 처리하다)"
+    },
+    {
+     "w": "inquire",
+     "pos": "v",
+     "ko": "문의하다",
+     "col": "inquire about the position (그 직책에 대해 문의하다)"
+    },
+    {
+     "w": "hesitate",
+     "pos": "v",
+     "ko": "주저하다",
+     "col": "Do not hesitate to contact us. (언제든 연락 주세요)"
+    },
+    {
+     "w": "apologize",
+     "pos": "v",
+     "ko": "사과하다",
+     "col": "apologize for the delay (지연에 대해 사과하다)"
+    },
+    {
+     "w": "notify",
+     "pos": "v",
+     "ko": "통지하다",
+     "col": "notify us of any changes (변경 사항을 알려주다)"
+    },
+    {
+     "w": "pertaining to",
+     "pos": "phr",
+     "ko": "~에 관한",
+     "col": "documents pertaining to the case (그 건에 관한 서류)"
+    },
+    {
+     "w": "cordially",
+     "pos": "adv",
+     "ko": "진심으로, 정중히",
+     "col": "You are cordially invited. (정중히 초대합니다)"
+    },
+    {
+     "w": "correspondence",
+     "pos": "n",
+     "ko": "서신, 연락",
+     "col": "business correspondence (업무 서신)"
+    },
+    {
+     "w": "reiterate",
+     "pos": "v",
+     "ko": "거듭 말하다",
+     "col": "reiterate our commitment (우리의 약속을 거듭 밝히다)"
+    }
+   ]
+  },
+  {
+   "theme": "Part 5 고난도 부사·형용사",
+   "words": [
+    {
+     "w": "approximately",
+     "pos": "adv",
+     "ko": "대략",
+     "col": "approximately 200 people (약 200명)"
+    },
+    {
+     "w": "substantially",
+     "pos": "adv",
+     "ko": "상당히",
+     "col": "substantially higher (상당히 더 높은)"
+    },
+    {
+     "w": "consistently",
+     "pos": "adv",
+     "ko": "일관되게",
+     "col": "consistently high quality (일관되게 높은 품질)"
+    },
+    {
+     "w": "tentatively",
+     "pos": "adv",
+     "ko": "잠정적으로",
+     "col": "tentatively scheduled for May (5월로 잠정 예정된)"
+    },
+    {
+     "w": "thoroughly",
+     "pos": "adv",
+     "ko": "철저히",
+     "col": "thoroughly inspect (철저히 점검하다)"
+    },
+    {
+     "w": "promptly",
+     "pos": "adv",
+     "ko": "즉시, 정각에",
+     "col": "begin promptly at 9 (9시 정각에 시작하다)"
+    },
+    {
+     "w": "exclusively",
+     "pos": "adv",
+     "ko": "독점적으로, 오로지",
+     "col": "available exclusively online (온라인에서만 구매 가능)"
+    },
+    {
+     "w": "considerably",
+     "pos": "adv",
+     "ko": "상당히",
+     "col": "considerably cheaper (상당히 저렴한)"
+    },
+    {
+     "w": "provisional",
+     "pos": "adj",
+     "ko": "임시의",
+     "col": "a provisional license (임시 면허)"
+    },
+    {
+     "w": "notwithstanding",
+     "pos": "prep",
+     "ko": "~에도 불구하고",
+     "col": "notwithstanding the delays (지연에도 불구하고)"
+    },
+    {
+     "w": "in lieu of",
+     "pos": "phr",
+     "ko": "~ 대신에",
+     "col": "in lieu of payment (지불 대신)"
+    },
+    {
+     "w": "respectively",
+     "pos": "adv",
+     "ko": "각각",
+     "col": "3% and 5%, respectively (각각 3%와 5%)"
+    },
+    {
+     "w": "imperative",
+     "pos": "adj",
+     "ko": "필수적인, 긴요한",
+     "col": "It is imperative that we act now. (지금 행동하는 것이 필수적이다)"
+    },
+    {
+     "w": "meticulous",
+     "pos": "adj",
+     "ko": "꼼꼼한",
+     "col": "meticulous attention to detail (세부 사항에 대한 꼼꼼한 주의)"
+    },
+    {
+     "w": "preferably",
+     "pos": "adv",
+     "ko": "가급적, 되도록",
+     "col": "preferably before noon (가급적 정오 전에)"
+    }
+   ]
+  }
+ ]
+}
